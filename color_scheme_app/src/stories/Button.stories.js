@@ -18,5 +18,5 @@ export const Frozen2 = Template.bind({});
 Frozen2.args = {  //sets initial state
   label: 'Click Me',
   backgroundColor: '#DDDDDD',
-  color: "#084C91",
+  color: '#084C91',
 };

@@ -1,0 +1,20 @@
+.form_container{
+    border: 25px solid #084C91;
+}
+.form_template{
+    text-align: center;
+    padding-bottom: 5vw;
+}
+.inner_border{
+    border: 20px solid #60DBC5;
+}
+.label_txt{
+    color: #04284D;
+
+}
+.title_txt{
+    color: #04284D;
+}
+.third_border{
+    border: 20px solid #DDDDDD;
+}

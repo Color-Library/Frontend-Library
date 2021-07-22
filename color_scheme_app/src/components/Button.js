@@ -13,9 +13,14 @@ export default function Button({ label, backgroundColor, onClick, color }) {
 
 Button.propTypes = {
   label: PropTypes.string.isRequired,
+  backgroundColor: PropTypes.string,
+  color: PropTypes.string,
   onClick: PropTypes.func,
 };
 
 Button.defaultProps = {
+  label: null,
+  backgroundColor: null,
+  color: null,
   onClick: undefined,
 };

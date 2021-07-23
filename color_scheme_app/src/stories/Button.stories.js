@@ -2,7 +2,6 @@
 import React from 'react';
 
 import Button from '../components/Button.js';
-
 export default {
   title: 'Button',
   component: Button,
@@ -19,4 +18,21 @@ Frozen2.args = {  //sets initial state
   label: 'Click Me',
   backgroundColor: '#DDDDDD',
   color: '#084C91',
+  borderColor: 'cyan',
+};
+
+export const Sunflower1 = Template.bind({});
+Sunflower1.args = {  //sets initial state
+  label: 'Click Me',
+  backgroundColor: '#FDDAAF',
+  color: '#401201',
+  borderColor: '#B3550E'
+};
+
+export const Periwinkles1 = Template.bind({});
+Periwinkles1.args = {  //sets initial state
+  label: 'Click Me',
+  backgroundColor: '#F5EFFF',
+  color: '#3936FC',
+  borderColor: '#7371FC'
 };

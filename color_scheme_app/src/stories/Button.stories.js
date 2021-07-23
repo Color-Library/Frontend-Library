@@ -36,3 +36,11 @@ Periwinkles1.args = {  //sets initial state
   color: '#3936FC',
   borderColor: '#7371FC'
 };
+
+export const Spring1 = Template.bind({});
+Spring1.args = {  //sets initial state
+  label: 'Click Me',
+  backgroundColor: '#DFF977',
+  color: '#2E570F',
+  borderColor: '#2E570F'
+};

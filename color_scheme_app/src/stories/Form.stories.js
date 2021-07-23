@@ -112,3 +112,37 @@ Periwinkles1.args = {
   inputName4: 'inputs'
 
 };
+
+export const Spring1 = Template.bind({});
+Spring1.args = {
+  formTitle: 'Form Title',
+  backgroundColor: 'white',
+  inputBoxColor: '#DFF977',
+  inputTxtColor: '#7D451B',
+  textColor: '#2E570F',
+  outerBorder: '#472C1B',
+  midBorder: '#D7A01D',
+  innerBorder: '#9BE564',
+  buttonLabel: 'Submit Form',
+  buttonColor: '#DFF977',
+  buttonBorder: '#2E570F',
+  buttonTxtColor: '#2E570F',
+  onSubmit: null,
+  label1: 'First Name: ',
+  label2: 'Last Name: ',
+  label3: 'Email: ',
+  label4: 'Password: ',
+  label1For: 'label1',
+  label2For: 'label2',
+  label3For: 'label3',
+  label4For: 'label4',
+  type1: 'text',
+  type2: 'text',
+  type3: 'text',
+  type4: 'text',
+  inputName1: 'inputs',
+  inputName2: 'inputs',
+  inputName3: 'inputs',
+  inputName4: 'inputs'
+
+};

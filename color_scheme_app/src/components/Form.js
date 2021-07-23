@@ -13,9 +13,9 @@ export default function Form({formTitle, inputBoxColor, inputTxtColor, backgroun
         color: inputTxtColor
     }
     return (
-        <div style={{border: '25px solid'+outerBorder, backgroundColor: backgroundColor}}>
-            <div style={{border: '20px solid'+midBorder}}>
-                <div style={{border: '25px solid'+innerBorder}}>
+        <div style={{border: '35px solid'+outerBorder, backgroundColor: backgroundColor, borderLeft:'50px solid'+outerBorder, borderRight:'50px solid'+outerBorder}}>
+            <div style={{border: '25px solid'+midBorder, borderLeft:'50px solid'+midBorder, borderRight:'50px solid'+midBorder}}>
+                <div style={{border: '25px solid'+innerBorder,  borderLeft:'50px solid'+innerBorder, borderRight:'50px solid'+innerBorder}}>
            <form className='form_template'>
                <h1 style={txtColor}>{formTitle}</h1>
                <label for={label1For}> <h4 style={txtColor}>{label1}</h4></label>

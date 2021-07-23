@@ -2,10 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import "../styles/Button.css"
 
-export default function Button({ label, backgroundColor, onClick, color, borderColor }) {
+export default function Button({ label, backgroundColor, onClick, color, borderColor, width, height}) {
   const style = {
     backgroundColor: backgroundColor,
     borderColor: borderColor,
+    width: width,
+    height: height 
   };
 
   return (
@@ -19,6 +21,8 @@ export default function Button({ label, backgroundColor, onClick, color, borderC
 
 Button.propTypes = {
   label: PropTypes.string.isRequired,
+  width: PropTypes.string,
+  height: PropTypes.string,
   borderColor: PropTypes.string,
   backgroundColor: PropTypes.string,
   color: PropTypes.string,
@@ -27,6 +31,8 @@ Button.propTypes = {
 
 Button.defaultProps = {
   label: null,
+  width: null,
+  height: null,
   borderColor: null,
   backgroundColor: null,
   color: null,

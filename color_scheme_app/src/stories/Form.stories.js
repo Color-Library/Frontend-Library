@@ -17,6 +17,7 @@ Frozen2.args = {  //sets initial state
     backgroundColor: '#ffffff',
     inputBoxColor: '',
     inputTxtColor: '#084C91',
+    inputTxtSize: '20px',
     textColor: '',
     outerBorder: '#084C91',
     midBorder: '#60DBC5',
@@ -25,6 +26,8 @@ Frozen2.args = {  //sets initial state
     buttonLabel: 'Submit Form',
     buttonColor: '#DDDDDD',
     buttonTxtColor: '#084C91',
+    buttonWidth: "100px",
+    buttonHeight:"40px",
     onSubmit: null,
     label1: 'First Name: ',
     label2: 'Last Name: ',
@@ -41,7 +44,15 @@ Frozen2.args = {  //sets initial state
     inputName1: 'inputs',
     inputName2: 'inputs',
     inputName3: 'inputs',
-    inputName4: 'inputs'
+    inputName4: 'inputs',
+    input1Width: '300px',
+    input2Width: '300px',
+    input3Width: '300px',
+    input4Width: '300px',
+    input1Height: '45px',
+    input2Height: '45px',
+    input3Height: '45px',
+    input4Height: '45px',
 
 };
 
@@ -51,6 +62,7 @@ Sunflower1.args = {
   backgroundColor: '#E8C78E',
   inputBoxColor: '#401201',
   inputTxtColor: '#F5E6CC',
+  inputTxtSize: '20px',
   textColor: '#401201',
   outerBorder: '#B3550E',
   midBorder: '#401201',
@@ -59,6 +71,8 @@ Sunflower1.args = {
   buttonColor: '#FDDAAF',
   buttonBorder: '#B3550E',
   buttonTxtColor: '#401201',
+  buttonWidth: "100px",
+  buttonHeight:"40px",
   onSubmit: null,
   label1: 'First Name: ',
   label2: 'Last Name: ',
@@ -75,7 +89,15 @@ Sunflower1.args = {
   inputName1: 'inputs',
   inputName2: 'inputs',
   inputName3: 'inputs',
-  inputName4: 'inputs'
+  inputName4: 'inputs',
+  input1Width: '300px',
+  input2Width: '300px',
+  input3Width: '300px',
+  input4Width: '300px',
+  input1Height: '45px',
+  input2Height: '45px',
+  input3Height: '45px',
+  input4Height: '45px',
 
 };
 
@@ -85,6 +107,7 @@ Periwinkles1.args = {
   backgroundColor: 'white',
   inputBoxColor: '#F5EFFF',
   inputTxtColor: '#3936FC',
+  inputTxtSize: '20px',
   textColor: '#0703DD',
   outerBorder: '#E5D9F2',
   midBorder: '#7371FC',
@@ -93,6 +116,8 @@ Periwinkles1.args = {
   buttonColor: '#F5EFFF',
   buttonBorder: '#7371FC',
   buttonTxtColor: '#3936FC',
+  buttonWidth: "100px",
+  buttonHeight:"40px",
   onSubmit: null,
   label1: 'First Name: ',
   label2: 'Last Name: ',
@@ -109,7 +134,15 @@ Periwinkles1.args = {
   inputName1: 'inputs',
   inputName2: 'inputs',
   inputName3: 'inputs',
-  inputName4: 'inputs'
+  inputName4: 'inputs',
+  input1Width: '300px',
+  input2Width: '300px',
+  input3Width: '300px',
+  input4Width: '300px',
+  input1Height: '45px',
+  input2Height: '45px',
+  input3Height: '45px',
+  input4Height: '45px',
 
 };
 
@@ -119,6 +152,7 @@ Spring1.args = {
   backgroundColor: 'white',
   inputBoxColor: '#DFF977',
   inputTxtColor: '#7D451B',
+  inputTxtSize: '20px',
   textColor: '#2E570F',
   outerBorder: '#472C1B',
   midBorder: '#D7A01D',
@@ -126,6 +160,8 @@ Spring1.args = {
   buttonLabel: 'Submit Form',
   buttonColor: '#DFF977',
   buttonBorder: '#2E570F',
+  buttonWidth: "100px",
+  buttonHeight:"40px",
   buttonTxtColor: '#2E570F',
   onSubmit: null,
   label1: 'First Name: ',
@@ -143,6 +179,14 @@ Spring1.args = {
   inputName1: 'inputs',
   inputName2: 'inputs',
   inputName3: 'inputs',
-  inputName4: 'inputs'
+  inputName4: 'inputs',
+    input1Width: '300px',
+    input2Width: '300px',
+    input3Width: '300px',
+    input4Width: '300px',
+    input1Height: '45px',
+    input2Height: '45px',
+    input3Height: '45px',
+    input4Height: '45px',
 
 };

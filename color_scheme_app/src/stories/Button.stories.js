@@ -52,3 +52,13 @@ Spring1.args = {  //sets initial state
   color: '#2E570F',
   borderColor: '#2E570F'
 };
+
+export const SanJuan1 = Template.bind({});
+SanJuan1.args = {  //sets initial state
+  label: 'Click Me',
+  backgroundColor: '#98002E',
+  width:'100px',
+  height: '40px',
+  color: '#FDCC00',
+  borderColor: '#D24A00'
+};

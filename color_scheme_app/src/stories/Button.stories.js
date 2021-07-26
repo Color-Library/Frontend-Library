@@ -72,3 +72,13 @@ SeaFoam1.args = {  //sets initial state
   color: '#F3E9D2',
   borderColor: '#88D498'
 };
+
+export const Coral1 = Template.bind({});
+Coral1.args = {  //sets initial state
+  label: 'Click Me',
+  backgroundColor: '#F38375',
+  width:'100px',
+  height: '40px',
+  color: '#FFE3E0',
+  borderColor: '#EF6351'
+};

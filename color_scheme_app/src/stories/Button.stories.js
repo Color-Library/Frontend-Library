@@ -62,3 +62,13 @@ SanJuan1.args = {  //sets initial state
   color: '#FDCC00',
   borderColor: '#D24A00'
 };
+
+export const SeaFoam1 = Template.bind({});
+SeaFoam1.args = {  //sets initial state
+  label: 'Click Me',
+  backgroundColor: '#1A936F',
+  width:'100px',
+  height: '40px',
+  color: '#F3E9D2',
+  borderColor: '#88D498'
+};

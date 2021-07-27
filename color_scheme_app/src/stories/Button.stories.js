@@ -1,7 +1,8 @@
 // src/components/Button.stories.js
 import React from 'react';
-
 import Button from '../components/Button.js';
+import configData from '../context/config.json';
+
 export default {
   title: 'Button',
   component: Button,
@@ -11,25 +12,26 @@ export default {
   },
 };
 
+
 const Template = (args) => <Button {...args} />;
 
 export const Frozen2 = Template.bind({});
 Frozen2.args = {  //sets initial state
   label: 'Click Me',
-  backgroundColor: '#DDDDDD',
+  backgroundColor: configData.THEME_COLORS.FROZEN2.backgroundColor,
   width:'100px',
   height: '40px',
-  color: '#084C91',
+  color: configData.THEME_COLORS.FROZEN2.color,
   borderColor: 'cyan',
 };
 
 export const Sunflower1 = Template.bind({});
 Sunflower1.args = {  //sets initial state
   label: 'Click Me',
-  backgroundColor: '#FDDAAF',
+  backgroundColor: configData.THEME_COLORS.SUNFLOWER1.backgroundColor,
   width:'100px',
   height: '40px',
-  color: '#401201',
+  color: configData.THEME_COLORS.SUNFLOWER1.color,
   borderColor: '#B3550E'
 };
 

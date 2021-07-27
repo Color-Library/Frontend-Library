@@ -1,0 +1,12 @@
+{
+    "THEME_COLORS": {
+        "FROZEN2": {
+            "color": "#084C91",
+            "backgroundColor":"#DDDDDD"
+        },
+        "SUNFLOWER1": {
+            "color": "#401201",
+            "backgroundColor":"#FDDAAF"
+        }
+    }
+}

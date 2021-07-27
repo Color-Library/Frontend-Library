@@ -1,12 +1,12 @@
-import ThemeProvider from './context/ThemeProvider';
+import { ThemeProvider } from './context/ThemeProvider';
 import Button from './components/Button'
 import './App.css';
 
 function App() {
   return (
-    <ThemeProvider theme="tester">
+    <ThemeProvider theme="frozen2">
       <div className="App">
-        <Button />
+        <Button label="testing button"/>
       </div>
     </ThemeProvider>
   );

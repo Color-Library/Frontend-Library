@@ -1,27 +1,37 @@
-import themeContext from './ThemeContext';
+import ThemeContext from './ThemeContext';
 import configData from '../context/config.json';
+import { useContext } from 'react';
 
-const ThemeProvider = ({ children, theme }) => {
+const colorTheme = {
+    tester: {
+        color: "red",
+        backgroundColor: "red",
+    },
+    frozen2: {
+        color: configData.THEME_COLORS.FROZEN2.color,
+        backgroundColor: configData.THEME_COLORS.FROZEN2.backgroundColor,
+    },
+}
 
-    const colorTheme = {
-        tester: {
-            color: 'red',
-            backgroundColor: "red",
-        },
-        frozen2: {
-            color: configData.THEME_COLORS.FROZEN2.color,
-            backgroundColor: configData.THEME_COLORS.FROZEN2.backgroundColor,
-        },
-    }
 
+function ThemeProvider({ children, theme }){
+    
     const themeName = colorTheme[theme]
     console.log(themeName);
 
     return (
-        <themeContext.provider value={colorTheme}>
+        <ThemeContext.Provider value={colorTheme}>
             {children}
-        </themeContext.provider>
+        </ThemeContext.Provider>
     )
 }
 
-export default ThemeProvider
+function useTheme(){
+    const context = useContext(ThemeContext);
+    return context
+}
+
+export {
+    ThemeProvider,
+    useTheme
+}

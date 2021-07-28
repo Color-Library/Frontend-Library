@@ -7,6 +7,26 @@
         "SUNFLOWER1": {
             "color": "#401201",
             "backgroundColor":"#FDDAAF"
+        },
+        "PERWINKLES1": {
+            "color": "#3936FC",
+            "backgroundColor": "#F5EFFF"
+        },
+        "SPRING1": {
+            "color": "#2E570F",
+            "backgroundColor": "#DFF977"
+        },
+        "SANJUAN1": {
+            "color": "#FDCC00",
+            "backgroundColor": "#98002E"
+        },
+        "SEAFOAM1": {
+            "color": "#F3E9D2",
+            "backgroundColor": "#1A936F"
+        },
+        "CORAL1": {
+            "color": "#FFE3E0",
+            "backgroundColor": "#F38375"
         }
     }
 }

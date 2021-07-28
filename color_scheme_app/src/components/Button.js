@@ -3,12 +3,11 @@ import PropTypes from 'prop-types';
 import "../styles/Button.css"
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Button({ label, backgroundColor, onClick, color, borderColor, width, height}) {
+export default function Button({ label, onClick, color, borderColor, width, height }) {
   const theme = useTheme();
-  console.log('theme picked', theme.frozen2.color);
 
   const style = {
-    backgroundColor: theme.frozen2.backgroundColor,
+    backgroundColor: theme.backgroundColor,
     borderColor: borderColor,
     width: width,
     height: height 

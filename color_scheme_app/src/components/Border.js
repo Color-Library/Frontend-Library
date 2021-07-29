@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import "../styles/Border.css"
-import Button from './Button';
 
 export default function Border({backgroundColor, outerBorder, midBorder, innerBorder,content, txtColor}) {
     return (

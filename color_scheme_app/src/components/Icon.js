@@ -9,3 +9,12 @@ export default function Icon({image1Link, image1Border}){
         </div>
     );
 }
+ Icon.propTypes = {
+     image1Link: PropTypes.string,
+     image1Border: PropTypes.string
+ }
+
+ Icon.defaultProps = {
+     image1Link: null,
+     image1Border: null
+ }

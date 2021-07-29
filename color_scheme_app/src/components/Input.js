@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import "../styles/Border.css"
 import Button from './Button';
 
-export default function Border({inputBoxColor, inputTxtColor, inputTxtSize, txtColor, label, labelFor, type, inputName, inputWidth, inputHeight}) {
+export default function Input({inputBoxColor, inputTxtColor, inputTxtSize, txtColor, label, labelFor, type, inputName, inputWidth, inputHeight}) {
 
     const input = {
         backgroundColor: inputBoxColor,
@@ -23,7 +23,7 @@ export default function Border({inputBoxColor, inputTxtColor, inputTxtSize, txtC
     );
 }
 
-Border.propTypes = {
+Input.propTypes = {
     inputBoxColor:PropTypes.string,
     inputTxtColor: PropTypes.string,
     inputTxtSize: PropTypes.string,
@@ -36,7 +36,7 @@ Border.propTypes = {
     inputHeight: PropTypes.string,
 }
 
-Border.defaultProps = {
+Input.defaultProps = {
     inputBoxColor:null,
     inputTxtColor:null,
     inputTxtSize: null,

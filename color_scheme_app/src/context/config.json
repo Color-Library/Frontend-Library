@@ -17,7 +17,6 @@
             "borderMidBorder": "#401201",
             "borderInnerBorder": "#F28705",
             "borderTxtColor": "#401201"
-
         },
         "PERWINKLES1": {
             "color": "#3936FC",
@@ -27,7 +26,6 @@
             "borderMidBorder": "#7371FC",
             "borderInnerBorder": "#A594F9",
             "borderTxtColor": "#0703DD"
-
         },
         "SPRING1": {
             "color": "#2E570F",
@@ -37,7 +35,6 @@
             "borderMidBorder": "#D7A01D",
             "borderInnerBorder": "#9BE564",
             "borderTxtColor": "#2E570F"
-
         },
         "SANJUAN1": {
             "color": "#FDCC00",
@@ -47,7 +44,6 @@
             "borderMidBorder": "#D24A00",
             "borderInnerBorder": "#D8AF02",
             "borderTxtColor": "#98002E"
-
         },
         "SEAFOAM1": {
             "color": "#F3E9D2",
@@ -57,8 +53,6 @@
             "borderMidBorder": "#114B5F",
             "borderInnerBorder": "#88D498",
             "borderTxtColor": "#114B5F"
-
-
         },
         "CORAL1": {
             "color": "#FFE3E0",
@@ -68,7 +62,6 @@
             "borderMidBorder": "#F7A399",
             "borderInnerBorder": "#FBC3BC",
             "borderTxtColor": "black"
-
         }
     }
 }

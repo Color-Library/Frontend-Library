@@ -3,41 +3,41 @@ import PropTypes from 'prop-types';
 import "../styles/Button.css"
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Button({ label, onClick, color, borderColor, width, height }) {
+export default function Button({ buttonLabel, onClick, btnTxtColor, btnBorderColor, btnWidth, btnHeight }) {
   const theme = useTheme();
 
   const style = {
     backgroundColor: theme.backgroundColor,
-    borderColor: borderColor,
-    width: width,
-    height: height 
+    borderColor: btnBorderColor,
+    width: btnWidth,
+    height: btnHeight 
   };
 
   return (
     <button onClick={onClick}
     className="buttonTemplate"
     style={style}>
-      <text style={color && { color }}>{label}</text>
+      <text style={color && { btnTxtColor }}>{buttonLabel}</text>
     </button>
   );
 }
 
 Button.propTypes = {
-  label: PropTypes.string.isRequired,
-  width: PropTypes.string,
-  height: PropTypes.string,
-  borderColor: PropTypes.string,
+  buttonLabel: PropTypes.string.isRequired,
+  btnWidth: PropTypes.string,
+  btnHeight: PropTypes.string,
+  btnBorderColor: PropTypes.string,
   backgroundColor: PropTypes.string,
-  color: PropTypes.string,
+  btnTxtColor: PropTypes.string,
   onClick: PropTypes.func,
 };
 
 Button.defaultProps = {
-  label: null,
-  width: null,
-  height: null,
-  borderColor: null,
+  buttonLabel: null,
+  btnWidth: null,
+  btnHeight: null,
+  btnBorderColor: null,
   backgroundColor: null,
-  color: null,
+  btnTxtColor: null,
   onClick: undefined,
 };

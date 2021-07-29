@@ -19,7 +19,7 @@ Frozen2.args = {  //sets initial state
     txtColor: '#084C91',
     label: 'First Name: ',
     labelFor: 'label',
-    type: 'date',
+    type: 'text',
     inputName: 'inputs',
     inputWidth: '300px',
     inputHeight: '45px',

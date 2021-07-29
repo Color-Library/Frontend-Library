@@ -1,5 +1,5 @@
 import { ThemeProvider } from './context/ThemeProvider';
-import Border from './components/Border'
+import Button from './components/Button'
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
     <ThemeProvider theme="sanjuan1">
       <div className="App">
-        <Border borderContent="testing button" />
+        <Button label="testing button" />
       </div>
     </ThemeProvider>
     </>

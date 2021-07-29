@@ -8,7 +8,14 @@ const colorTheme = {
         backgroundColor: 'red',
     },
     frozen2: {
-        color: configData.THEME_COLORS.FROZEN2.color,
+        //button
+        btnTxtColor: configData.THEME_COLORS.FROZEN2.btnTxtColor,
+        btnBackgroundColor: configData.THEME_COLORS.FROZEN2.btnBackgroundColor,
+        btnWidth: configData.THEME_COLORS.FROZEN2.btnWidth,
+        btnLabel: configData.THEME_COLORS.FROZEN2.btnLabel,
+        btnHeight: configData.THEME_COLORS.FROZEN2.btnHeight,
+        btnBorderColor: configData.THEME_COLORS.FROZEN2.btnBorderColor,
+        //border
         backgroundColor: configData.THEME_COLORS.FROZEN2.backgroundColor,
         borderBackgroundColor: configData.THEME_COLORS.FROZEN2.borderBackgroundColor,
         borderOuterBorder: configData.THEME_COLORS.FROZEN2.borderOuterBorder,
@@ -17,6 +24,14 @@ const colorTheme = {
         borderTxtColor: configData.THEME_COLORS.FROZEN2.borderTxtColor
     },
     sunflower1: {
+        //button
+        btnTxtColor: configData.THEME_COLORS.SUNFLOWER1.btnTxtColor,
+        btnBackgroundColor: configData.THEME_COLORS.SUNFLOWER1.btnBackgroundColor,
+        btnWidth: configData.THEME_COLORS.SUNFLOWER1.btnWidth,
+        btnLabel: configData.THEME_COLORS.SUNFLOWER1.btnLabel,
+        btnHeight: configData.THEME_COLORS.SUNFLOWER1.btnHeight,
+        btnBorderColor: configData.THEME_COLORS.SUNFLOWER1.btnBorderColor,
+        //border
         color: configData.THEME_COLORS.SUNFLOWER1.color,
         backgroundColor: configData.THEME_COLORS.SUNFLOWER1.backgroundColor,
         borderBackgroundColor: configData.THEME_COLORS.SUNFLOWER1.borderBackgroundColor,
@@ -27,6 +42,14 @@ const colorTheme = {
 
     },
     perwinkles1: {
+        //button
+        btnTxtColor: configData.THEME_COLORS.PERWINKLES1.btnTxtColor,
+        btnBackgroundColor: configData.THEME_COLORS.PERWINKLES1.btnBackgroundColor,
+        btnWidth: configData.THEME_COLORS.PERWINKLES1.btnWidth,
+        btnLabel: configData.THEME_COLORS.PERWINKLES1.btnLabel,
+        btnHeight: configData.THEME_COLORS.PERWINKLES1.btnHeight,
+        btnBorderColor: configData.THEME_COLORS.PERWINKLES1.btnBorderColor,
+        //border
         color: configData.THEME_COLORS.PERWINKLES1.color,
         backgroundColor: configData.THEME_COLORS.PERWINKLES1.backgroundColor,
         borderBackgroundColor: configData.THEME_COLORS.PERWINKLES1.borderBackgroundColor,
@@ -37,6 +60,14 @@ const colorTheme = {
 
     },
     spring1: {
+        //button
+        btnTxtColor: configData.THEME_COLORS.SPRING1.btnTxtColor,
+        btnBackgroundColor: configData.THEME_COLORS.SPRING1.btnBackgroundColor,
+        btnWidth: configData.THEME_COLORS.SPRING1.btnWidth,
+        btnLabel: configData.THEME_COLORS.SPRING1.btnLabel,
+        btnHeight: configData.THEME_COLORS.SPRING1.btnHeight,
+        btnBorderColor: configData.THEME_COLORS.SPRING1.btnBorderColor,
+        //border
         color: configData.THEME_COLORS.SPRING1.color,
         backgroundColor: configData.THEME_COLORS.SPRING1.backgroundColor,
         borderBackgroundColor: configData.THEME_COLORS.SPRING1.borderBackgroundColor,
@@ -47,6 +78,14 @@ const colorTheme = {
 
     },
     sanjuan1: {
+        //button
+        btnTxtColor: configData.THEME_COLORS.SANJUAN1.btnTxtColor,
+        btnBackgroundColor: configData.THEME_COLORS.SANJUAN1.btnBackgroundColor,
+        btnWidth: configData.THEME_COLORS.SANJUAN1.btnWidth,
+        btnLabel: configData.THEME_COLORS.SANJUAN1.btnLabel,
+        btnHeight: configData.THEME_COLORS.SANJUAN1.btnHeight,
+        btnBorderColor: configData.THEME_COLORS.SANJUAN1.btnBorderColor,
+        //border
         color: configData.THEME_COLORS.SANJUAN1.color,
         backgroundColor: configData.THEME_COLORS.SANJUAN1.backgroundColor,
         borderBackgroundColor: configData.THEME_COLORS.SANJUAN1.borderBackgroundColor,
@@ -57,6 +96,14 @@ const colorTheme = {
 
     },
     seafoam1: {
+        //button
+        btnTxtColor: configData.THEME_COLORS.SEAFOAM1.btnTxtColor,
+        btnBackgroundColor: configData.THEME_COLORS.SEAFOAM1.btnBackgroundColor,
+        btnWidth: configData.THEME_COLORS.SEAFOAM1.btnWidth,
+        btnLabel: configData.THEME_COLORS.SEAFOAM1.btnLabel,
+        btnHeight: configData.THEME_COLORS.SEAFOAM1.btnHeight,
+        btnBorderColor: configData.THEME_COLORS.SEAFOAM1.btnBorderColor,
+        //border
         color: configData.THEME_COLORS.SEAFOAM1.color,
         backgroundColor: configData.THEME_COLORS.SEAFOAM1.backgroundColor,
         borderBackgroundColor: configData.THEME_COLORS.SEAFOAM1.borderBackgroundColor,
@@ -67,6 +114,14 @@ const colorTheme = {
 
     },
     coral1: {
+        //button
+        btnTxtColor: configData.THEME_COLORS.CORAL1.btnTxtColor,
+        btnBackgroundColor: configData.THEME_COLORS.CORAL1.btnBackgroundColor,
+        btnWidth: configData.THEME_COLORS.CORAL1.btnWidth,
+        btnLabel: configData.THEME_COLORS.CORAL1.btnLabel,
+        btnHeight: configData.THEME_COLORS.CORAL1.btnHeight,
+        btnBorderColor: configData.THEME_COLORS.CORAL1.btnBorderColor,
+        //border
         color: configData.THEME_COLORS.CORAL1.color,
         backgroundColor: configData.THEME_COLORS.CORAL1.backgroundColor,
         borderBackgroundColor: configData.THEME_COLORS.CORAL1.borderBackgroundColor,

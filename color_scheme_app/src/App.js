@@ -5,9 +5,9 @@ import './App.css';
 function App() {
   return (
     <>
-    <ThemeProvider theme="sanjuan1">
+    <ThemeProvider theme="coral1">
       <div className="App">
-        <Button label="testing button" />
+        <Button />
       </div>
     </ThemeProvider>
     </>

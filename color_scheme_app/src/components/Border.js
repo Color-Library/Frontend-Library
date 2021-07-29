@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import "../styles/Border.css"
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Border({borderContent, borderTxtColor}) {
+export default function Border({borderContent}) {
     const theme = useTheme();
 
     return (

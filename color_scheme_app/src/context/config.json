@@ -3,31 +3,60 @@
         "FROZEN2": {
             "color": "#084C91",
             "backgroundColor":"#DDDDDD",
-            "borderBackgroundColor": "'#ffffff'"
+            "borderBackgroundColor": "#ffffff",
+            "borderOuterBorder":"#084C91",
+            "borderMidBorder":"#60DBC5",
+            "borderInnerBorder": "#DDDDDD"
+
         },
         "SUNFLOWER1": {
             "color": "#401201",
-            "backgroundColor":"#FDDAAF"
+            "backgroundColor":"#FDDAAF",
+            "borderBackgroundColor": "#E8C78E",
+            "borderOuterBorder": "#B3550E",
+            "borderMidBorder": "#401201",
+            "borderInnerBorder": "#F28705"
         },
         "PERWINKLES1": {
             "color": "#3936FC",
-            "backgroundColor": "#F5EFFF"
+            "backgroundColor": "#F5EFFF",
+            "borderBackgroundColor": "white",
+            "borderOuterBorder": "#E5D9F2",
+            "borderMidBorder": "#7371FC",
+            "borderInnerBorder": "#A594F9"
         },
         "SPRING1": {
             "color": "#2E570F",
-            "backgroundColor": "#DFF977"
+            "backgroundColor": "#DFF977",
+            "borderBackgroundColor": "white",
+            "borderOuterBorder": "#472C1B",
+            "borderMidBorder": "#D7A01D",
+            "borderInnerBorder": "#9BE564"
         },
         "SANJUAN1": {
             "color": "#FDCC00",
-            "backgroundColor": "#98002E"
+            "backgroundColor": "#98002E",
+            "borderBackgroundColor": "#FDCC00",
+            "borderOuterBorder": "#0ADCE1",
+            "borderMidBorder": "#D24A00",
+            "borderInnerBorder": "#D8AF02"
         },
         "SEAFOAM1": {
             "color": "#F3E9D2",
-            "backgroundColor": "#1A936F"
+            "backgroundColor": "#1A936F",
+            "borderBackgroundColor": "white",
+            "borderOuterBorder": "#1A936F",
+            "borderMidBorder": "#114B5F",
+            "borderInnerBorder": "#88D498"
+
         },
         "CORAL1": {
             "color": "#FFE3E0",
-            "backgroundColor": "#F38375"
+            "backgroundColor": "#F38375",
+            "borderBackgroundColor": "#FFE3E0",
+            "borderOuterBorder": "#F38375",
+            "borderMidBorder": "#F7A399",
+            "borderInnerBorder": "#FBC3BC"
         }
     }
 }

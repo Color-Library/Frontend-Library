@@ -5,9 +5,9 @@ import './App.css';
 function App() {
   return (
     <>
-    <ThemeProvider theme="frozen2">
+    <ThemeProvider theme="sanjuan1">
       <div className="App">
-        <Border content="testing button" />
+        <Border borderContent="testing button" />
       </div>
     </ThemeProvider>
     </>

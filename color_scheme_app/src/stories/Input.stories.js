@@ -14,12 +14,12 @@ const Template = (args) => <Input {...args} />;
 export const Frozen2 = Template.bind({});
 Frozen2.args = {  //sets initial state
     inputBoxColor: '',
-    inputTxtColor: '#084C9',
+    inputTxtColor: '#084C91',
     inputTxtSize: '20px',
-    txtColor: '',
+    txtColor: '#084C91',
     label: 'First Name: ',
     labelFor: 'label',
-    type: 'text',
+    type: 'date',
     inputName: 'inputs',
     inputWidth: '300px',
     inputHeight: '45px',

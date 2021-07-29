@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import "../styles/Border.css"
-import Button from './Button';
+import "../styles/Input.css"
 
 export default function Input({inputBoxColor, inputTxtColor, inputTxtSize, txtColor, label, labelFor, type, inputName, inputWidth, inputHeight}) {
 

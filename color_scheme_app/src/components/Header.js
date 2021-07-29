@@ -4,7 +4,7 @@ import "../styles/Header.css"
 
 export default function Header ({ tab1, tab2, tab3, tab4, backgroundColor, color, logo }) {
     return (
-        <div className="topnav" style={backgroundColor && { backgroundColor }}>
+        <div aria-label='header' className="topnav" style={backgroundColor && { backgroundColor }}>
           <img src={logo} className="iconlogo"/>
           <a className="leftnav" style={color && { color }} href={tab1[1]}>{tab1[0]}</a>
           <a className="leftnav" style={color && { color }} href={tab2[1]}>{tab2[0]}</a>

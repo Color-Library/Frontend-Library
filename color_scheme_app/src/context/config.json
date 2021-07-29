@@ -2,7 +2,8 @@
     "THEME_COLORS": {
         "FROZEN2": {
             "color": "#084C91",
-            "backgroundColor":"#DDDDDD"
+            "backgroundColor":"#DDDDDD",
+            "borderBackgroundColor": "'#ffffff'"
         },
         "SUNFLOWER1": {
             "color": "#401201",

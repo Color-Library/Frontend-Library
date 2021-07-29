@@ -13,7 +13,8 @@ const colorTheme = {
         borderBackgroundColor: configData.THEME_COLORS.FROZEN2.borderBackgroundColor,
         borderOuterBorder: configData.THEME_COLORS.FROZEN2.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.FROZEN2.borderMidBorder,
-        borderInnerBorder: configData.THEME_COLORS.FROZEN2.borderInnerBorder
+        borderInnerBorder: configData.THEME_COLORS.FROZEN2.borderInnerBorder,
+        borderTxtColor: configData.THEME_COLORS.FROZEN2.borderTxtColor
     },
     sunflower1: {
         color: configData.THEME_COLORS.SUNFLOWER1.color,
@@ -21,7 +22,9 @@ const colorTheme = {
         borderBackgroundColor: configData.THEME_COLORS.SUNFLOWER1.borderBackgroundColor,
         borderOuterBorder: configData.THEME_COLORS.SUNFLOWER1.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.SUNFLOWER1.borderMidBorder,
-        borderInnerBorder: configData.THEME_COLORS.SUNFLOWER1.borderInnerBorder
+        borderInnerBorder: configData.THEME_COLORS.SUNFLOWER1.borderInnerBorder,
+        borderTxtColor: configData.THEME_COLORS.SUNFLOWER1.borderTxtColor
+
     },
     perwinkles1: {
         color: configData.THEME_COLORS.PERWINKLES1.color,
@@ -29,7 +32,9 @@ const colorTheme = {
         borderBackgroundColor: configData.THEME_COLORS.PERWINKLES1.borderBackgroundColor,
         borderOuterBorder: configData.THEME_COLORS.PERWINKLES1.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.PERWINKLES1.borderMidBorder,
-        borderInnerBorder: configData.THEME_COLORS.PERWINKLES1.borderInnerBorder
+        borderInnerBorder: configData.THEME_COLORS.PERWINKLES1.borderInnerBorder,
+        borderTxtColor: configData.THEME_COLORS.PERWINKLES1.borderTxtColor
+
     },
     spring1: {
         color: configData.THEME_COLORS.SPRING1.color,
@@ -37,7 +42,9 @@ const colorTheme = {
         borderBackgroundColor: configData.THEME_COLORS.SPRING1.borderBackgroundColor,
         borderOuterBorder: configData.THEME_COLORS.SPRING1.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.SPRING1.borderMidBorder,
-        borderInnerBorder: configData.THEME_COLORS.SPRING1.borderInnerBorder
+        borderInnerBorder: configData.THEME_COLORS.SPRING1.borderInnerBorder,
+        borderTxtColor: configData.THEME_COLORS.SPRING1.borderTxtColor
+
     },
     sanjuan1: {
         color: configData.THEME_COLORS.SANJUAN1.color,
@@ -45,7 +52,9 @@ const colorTheme = {
         borderBackgroundColor: configData.THEME_COLORS.SANJUAN1.borderBackgroundColor,
         borderOuterBorder: configData.THEME_COLORS.SANJUAN1.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.SANJUAN1.borderMidBorder,
-        borderInnerBorder: configData.THEME_COLORS.SANJUAN1.borderInnerBorder
+        borderInnerBorder: configData.THEME_COLORS.SANJUAN1.borderInnerBorder,
+        borderTxtColor: configData.THEME_COLORS.SANJUAN1.borderTxtColor
+
     },
     seafoam1: {
         color: configData.THEME_COLORS.SEAFOAM1.color,
@@ -53,7 +62,9 @@ const colorTheme = {
         borderBackgroundColor: configData.THEME_COLORS.SEAFOAM1.borderBackgroundColor,
         borderOuterBorder: configData.THEME_COLORS.SEAFOAM1.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.SEAFOAM1.borderMidBorder,
-        borderInnerBorder: configData.THEME_COLORS.SEAFOAM1.borderInnerBorder
+        borderInnerBorder: configData.THEME_COLORS.SEAFOAM1.borderInnerBorder,
+        borderTxtColor: configData.THEME_COLORS.SEAFOAM1.borderTxtColor
+
     },
     coral1: {
         color: configData.THEME_COLORS.CORAL1.color,
@@ -61,7 +72,9 @@ const colorTheme = {
         borderBackgroundColor: configData.THEME_COLORS.CORAL1.borderBackgroundColor,
         borderOuterBorder: configData.THEME_COLORS.CORAL1.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.CORAL1.borderMidBorder,
-        borderInnerBorder: configData.THEME_COLORS.CORAL1.borderInnerBorder
+        borderInnerBorder: configData.THEME_COLORS.CORAL1.borderInnerBorder,
+        borderTxtColor: configData.THEME_COLORS.CORAL1.borderTxtColor
+
     }
 }
 

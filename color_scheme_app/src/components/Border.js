@@ -10,7 +10,7 @@ export default function Border({borderContent, borderTxtColor}) {
         <div style={{border: '35px solid '+theme.borderOuterBorder, borderLeft:'50px solid '+theme.borderOuterBorder, borderRight:'50px solid '+theme.borderOuterBorder, backgroundColor:theme.borderBackgroundColor}}>
             <div style={{border: '25px solid'+theme.borderMidBorder, borderLeft:'50px solid'+theme.borderMidBorder, borderRight:'50px solid'+theme.borderMidBorder}}>
                 <div style={{border: '25px solid'+theme.borderInnerBorder,  borderLeft:'50px solid'+theme.borderInnerBorder, borderRight:'50px solid'+theme.borderInnerBorder}}>
-                    <div style={{color: borderTxtColor}}>{borderContent}</div>
+                    <div style={{color: theme.borderTxtColor}}>{borderContent}</div>
                 </div>
            </div>
         </div>

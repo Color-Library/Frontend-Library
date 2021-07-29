@@ -12,63 +12,63 @@ const Template = (args) => <Pages {...args} />;
 
 export const Frozen2 = Template.bind({});
 Frozen2.args ={
-    content: 'Frozen 2 Page',
-    borderColor: 'cyan',
-    borderType: 'solid',
-    padding: '10px',
-    boxShadow: '0px 0px 6px #084C91',
-    borderRadius: '5px'
+    pageContent: 'Frozen 2 Page',
+    pageBorderColor: 'cyan',
+    pageBorderType: 'solid',
+    pagePadding: '10px',
+    pageBoxShadow: '0px 0px 6px #084C91',
+    pageBorderRadius: '5px'
 }
 
 export const Sunflower1 = Template.bind({});
 Sunflower1.args ={
-    content: 'Sunflower 1 Page',
-    borderColor: '#B3550E',
-    borderType: 'solid',
-    padding: '10px',
-    boxShadow: '0px 0px 6px #B3550E',
-    borderRadius: '5px'
+    pageContent: 'Sunflower 1 Page',
+    pageBorderColor: '#B3550E',
+    pageBorderType: 'solid',
+    pagePadding: '10px',
+    pageBoxShadow: '0px 0px 6px #B3550E',
+    pageBorderRadius: '5px'
 
 }
 
 export const Periwinkles1 = Template.bind({});
 Periwinkles1.args ={
-    content: 'Periwinkles 1 Page',
-    borderColor: '#F5EFFF',
-    borderType: 'solid',
-    padding: '10px',
-    boxShadow: '0px 0px 6px #7371FC',
-    borderRadius: '5px'
+    pageContent: 'Periwinkles 1 Page',
+    pageBorderColor: '#F5EFFF',
+    pageBorderType: 'solid',
+    pagePadding: '10px',
+    pageBoxShadow: '0px 0px 6px #7371FC',
+    pageBorderRadius: '5px'
 }
 
 export const Spring1 = Template.bind({});
 Spring1.args ={
-    content: 'Spring 1 Page',
-    borderColor: '#DFF977',
-    borderType: 'solid',
-    padding: '10px',
-    boxShadow: '0px 0px 6px #2E570F',
-    borderRadius: '5px'
+    pageContent: 'Spring 1 Page',
+    pageBorderColor: '#DFF977',
+    pageBorderType: 'solid',
+    pagePadding: '10px',
+    pageBoxShadow: '0px 0px 6px #2E570F',
+    pageBorderRadius: '5px'
 }
 
 export const SanJuan1 = Template.bind({});
 SanJuan1.args ={
-    content: 'San Juan 1 Page',
-    borderColor: '#D8AF02',
-    borderType: 'solid',
-    padding: '10px',
-    boxShadow: '0px 0px 6px #D24A00',
-    borderRadius: '5px'
+    pageContent: 'San Juan 1 Page',
+    pageBorderColor: '#D8AF02',
+    pageBorderType: 'solid',
+    pagePadding: '10px',
+    pageBoxShadow: '0px 0px 6px #D24A00',
+    pageBorderRadius: '5px'
 }
 
 export const SeaFoam1 = Template.bind({});
 SeaFoam1.args ={
-    content: 'SeaFoam 1 Page',
-    borderColor: '#88D498',
-    borderType: 'solid',
-    padding: '10px',
-    boxShadow: '0px 0px 6px #1A936F',
-    borderRadius: '5px'
+    pageContent: 'SeaFoam 1 Page',
+    pageBorderColor: '#88D498',
+    pageBorderType: 'solid',
+    pagePadding: '10px',
+    pageBoxShadow: '0px 0px 6px #1A936F',
+    pageBorderRadius: '5px'
 }
 
 export const Coral1 = Template.bind({});

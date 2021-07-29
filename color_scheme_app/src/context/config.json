@@ -6,8 +6,8 @@
             "borderBackgroundColor": "#ffffff",
             "borderOuterBorder":"#084C91",
             "borderMidBorder":"#60DBC5",
-            "borderInnerBorder": "#DDDDDD"
-
+            "borderInnerBorder": "#DDDDDD",
+            "borderTxtColor": ""
         },
         "SUNFLOWER1": {
             "color": "#401201",
@@ -15,7 +15,9 @@
             "borderBackgroundColor": "#E8C78E",
             "borderOuterBorder": "#B3550E",
             "borderMidBorder": "#401201",
-            "borderInnerBorder": "#F28705"
+            "borderInnerBorder": "#F28705",
+            "borderTxtColor": "#401201"
+
         },
         "PERWINKLES1": {
             "color": "#3936FC",
@@ -23,7 +25,9 @@
             "borderBackgroundColor": "white",
             "borderOuterBorder": "#E5D9F2",
             "borderMidBorder": "#7371FC",
-            "borderInnerBorder": "#A594F9"
+            "borderInnerBorder": "#A594F9",
+            "borderTxtColor": "#0703DD"
+
         },
         "SPRING1": {
             "color": "#2E570F",
@@ -31,7 +35,9 @@
             "borderBackgroundColor": "white",
             "borderOuterBorder": "#472C1B",
             "borderMidBorder": "#D7A01D",
-            "borderInnerBorder": "#9BE564"
+            "borderInnerBorder": "#9BE564",
+            "borderTxtColor": "#2E570F"
+
         },
         "SANJUAN1": {
             "color": "#FDCC00",
@@ -39,7 +45,9 @@
             "borderBackgroundColor": "#FDCC00",
             "borderOuterBorder": "#0ADCE1",
             "borderMidBorder": "#D24A00",
-            "borderInnerBorder": "#D8AF02"
+            "borderInnerBorder": "#D8AF02",
+            "borderTxtColor": "#98002E"
+
         },
         "SEAFOAM1": {
             "color": "#F3E9D2",
@@ -47,7 +55,9 @@
             "borderBackgroundColor": "white",
             "borderOuterBorder": "#1A936F",
             "borderMidBorder": "#114B5F",
-            "borderInnerBorder": "#88D498"
+            "borderInnerBorder": "#88D498",
+            "borderTxtColor": "#114B5F"
+
 
         },
         "CORAL1": {
@@ -56,7 +66,9 @@
             "borderBackgroundColor": "#FFE3E0",
             "borderOuterBorder": "#F38375",
             "borderMidBorder": "#F7A399",
-            "borderInnerBorder": "#FBC3BC"
+            "borderInnerBorder": "#FBC3BC",
+            "borderTxtColor": "black"
+
         }
     }
 }

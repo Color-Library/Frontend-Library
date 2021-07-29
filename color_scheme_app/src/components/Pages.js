@@ -1,33 +1,33 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Pages({content, borderColor, borderType, boxShadow, borderRadius}){
+export default function Pages({pageContent, pageBorderColor, pageBorderType, pageBoxShadow, pageBorderRadius}){
     const style = {
-        border: '3px '+borderType+' '+borderColor,
+        border: '3px '+pageBorderType+' '+pageBorderColor,
         padding: '10px',
-        boxShadow: boxShadow,
-        borderRadius: '5px'
+        boxShadow: pageBoxShadow,
+        borderRadius: pageBorderRadius
     }
     return(
         <div style={style}>
-            {content}
+            {pageContent}
         </div>
     );
 }
  Pages.propTypes = {
-     content: PropTypes.string,
-     borderColor: PropTypes.string,
-     borderType: PropTypes.string,
-     padding: PropTypes.string,
-     boxShadow: PropTypes.string,
-     borderRadius: PropTypes.string
+     pageContent: PropTypes.string,
+     pageBorderColor: PropTypes.string,
+     pageBorderType: PropTypes.string,
+     pagePadding: PropTypes.string,
+     pageBoxShadow: PropTypes.string,
+     pageBorderRadius: PropTypes.string
  }
 
  Pages.defaultProps = {
-     content: null,
-     borderColor: null,
-     borderType: null,
-     padding: null,
-     boxShadow: null,
-     borderRadius: null
+    pageContent: null,
+    pageBorderColor: null,
+    pageBorderType: null,
+    pagePadding: null,
+    pageBoxShadow: null,
+    pageBorderRadius: null
  }

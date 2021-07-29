@@ -22,7 +22,16 @@ const colorTheme = {
         borderMidBorder: configData.THEME_COLORS.FROZEN2.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.FROZEN2.borderInnerBorder,
         borderTxtColor: configData.THEME_COLORS.FROZEN2.borderTxtColor,
-        borderContent: configData.THEME_COLORS.FROZEN2.borderContent
+        borderContent: configData.THEME_COLORS.FROZEN2.borderContent,
+        //pages
+        pageContent: configData.THEME_COLORS.FROZEN2.pageContent,
+        pageBorderColor: configData.THEME_COLORS.FROZEN2.pageBorderColor,
+        pageBorderType: configData.THEME_COLORS.FROZEN2.pageBorderType,
+        pagePadding: configData.THEME_COLORS.FROZEN2.pagePadding,
+        pageBoxShadow: configData.THEME_COLORS.FROZEN2.pageBoxShadow,
+        pageBorderRadius: configData.THEME_COLORS.FROZEN2.pageBorderRadius,
+        pageHeight: configData.THEME_COLORS.FROZEN2.pageHeight,
+        pageWidth: configData.THEME_COLORS.FROZEN2.pageWidth,
 
     },
     sunflower1: {
@@ -41,8 +50,16 @@ const colorTheme = {
         borderMidBorder: configData.THEME_COLORS.SUNFLOWER1.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.SUNFLOWER1.borderInnerBorder,
         borderTxtColor: configData.THEME_COLORS.SUNFLOWER1.borderTxtColor,
-        borderContent: configData.THEME_COLORS.SUNFLOWER1.borderContent
-
+        borderContent: configData.THEME_COLORS.SUNFLOWER1.borderContent,
+       //pages
+       pageContent: configData.THEME_COLORS.SUNFLOWER1.pageContent,
+       pageBorderColor: configData.THEME_COLORS.SUNFLOWER1.pageBorderColor,
+       pageBorderType: configData.THEME_COLORS.SUNFLOWER1.pageBorderType,
+       pagePadding: configData.THEME_COLORS.SUNFLOWER1.pagePadding,
+       pageBoxShadow: configData.THEME_COLORS.SUNFLOWER1.pageBoxShadow,
+       pageBorderRadius: configData.THEME_COLORS.SUNFLOWER1.pageBorderRadius,
+       pageHeight: configData.THEME_COLORS.SUNFLOWER1.pageHeight,
+       pageWidth: configData.THEME_COLORS.SUNFLOWER1.pageWidth,
 
     },
     perwinkles1: {
@@ -61,8 +78,16 @@ const colorTheme = {
         borderMidBorder: configData.THEME_COLORS.PERWINKLES1.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.PERWINKLES1.borderInnerBorder,
         borderTxtColor: configData.THEME_COLORS.PERWINKLES1.borderTxtColor,
-        borderContent: configData.THEME_COLORS.PERWINKLES1.borderContent
-
+        borderContent: configData.THEME_COLORS.PERWINKLES1.borderContent,
+       //pages
+       pageContent: configData.THEME_COLORS.PERWINKLES1.pageContent,
+       pageBorderColor: configData.THEME_COLORS.PERWINKLES1.pageBorderColor,
+       pageBorderType: configData.THEME_COLORS.PERWINKLES1.pageBorderType,
+       pagePadding: configData.THEME_COLORS.PERWINKLES1.pagePadding,
+       pageBoxShadow: configData.THEME_COLORS.PERWINKLES1.pageBoxShadow,
+       pageBorderRadius: configData.THEME_COLORS.PERWINKLES1.pageBorderRadius,
+       pageHeight: configData.THEME_COLORS.PERWINKLES1.pageHeight,
+       pageWidth: configData.THEME_COLORS.PERWINKLES1.pageWidth,
 
     },
     spring1: {
@@ -81,8 +106,16 @@ const colorTheme = {
         borderMidBorder: configData.THEME_COLORS.SPRING1.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.SPRING1.borderInnerBorder,
         borderTxtColor: configData.THEME_COLORS.SPRING1.borderTxtColor,
-        borderContent: configData.THEME_COLORS.SPRING1.borderContent
-
+        borderContent: configData.THEME_COLORS.SPRING1.borderContent,
+       //pages
+       pageContent: configData.THEME_COLORS.SPRING1.pageContent,
+       pageBorderColor: configData.THEME_COLORS.SPRING1.pageBorderColor,
+       pageBorderType: configData.THEME_COLORS.SPRING1.pageBorderType,
+       pagePadding: configData.THEME_COLORS.SPRING1.pagePadding,
+       pageBoxShadow: configData.THEME_COLORS.SPRING1.pageBoxShadow,
+       pageBorderRadius: configData.THEME_COLORS.SPRING1.pageBorderRadius,
+       pageHeight: configData.THEME_COLORS.SPRING1.pageHeight,
+       pageWidth: configData.THEME_COLORS.SPRING1.pageWidth,
 
     },
     sanjuan1: {
@@ -101,8 +134,16 @@ const colorTheme = {
         borderMidBorder: configData.THEME_COLORS.SANJUAN1.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.SANJUAN1.borderInnerBorder,
         borderTxtColor: configData.THEME_COLORS.SANJUAN1.borderTxtColor,
-        borderContent: configData.THEME_COLORS.SANJUAN1.borderContent
-
+        borderContent: configData.THEME_COLORS.SANJUAN1.borderContent,
+       //pages
+       pageContent: configData.THEME_COLORS.SANJUAN1.pageContent,
+       pageBorderColor: configData.THEME_COLORS.SANJUAN1.pageBorderColor,
+       pageBorderType: configData.THEME_COLORS.SANJUAN1.pageBorderType,
+       pagePadding: configData.THEME_COLORS.SANJUAN1.pagePadding,
+       pageBoxShadow: configData.THEME_COLORS.SANJUAN1.pageBoxShadow,
+       pageBorderRadius: configData.THEME_COLORS.SANJUAN1.pageBorderRadius,
+       pageHeight: configData.THEME_COLORS.SANJUAN1.pageHeight,
+       pageWidth: configData.THEME_COLORS.SANJUAN1.pageWidth,
 
     },
     seafoam1: {
@@ -121,8 +162,16 @@ const colorTheme = {
         borderMidBorder: configData.THEME_COLORS.SEAFOAM1.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.SEAFOAM1.borderInnerBorder,
         borderTxtColor: configData.THEME_COLORS.SEAFOAM1.borderTxtColor,
-        borderContent: configData.THEME_COLORS.SEAFOAM1.borderContent
-
+        borderContent: configData.THEME_COLORS.SEAFOAM1.borderContent,
+       //pages
+       pageContent: configData.THEME_COLORS.SEAFOAM1.pageContent,
+       pageBorderColor: configData.THEME_COLORS.SEAFOAM1.pageBorderColor,
+       pageBorderType: configData.THEME_COLORS.SEAFOAM1.pageBorderType,
+       pagePadding: configData.THEME_COLORS.SEAFOAM1.pagePadding,
+       pageBoxShadow: configData.THEME_COLORS.SEAFOAM1.pageBoxShadow,
+       pageBorderRadius: configData.THEME_COLORS.SEAFOAM1.pageBorderRadius,
+       pageHeight: configData.THEME_COLORS.SEAFOAM1.pageHeight,
+       pageWidth: configData.THEME_COLORS.SEAFOAM1.pageWidth,
 
     },
     coral1: {
@@ -141,8 +190,16 @@ const colorTheme = {
         borderMidBorder: configData.THEME_COLORS.CORAL1.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.CORAL1.borderInnerBorder,
         borderTxtColor: configData.THEME_COLORS.CORAL1.borderTxtColor,
-        borderContent: configData.THEME_COLORS.CORAL1.borderContent
-
+        borderContent: configData.THEME_COLORS.CORAL1.borderContent,
+       //pages
+       pageContent: configData.THEME_COLORS.CORAL1.pageContent,
+       pageBorderColor: configData.THEME_COLORS.CORAL1.pageBorderColor,
+       pageBorderType: configData.THEME_COLORS.CORAL1.pageBorderType,
+       pagePadding: configData.THEME_COLORS.CORAL1.pagePadding,
+       pageBoxShadow: configData.THEME_COLORS.CORAL1.pageBoxShadow,
+       pageBorderRadius: configData.THEME_COLORS.CORAL1.pageBorderRadius,
+       pageHeight: configData.THEME_COLORS.CORAL1.pageHeight,
+       pageWidth: configData.THEME_COLORS.CORAL1.pageWidth,
 
     }
 }

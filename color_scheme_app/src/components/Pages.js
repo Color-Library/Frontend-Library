@@ -1,16 +1,24 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { useTheme } from '../context/ThemeProvider';
 
-export default function Pages({pageContent, pageBorderColor, pageBorderType, pageBoxShadow, pageBorderRadius}){
+export default function Pages({pagePadding,pageContent, pageBorderColor, pageBorderType, pageBoxShadow, pageBorderRadius, pageWidth, pageHeight}){
+    const theme = useTheme();
+    pageBorderType = pageBorderType ? pageBorderType : theme.pageBorderType
+    pageBorderColor = pageBorderColor ? pageBorderColor : theme.pageBorderColor
+    pageWidth = pageWidth ? pageWidth : theme.pageWidth
+    pageHeight = pageHeight ? pageHeight : theme.pageHeight
     const style = {
         border: '3px '+pageBorderType+' '+pageBorderColor,
-        padding: '10px',
-        boxShadow: pageBoxShadow,
-        borderRadius: pageBorderRadius
+        padding: pagePadding ? pagePadding : theme.pagePadding,
+        boxShadow: pageBoxShadow ? pageBoxShadow : theme.pageBoxShadow,
+        borderRadius: pageBorderRadius ? pageBorderRadius : theme.pageBorderRadius,
+        height:pageHeight ? pageHeight : theme.pageHeight,
+        width: pageWidth ? pageWidth : theme.pageWidth
     }
     return(
         <div style={style}>
-            {pageContent}
+            {pageContent ? pageContent : theme.pageContent}
         </div>
     );
 }

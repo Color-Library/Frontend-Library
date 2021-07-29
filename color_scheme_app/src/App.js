@@ -1,13 +1,13 @@
 import { ThemeProvider } from './context/ThemeProvider';
-import Border from './components/Border'
+import Pages from './components/Pages'
 import './App.css';
 
 function App() {
   return (
     <>
-    <ThemeProvider theme="frozen2">
+    <ThemeProvider theme="sunflower1">
       <div className="App">
-        <Border borderTxtColor='green'/>
+        <Pages pageBorderRadius = '25px'/>
       </div>
     </ThemeProvider>
     </>

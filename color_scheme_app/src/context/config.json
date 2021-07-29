@@ -14,7 +14,16 @@
             "borderMidBorder":"#60DBC5",
             "borderInnerBorder": "#DDDDDD",
             "borderTxtColor": "",
-            "borderContent" : "Insert Content Here"
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "Frozen 2 Page",
+            "pageBorderColor": "cyan",
+            "pageBorderType": "solid",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #084C91",
+            "pageBorderRadius": "5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
 
 
         },
@@ -31,7 +40,16 @@
             "borderMidBorder": "#401201",
             "borderInnerBorder": "#F28705",
             "borderTxtColor": "#401201",
-            "borderContent" : "Insert Content Here"
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "Sunflower 1 Page",
+            "pageBorderColor": "#B3550E",
+            "pageBorderType": "solid",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #B3550E",
+            "pageBorderRadius":"5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
 
         },
         "PERWINKLES1": {
@@ -47,7 +65,16 @@
             "borderMidBorder": "#7371FC",
             "borderInnerBorder": "#A594F9",
             "borderTxtColor": "#0703DD",
-            "borderContent" : "Insert Content Here"
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "Periwinkles 1 Page",
+            "pageBorderColor": "#F5EFFF",
+            "pageBorderType": "solid",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #7371FC",
+            "pageBorderRadius": "5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
 
         },
         "SPRING1": {
@@ -63,7 +90,16 @@
             "borderMidBorder": "#D7A01D",
             "borderInnerBorder": "#9BE564",
             "borderTxtColor": "#2E570F",
-            "borderContent" : "Insert Content Here"
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "Spring 1 Page",
+            "pageBorderColor": "#DFF977",
+            "pageBorderType": "solid",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #2E570F",
+            "pageBorderRadius": "5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
 
         },
         "SANJUAN1": {
@@ -79,7 +115,16 @@
             "borderMidBorder": "#D24A00",
             "borderInnerBorder": "#D8AF02",
             "borderTxtColor": "#98002E",
-            "borderContent" : "Insert Content Here"
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "San Juan 1 Page",
+            "pageBorderColor": "#D8AF02",
+            "pageBorderType": "solid",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #D24A00",
+            "pageBorderRadius": "5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
 
         },
         "SEAFOAM1": {
@@ -95,7 +140,16 @@
             "borderMidBorder": "#114B5F",
             "borderInnerBorder": "#88D498",
             "borderTxtColor": "#114B5F",
-            "borderContent" : "Insert Content Here"
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "SeaFoam 1 Page",
+            "pageBorderColor": "#88D498",
+            "pageBorderType": "solid",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #1A936F",
+            "pageBorderRadius": "5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
 
         },
         "CORAL1": {
@@ -111,7 +165,16 @@
             "borderMidBorder": "#F7A399",
             "borderInnerBorder": "#FBC3BC",
             "borderTxtColor": "black",
-            "borderContent" : "Insert Content Here"
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "Coral 1 Page",
+            "pageBorderColor": "#FBC3BC",
+            "pageBorderType": "dotted",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #F38375",
+            "pageBorderRadius": "5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
 
         }
     }

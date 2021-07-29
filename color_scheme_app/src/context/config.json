@@ -13,7 +13,8 @@
             "borderOuterBorder":"#084C91",
             "borderMidBorder":"#60DBC5",
             "borderInnerBorder": "#DDDDDD",
-            "borderTxtColor": ""
+            "borderTxtColor": "",
+            "borderContent" : "Insert Content Here"
 
 
         },
@@ -29,7 +30,9 @@
             "borderOuterBorder": "#B3550E",
             "borderMidBorder": "#401201",
             "borderInnerBorder": "#F28705",
-            "borderTxtColor": "#401201"
+            "borderTxtColor": "#401201",
+            "borderContent" : "Insert Content Here"
+
         },
         "PERWINKLES1": {
             "btnLabel": "Click Me",
@@ -43,7 +46,9 @@
             "borderOuterBorder": "#E5D9F2",
             "borderMidBorder": "#7371FC",
             "borderInnerBorder": "#A594F9",
-            "borderTxtColor": "#0703DD"
+            "borderTxtColor": "#0703DD",
+            "borderContent" : "Insert Content Here"
+
         },
         "SPRING1": {
             "btnLabel": "Click Me",
@@ -57,7 +62,9 @@
             "borderOuterBorder": "#472C1B",
             "borderMidBorder": "#D7A01D",
             "borderInnerBorder": "#9BE564",
-            "borderTxtColor": "#2E570F"
+            "borderTxtColor": "#2E570F",
+            "borderContent" : "Insert Content Here"
+
         },
         "SANJUAN1": {
             "btnLabel": "Click Me",
@@ -71,7 +78,9 @@
             "borderOuterBorder": "#0ADCE1",
             "borderMidBorder": "#D24A00",
             "borderInnerBorder": "#D8AF02",
-            "borderTxtColor": "#98002E"
+            "borderTxtColor": "#98002E",
+            "borderContent" : "Insert Content Here"
+
         },
         "SEAFOAM1": {
             "btnLabel": "Click Me",
@@ -85,7 +94,9 @@
             "borderOuterBorder": "#1A936F",
             "borderMidBorder": "#114B5F",
             "borderInnerBorder": "#88D498",
-            "borderTxtColor": "#114B5F"
+            "borderTxtColor": "#114B5F",
+            "borderContent" : "Insert Content Here"
+
         },
         "CORAL1": {
             "btnLabel": "Click Me",
@@ -99,7 +110,9 @@
             "borderOuterBorder": "#F38375",
             "borderMidBorder": "#F7A399",
             "borderInnerBorder": "#FBC3BC",
-            "borderTxtColor": "black"
+            "borderTxtColor": "black",
+            "borderContent" : "Insert Content Here"
+
         }
     }
 }

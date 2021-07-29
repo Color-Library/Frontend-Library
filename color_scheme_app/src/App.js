@@ -1,13 +1,13 @@
 import { ThemeProvider } from './context/ThemeProvider';
-import Button from './components/Button'
+import Border from './components/Border'
 import './App.css';
 
 function App() {
   return (
     <>
-    <ThemeProvider theme="coral1">
+    <ThemeProvider theme="frozen2">
       <div className="App">
-        <Button />
+        <Border borderTxtColor='green'/>
       </div>
     </ThemeProvider>
     </>

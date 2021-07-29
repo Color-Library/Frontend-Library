@@ -21,7 +21,9 @@ const colorTheme = {
         borderOuterBorder: configData.THEME_COLORS.FROZEN2.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.FROZEN2.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.FROZEN2.borderInnerBorder,
-        borderTxtColor: configData.THEME_COLORS.FROZEN2.borderTxtColor
+        borderTxtColor: configData.THEME_COLORS.FROZEN2.borderTxtColor,
+        borderContent: configData.THEME_COLORS.FROZEN2.borderContent
+
     },
     sunflower1: {
         //button
@@ -38,7 +40,9 @@ const colorTheme = {
         borderOuterBorder: configData.THEME_COLORS.SUNFLOWER1.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.SUNFLOWER1.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.SUNFLOWER1.borderInnerBorder,
-        borderTxtColor: configData.THEME_COLORS.SUNFLOWER1.borderTxtColor
+        borderTxtColor: configData.THEME_COLORS.SUNFLOWER1.borderTxtColor,
+        borderContent: configData.THEME_COLORS.SUNFLOWER1.borderContent
+
 
     },
     perwinkles1: {
@@ -56,7 +60,9 @@ const colorTheme = {
         borderOuterBorder: configData.THEME_COLORS.PERWINKLES1.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.PERWINKLES1.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.PERWINKLES1.borderInnerBorder,
-        borderTxtColor: configData.THEME_COLORS.PERWINKLES1.borderTxtColor
+        borderTxtColor: configData.THEME_COLORS.PERWINKLES1.borderTxtColor,
+        borderContent: configData.THEME_COLORS.PERWINKLES1.borderContent
+
 
     },
     spring1: {
@@ -74,7 +80,9 @@ const colorTheme = {
         borderOuterBorder: configData.THEME_COLORS.SPRING1.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.SPRING1.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.SPRING1.borderInnerBorder,
-        borderTxtColor: configData.THEME_COLORS.SPRING1.borderTxtColor
+        borderTxtColor: configData.THEME_COLORS.SPRING1.borderTxtColor,
+        borderContent: configData.THEME_COLORS.SPRING1.borderContent
+
 
     },
     sanjuan1: {
@@ -92,7 +100,9 @@ const colorTheme = {
         borderOuterBorder: configData.THEME_COLORS.SANJUAN1.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.SANJUAN1.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.SANJUAN1.borderInnerBorder,
-        borderTxtColor: configData.THEME_COLORS.SANJUAN1.borderTxtColor
+        borderTxtColor: configData.THEME_COLORS.SANJUAN1.borderTxtColor,
+        borderContent: configData.THEME_COLORS.SANJUAN1.borderContent
+
 
     },
     seafoam1: {
@@ -110,7 +120,9 @@ const colorTheme = {
         borderOuterBorder: configData.THEME_COLORS.SEAFOAM1.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.SEAFOAM1.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.SEAFOAM1.borderInnerBorder,
-        borderTxtColor: configData.THEME_COLORS.SEAFOAM1.borderTxtColor
+        borderTxtColor: configData.THEME_COLORS.SEAFOAM1.borderTxtColor,
+        borderContent: configData.THEME_COLORS.SEAFOAM1.borderContent
+
 
     },
     coral1: {
@@ -128,7 +140,9 @@ const colorTheme = {
         borderOuterBorder: configData.THEME_COLORS.CORAL1.borderOuterBorder,
         borderMidBorder: configData.THEME_COLORS.CORAL1.borderMidBorder,
         borderInnerBorder: configData.THEME_COLORS.CORAL1.borderInnerBorder,
-        borderTxtColor: configData.THEME_COLORS.CORAL1.borderTxtColor
+        borderTxtColor: configData.THEME_COLORS.CORAL1.borderTxtColor,
+        borderContent: configData.THEME_COLORS.CORAL1.borderContent
+
 
     }
 }

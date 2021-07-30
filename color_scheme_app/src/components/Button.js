@@ -17,7 +17,7 @@ export default function Button({ buttonLabel, onClick, btnTxtColor, btnBorderCol
     <button onClick={onClick}
     className="buttonTemplate"
     style={style}>
-      <text style={color && { btnTxtColor }}>{buttonLabel}</text>
+      <text style={btnTxtColor && { btnTxtColor }}>{buttonLabel}</text>
     </button>
   );
 }

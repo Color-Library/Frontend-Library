@@ -1,67 +1,181 @@
 {
     "THEME_COLORS": {
         "FROZEN2": {
-            "color": "#084C91",
-            "backgroundColor":"#DDDDDD",
+            "btnTxtColor": "#084C91",
+            "btnBackgroundColor":"#DDDDDD",
+            "btnWidth":"100px",
+            "btnLabel": "Click Me",
+            "btnHeight": "40px",
+            "btnBorderColor": "cyan",
+
+
             "borderBackgroundColor": "#ffffff",
             "borderOuterBorder":"#084C91",
             "borderMidBorder":"#60DBC5",
             "borderInnerBorder": "#DDDDDD",
-            "borderTxtColor": ""
+            "borderTxtColor": "",
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "Frozen 2 Page",
+            "pageBorderColor": "cyan",
+            "pageBorderType": "solid",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #084C91",
+            "pageBorderRadius": "5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
+
+
         },
         "SUNFLOWER1": {
-            "color": "#401201",
-            "backgroundColor":"#FDDAAF",
+            "btnTxtColor": "#401201",
+            "btnBackgroundColor":"#FDDAAF",
+            "btnLabel": "Click Me",
+            "btnWidth":"100px",
+            "btnHeight": "40px",
+            "btnBorderColor": "#B3550E",
+
             "borderBackgroundColor": "#E8C78E",
             "borderOuterBorder": "#B3550E",
             "borderMidBorder": "#401201",
             "borderInnerBorder": "#F28705",
-            "borderTxtColor": "#401201"
+            "borderTxtColor": "#401201",
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "Sunflower 1 Page",
+            "pageBorderColor": "#B3550E",
+            "pageBorderType": "solid",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #B3550E",
+            "pageBorderRadius":"5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
+
         },
         "PERWINKLES1": {
-            "color": "#3936FC",
-            "backgroundColor": "#F5EFFF",
+            "btnLabel": "Click Me",
+            "btnBackgroundColor": "#F5EFFF",
+            "btnWidth":"100px",
+            "btnHeight": "40px",
+            "btnTxtColor": "#3936FC",
+            "btnBorderColor": "#7371FC",
+
             "borderBackgroundColor": "white",
             "borderOuterBorder": "#E5D9F2",
             "borderMidBorder": "#7371FC",
             "borderInnerBorder": "#A594F9",
-            "borderTxtColor": "#0703DD"
+            "borderTxtColor": "#0703DD",
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "Periwinkles 1 Page",
+            "pageBorderColor": "#F5EFFF",
+            "pageBorderType": "solid",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #7371FC",
+            "pageBorderRadius": "5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
+
         },
         "SPRING1": {
-            "color": "#2E570F",
-            "backgroundColor": "#DFF977",
+            "btnLabel": "Click Me",
+            "btnBackgroundColor": "#DFF977",
+            "btnWidth":"100px",
+            "btnHeight": "40px",
+            "btnTxtColor": "#2E570F",
+            "btnBorderColor": "#2E570F",
+
             "borderBackgroundColor": "white",
             "borderOuterBorder": "#472C1B",
             "borderMidBorder": "#D7A01D",
             "borderInnerBorder": "#9BE564",
-            "borderTxtColor": "#2E570F"
+            "borderTxtColor": "#2E570F",
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "Spring 1 Page",
+            "pageBorderColor": "#DFF977",
+            "pageBorderType": "solid",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #2E570F",
+            "pageBorderRadius": "5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
+
         },
         "SANJUAN1": {
-            "color": "#FDCC00",
-            "backgroundColor": "#98002E",
+            "btnLabel": "Click Me",
+            "btnBackgroundColor": "#98002E",
+            "btnWidth": "100px",
+            "btnHeight": "40px",
+            "btnTxtColor": "#FDCC00",
+            "btnBorderColor": "#D24A00",
+
             "borderBackgroundColor": "#FDCC00",
             "borderOuterBorder": "#0ADCE1",
             "borderMidBorder": "#D24A00",
             "borderInnerBorder": "#D8AF02",
-            "borderTxtColor": "#98002E"
+            "borderTxtColor": "#98002E",
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "San Juan 1 Page",
+            "pageBorderColor": "#D8AF02",
+            "pageBorderType": "solid",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #D24A00",
+            "pageBorderRadius": "5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
+
         },
         "SEAFOAM1": {
-            "color": "#F3E9D2",
-            "backgroundColor": "#1A936F",
+            "btnLabel": "Click Me",
+            "btnBackgroundColor": "#1A936F",
+            "btnWidth":"100px",
+            "btnHeight": "40px",
+            "btnTxtColor": "#F3E9D2",
+            "btnBorderColor": "#88D498",
+
             "borderBackgroundColor": "white",
             "borderOuterBorder": "#1A936F",
             "borderMidBorder": "#114B5F",
             "borderInnerBorder": "#88D498",
-            "borderTxtColor": "#114B5F"
+            "borderTxtColor": "#114B5F",
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "SeaFoam 1 Page",
+            "pageBorderColor": "#88D498",
+            "pageBorderType": "solid",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #1A936F",
+            "pageBorderRadius": "5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
+
         },
         "CORAL1": {
-            "color": "#FFE3E0",
-            "backgroundColor": "#F38375",
+            "btnLabel": "Click Me",
+            "btnBackgroundColor": "#F38375",
+            "btnWidth":"100px",
+            "btnHeight": "40px",
+            "btnTxtColor": "#FFE3E0",
+            "btnBorderColor": "#EF6351",
+
             "borderBackgroundColor": "#FFE3E0",
             "borderOuterBorder": "#F38375",
             "borderMidBorder": "#F7A399",
             "borderInnerBorder": "#FBC3BC",
-            "borderTxtColor": "black"
+            "borderTxtColor": "black",
+            "borderContent" : "Insert Content Here",
+
+            "pageContent": "Coral 1 Page",
+            "pageBorderColor": "#FBC3BC",
+            "pageBorderType": "dotted",
+            "pagePadding": "10px",
+            "pageBoxShadow": "0px 0px 6px #F38375",
+            "pageBorderRadius": "5px",
+            "pageWidth": "100px",
+            "pageHeight": "90px"
+
         }
     }
 }

@@ -1,12 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import "../styles/Input.css"
+import { useTheme } from '../context/ThemeProvider';
 
 export default function Input({inputBoxColor, inputTxtColor, inputTxtSize, txtColor, label, labelFor, type, inputName, inputWidth, inputHeight}) {
+    const theme = useTheme();
 
     const input = {
-        backgroundColor: inputBoxColor,
-        color: inputTxtColor,
+        backgroundColor: inputBoxColor ? inputBoxColor : theme.btnBackgroundColor,
+        color: inputTxtColor ? inputTxtColor : theme.btnTxtColor,
         width: inputWidth,
         height: inputHeight,
         fontSize: inputTxtSize,
@@ -16,8 +18,8 @@ export default function Input({inputBoxColor, inputTxtColor, inputTxtSize, txtCo
  
     return (
         <div>
-               <label for={labelFor}> <h4 style={{color: txtColor}}>{label}</h4></label>
-               <input style={input} name={inputName} type={type} id={labelFor}></input>
+            <label for={labelFor}> <h4 style={{color: txtColor}}>{label}</h4></label>
+            <input style={input} name={inputName} type={type} id={labelFor}></input>
         </div>
     );
 }

@@ -16,22 +16,22 @@ const Template = (args) => <Footer {...args} />;
 export const Frozen2 = Template.bind({});
 Frozen2.args = {  //sets initial state
   label: 'I am the Footer',
-  backgroundColor: configData.THEME_COLORS.FROZEN2.backgroundColor,
-  color: configData.THEME_COLORS.FROZEN2.color,
+  backgroundColor: configData.THEME_COLORS.FROZEN2.btnBackgroundColor,
+  color: configData.THEME_COLORS.FROZEN2.btnTxtColor,
 };
 
 export const Sunflower1 = Template.bind({});
 Sunflower1.args = {  //sets initial state
     label: 'I am the Footer',
-    backgroundColor: configData.THEME_COLORS.SUNFLOWER1.backgroundColor,
-    color: configData.THEME_COLORS.SUNFLOWER1.color,
+    backgroundColor: configData.THEME_COLORS.SUNFLOWER1.btnBackgroundColor,
+    color: configData.THEME_COLORS.SUNFLOWER1.btnTxtColor,
 };
 
 export const Periwinkles1 = Template.bind({});
 Periwinkles1.args = {  //sets initial state
     label: 'I am the Footer',
-    backgroundColor: configData.THEME_COLORS.PERWINKLES1.backgroundColor,
-    color: configData.THEME_COLORS.PERWINKLES1.color,
+    backgroundColor: configData.THEME_COLORS.PERWINKLES1.btnBackgroundColor,
+    color: configData.THEME_COLORS.PERWINKLES1.btnTxtColor,
 };
 
 export const Spring1 = Template.bind({});

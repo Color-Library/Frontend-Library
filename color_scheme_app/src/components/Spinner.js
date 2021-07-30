@@ -1,10 +1,13 @@
 import React from 'react';
 import "../styles/Spinner.css"
+import { useTheme } from '../context/ThemeProvider';
 
 export default function Spinner({ borderTop, border }) {
+  const theme = useTheme();
+
     const style = {
-        borderTop: "16px solid" + borderTop,
-        border: "16px solid" + border,
+        borderTop: borderTop ? "16px solid" + borderTop : "16px solid" + theme.borderBackgroundColor,
+        border: border ? "16px solid" + border : "16px solid" + theme.borderOuterBorder,
     }
 
   return (

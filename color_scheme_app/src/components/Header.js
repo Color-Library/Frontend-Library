@@ -1,11 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import "../styles/Header.css"
+import "../styles/Header.css";
+import { useTheme } from '../context/ThemeProvider';
 
 export default function Header ({ tab1, tab2, tab3, tab4, backgroundColor, color, logo }) {
+    const theme = useTheme();
+
+    const style = {
+        backgroundColor: backgroundColor ? backgroundColor : theme.btnBackgroundColor,
+        color: color ? color : theme.color,
+      };
+
     return (
-        <div aria-label='header' className="topnav" style={backgroundColor && { backgroundColor }}>
-          <img src={logo} className="iconlogo"/>
+        <div aria-label='header' className="topnav" style={style}>
+         {logo && <img src={logo} className="iconlogo" alt="icon" />}
           <a className="leftnav" style={color && { color }} href={tab1[1]}>{tab1[0]}</a>
           <a className="leftnav" style={color && { color }} href={tab2[1]}>{tab2[0]}</a>
           <a className="rightnav" style={color && { color }} href={tab3[1]}>{tab3[0]}</a>

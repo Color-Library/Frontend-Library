@@ -19,6 +19,7 @@ export default function Header ({ tab1, tab2, tab3, tab4, href, href2, href3, hr
     href2= href2 ? href2 : theme.href2
     href3= href3 ? href3 : theme.href3
     href4= href4 ? href4 : theme.href4
+    hLogo= hLogo ? hLogo : theme.hLogo
 
     return (
         <div aria-label='header' className="topnav" style={style}>

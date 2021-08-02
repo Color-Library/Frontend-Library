@@ -32,6 +32,9 @@ const colorTheme = {
         pageBorderRadius: configData.THEME_COLORS.FROZEN2.pageBorderRadius,
         pageHeight: configData.THEME_COLORS.FROZEN2.pageHeight,
         pageWidth: configData.THEME_COLORS.FROZEN2.pageWidth,
+       //Icon
+       ImageLink: configData.THEME_COLORS.FROZEN2.ImageLink,
+       ImageBorder: configData.THEME_COLORS.FROZEN2.ImageBorder,
 
     },
     sunflower1: {
@@ -60,6 +63,9 @@ const colorTheme = {
        pageBorderRadius: configData.THEME_COLORS.SUNFLOWER1.pageBorderRadius,
        pageHeight: configData.THEME_COLORS.SUNFLOWER1.pageHeight,
        pageWidth: configData.THEME_COLORS.SUNFLOWER1.pageWidth,
+       //Icon
+       ImageLink: configData.THEME_COLORS.SUNFLOWER1.ImageLink,
+       ImageBorder: configData.THEME_COLORS.SUNFLOWER1.ImageBorder,
 
     },
     perwinkles1: {
@@ -89,6 +95,10 @@ const colorTheme = {
        pageHeight: configData.THEME_COLORS.PERWINKLES1.pageHeight,
        pageWidth: configData.THEME_COLORS.PERWINKLES1.pageWidth,
 
+       //Icon
+       ImageLink: configData.THEME_COLORS.PERWINKLES1.ImageLink,
+       ImageBorder: configData.THEME_COLORS.PERWINKLES1.ImageBorder,
+
     },
     spring1: {
         //button
@@ -116,6 +126,9 @@ const colorTheme = {
        pageBorderRadius: configData.THEME_COLORS.SPRING1.pageBorderRadius,
        pageHeight: configData.THEME_COLORS.SPRING1.pageHeight,
        pageWidth: configData.THEME_COLORS.SPRING1.pageWidth,
+       //Icon
+       ImageLink: configData.THEME_COLORS.SPRING1.ImageLink,
+       ImageBorder: configData.THEME_COLORS.SPRING1.ImageBorder,
 
     },
     sanjuan1: {
@@ -144,7 +157,11 @@ const colorTheme = {
        pageBorderRadius: configData.THEME_COLORS.SANJUAN1.pageBorderRadius,
        pageHeight: configData.THEME_COLORS.SANJUAN1.pageHeight,
        pageWidth: configData.THEME_COLORS.SANJUAN1.pageWidth,
+       //Icon
+       ImageLink: configData.THEME_COLORS.SANJUAN1.ImageLink,
+       ImageBorder: configData.THEME_COLORS.SANJUAN1.ImageBorder,
 
+ 
     },
     seafoam1: {
         //button
@@ -172,6 +189,9 @@ const colorTheme = {
        pageBorderRadius: configData.THEME_COLORS.SEAFOAM1.pageBorderRadius,
        pageHeight: configData.THEME_COLORS.SEAFOAM1.pageHeight,
        pageWidth: configData.THEME_COLORS.SEAFOAM1.pageWidth,
+       //Icon
+       ImageLink: configData.THEME_COLORS.SEAFOAM1.ImageLink,
+       ImageBorder: configData.THEME_COLORS.SEAFOAM1.ImageBorder,
 
     },
     coral1: {
@@ -200,6 +220,9 @@ const colorTheme = {
        pageBorderRadius: configData.THEME_COLORS.CORAL1.pageBorderRadius,
        pageHeight: configData.THEME_COLORS.CORAL1.pageHeight,
        pageWidth: configData.THEME_COLORS.CORAL1.pageWidth,
+       //Icon
+       ImageLink: configData.THEME_COLORS.CORAL1.ImageLink,
+       ImageBorder: configData.THEME_COLORS.CORAL1.ImageBorder,
 
     }
 }

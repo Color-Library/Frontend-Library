@@ -33,6 +33,7 @@ function App() {
       <br />
       <Spinner />
       <Footer label="SIMPLE FOOTER."/>
+      <Icon/>
     </ThemeProvider>
     </>
   );

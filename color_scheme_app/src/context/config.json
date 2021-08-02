@@ -23,7 +23,10 @@
             "pageBoxShadow": "0px 0px 6px #084C91",
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#084C91"
 
 
         },
@@ -49,7 +52,10 @@
             "pageBoxShadow": "0px 0px 6px #B3550E",
             "pageBorderRadius":"5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#B3550E"
 
         },
         "PERWINKLES1": {
@@ -74,7 +80,10 @@
             "pageBoxShadow": "0px 0px 6px #7371FC",
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#7371FC"
 
         },
         "SPRING1": {
@@ -99,7 +108,10 @@
             "pageBoxShadow": "0px 0px 6px #2E570F",
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#2E570F"
 
         },
         "SANJUAN1": {
@@ -124,7 +136,10 @@
             "pageBoxShadow": "0px 0px 6px #D24A00",
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#FDCC00"
 
         },
         "SEAFOAM1": {
@@ -149,7 +164,10 @@
             "pageBoxShadow": "0px 0px 6px #1A936F",
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#88D498"
 
         },
         "CORAL1": {
@@ -174,7 +192,10 @@
             "pageBoxShadow": "0px 0px 6px #F38375",
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#EF6351"
 
         }
     }

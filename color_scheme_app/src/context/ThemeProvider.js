@@ -2,6 +2,7 @@ import ThemeContext from './ThemeContext';
 import configData from '../context/config.json';
 import { useContext } from 'react';
 
+//Buttons, Pages, Icons, Footers, Spinners
 const colorTheme = {
     tester: {
         color: 'red',
@@ -35,6 +36,19 @@ const colorTheme = {
        //Icon
        ImageLink: configData.THEME_COLORS.FROZEN2.ImageLink,
        ImageBorder: configData.THEME_COLORS.FROZEN2.ImageBorder,
+       //Header
+       tab1: configData.THEME_COLORS.FROZEN2.tab1,
+       tab2: configData.THEME_COLORS.FROZEN2.tab2,
+       tab3: configData.THEME_COLORS.FROZEN2.tab3,
+       tab4: configData.THEME_COLORS.FROZEN2.tab4,
+       hBackgroundColor: configData.THEME_COLORS.FROZEN2.hBackgroundColor,
+       href: configData.THEME_COLORS.FROZEN2.href,
+       href2: configData.THEME_COLORS.FROZEN2.href2,
+       href3: configData.THEME_COLORS.FROZEN2.href3,
+       href4: configData.THEME_COLORS.FROZEN2.href4,
+       hColor: configData.THEME_COLORS.FROZEN2.hColor,
+       hLogo: configData.THEME_COLORS.FROZEN2.hLogo,
+
 
     },
     sunflower1: {
@@ -66,6 +80,18 @@ const colorTheme = {
        //Icon
        ImageLink: configData.THEME_COLORS.SUNFLOWER1.ImageLink,
        ImageBorder: configData.THEME_COLORS.SUNFLOWER1.ImageBorder,
+       //Header
+       tab1: configData.THEME_COLORS.SUNFLOWER1.tab1,
+       tab2: configData.THEME_COLORS.SUNFLOWER1.tab2,
+       tab3: configData.THEME_COLORS.SUNFLOWER1.tab3,
+       tab4: configData.THEME_COLORS.SUNFLOWER1.tab4,
+       hBackgroundColor: configData.THEME_COLORS.SUNFLOWER1.hBackgroundColor,
+       hColor: configData.THEME_COLORS.SUNFLOWER1.hColor,
+       href: configData.THEME_COLORS.SUNFLOWER1.href,
+       href2: configData.THEME_COLORS.SUNFLOWER1.href2,
+       href3: configData.THEME_COLORS.SUNFLOWER1.href3,
+       href4: configData.THEME_COLORS.SUNFLOWER1.href4,
+       hLogo: configData.THEME_COLORS.SUNFLOWER1.hLogo,
 
     },
     perwinkles1: {
@@ -98,6 +124,18 @@ const colorTheme = {
        //Icon
        ImageLink: configData.THEME_COLORS.PERWINKLES1.ImageLink,
        ImageBorder: configData.THEME_COLORS.PERWINKLES1.ImageBorder,
+       //Header
+       tab1: configData.THEME_COLORS.PERWINKLES1.tab1,
+       tab2: configData.THEME_COLORS.PERWINKLES1.tab2,
+       tab3: configData.THEME_COLORS.PERWINKLES1.tab3,
+       tab4: configData.THEME_COLORS.PERWINKLES1.tab4,
+       hBackgroundColor: configData.THEME_COLORS.PERWINKLES1.hBackgroundColor,
+       hColor: configData.THEME_COLORS.PERWINKLES1.hColor,
+       href: configData.THEME_COLORS.PERWINKLES1.href,
+       href2: configData.THEME_COLORS.PERWINKLES1.href2,
+       href3: configData.THEME_COLORS.PERWINKLES1.href3,
+       href4: configData.THEME_COLORS.PERWINKLES1.href4,
+       hLogo: configData.THEME_COLORS.PERWINKLES1.hLogo,
 
     },
     spring1: {
@@ -129,6 +167,18 @@ const colorTheme = {
        //Icon
        ImageLink: configData.THEME_COLORS.SPRING1.ImageLink,
        ImageBorder: configData.THEME_COLORS.SPRING1.ImageBorder,
+       //Header
+       tab1: configData.THEME_COLORS.SPRING1.tab1,
+       tab2: configData.THEME_COLORS.SPRING1.tab2,
+       tab3: configData.THEME_COLORS.SPRING1.tab3,
+       tab4: configData.THEME_COLORS.SPRING1.tab4,
+       hBackgroundColor: configData.THEME_COLORS.SPRING1.hBackgroundColor,
+       hColor: configData.THEME_COLORS.SPRING1.hColor,
+       href: configData.THEME_COLORS.SPRING1.href,
+       href2: configData.THEME_COLORS.SPRING1.href2,
+       href3: configData.THEME_COLORS.SPRING1.href3,
+       href4: configData.THEME_COLORS.SPRING1.href4,
+       hLogo: configData.THEME_COLORS.SPRING1.hLogo,
 
     },
     sanjuan1: {
@@ -160,6 +210,18 @@ const colorTheme = {
        //Icon
        ImageLink: configData.THEME_COLORS.SANJUAN1.ImageLink,
        ImageBorder: configData.THEME_COLORS.SANJUAN1.ImageBorder,
+       //Header
+       tab1: configData.THEME_COLORS.SANJUAN1.tab1,
+       tab2: configData.THEME_COLORS.SANJUAN1.tab2,
+       tab3: configData.THEME_COLORS.SANJUAN1.tab3,
+       tab4: configData.THEME_COLORS.SANJUAN1.tab4,
+       hBackgroundColor: configData.THEME_COLORS.SANJUAN1.hBackgroundColor,
+       hColor: configData.THEME_COLORS.SANJUAN1.hColor,
+       href: configData.THEME_COLORS.SANJUAN1.href,
+       href2: configData.THEME_COLORS.SANJUAN1.href2,
+       href3: configData.THEME_COLORS.SANJUAN1.href3,
+       href4: configData.THEME_COLORS.SANJUAN1.href4,
+       hLogo: configData.THEME_COLORS.SANJUAN1.hLogo,
 
  
     },
@@ -192,6 +254,18 @@ const colorTheme = {
        //Icon
        ImageLink: configData.THEME_COLORS.SEAFOAM1.ImageLink,
        ImageBorder: configData.THEME_COLORS.SEAFOAM1.ImageBorder,
+       //Header
+       tab1: configData.THEME_COLORS.SEAFOAM1.tab1,
+       tab2: configData.THEME_COLORS.SEAFOAM1.tab2,
+       tab3: configData.THEME_COLORS.SEAFOAM1.tab3,
+       tab4: configData.THEME_COLORS.SEAFOAM1.tab4,
+       hBackgroundColor: configData.THEME_COLORS.SEAFOAM1.hBackgroundColor,
+       hColor: configData.THEME_COLORS.SEAFOAM1.hColor,
+       href: configData.THEME_COLORS.SEAFOAM1.href,
+       href2: configData.THEME_COLORS.SEAFOAM1.href2,
+       href3: configData.THEME_COLORS.SEAFOAM1.href3,
+       href4: configData.THEME_COLORS.SEAFOAM1.href4,
+       hLogo: configData.THEME_COLORS.SEAFOAM1.hLogo,
 
     },
     coral1: {
@@ -223,6 +297,18 @@ const colorTheme = {
        //Icon
        ImageLink: configData.THEME_COLORS.CORAL1.ImageLink,
        ImageBorder: configData.THEME_COLORS.CORAL1.ImageBorder,
+       //Header
+       tab1: configData.THEME_COLORS.CORAL1.tab1,
+       tab2: configData.THEME_COLORS.CORAL1.tab2,
+       tab3: configData.THEME_COLORS.CORAL1.tab3,
+       tab4: configData.THEME_COLORS.CORAL1.tab4,
+       hBackgroundColor: configData.THEME_COLORS.CORAL1.hBackgroundColor,
+       hColor: configData.THEME_COLORS.CORAL1.hColor,
+       href: configData.THEME_COLORS.CORAL1.href,
+       href2: configData.THEME_COLORS.CORAL1.href2,
+       href3: configData.THEME_COLORS.CORAL1.href3,
+       href4: configData.THEME_COLORS.CORAL1.href4,
+       hLogo: configData.THEME_COLORS.CORAL1.hLogo,
 
     }
 }

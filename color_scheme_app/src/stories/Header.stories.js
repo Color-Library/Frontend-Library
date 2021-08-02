@@ -18,8 +18,10 @@ export default {
     tab2: ['About', '#'],
     tab3: ['', ''],
     tab4: ['Profile', '#'],
-    backgroundColor: '#084C91',
-    logo: "https://img.icons8.com/ios/50/000000/pokemon.png",
+    hBackgroundColor: '#084C91',
+    hColor: "#DDDDDD",
+    href: '#',
+    hLogo: "https://img.icons8.com/ios/50/000000/pokemon.png",
   }
 
   export const sunflower1 = Template.bind({});
@@ -28,8 +30,10 @@ export default {
     tab2: ['About', '#'],
     tab3: ['Profile', '#'],
     tab4: ['Contact', '#'],
-    backgroundColor: '#E8C78E',
-    logo: "https://img.icons8.com/office/50/000000/blackblood.png",
+    hBackgroundColor: '#E8C78E',
+    hColor: "#B3550E",
+    href: '#',
+    hLogo: "https://img.icons8.com/office/50/000000/blackblood.png",
   }
 
   export const perwinkles1 = Template.bind({});
@@ -38,9 +42,11 @@ export default {
     tab2: ['About', '#'],
     tab3: ['Profile', '#'],
     tab4: ['Contact', '#'],
-    backgroundColor: '#E5D9F2',
+    hBackgroundColor: '#E5D9F2',
     color: 'black',
-    logo: "https://img.icons8.com/office/50/000000/jake.png",
+    hColor: "#7371FC",
+    href: '#',
+    hLogo: "https://img.icons8.com/office/50/000000/jake.png",
   }
 
 export const spring1 = Template.bind({});
@@ -49,6 +55,8 @@ spring1.args = {
     tab2: ['About', '#'],
     tab3: ['Profile', '#'],
     tab4: ['Contact', '#'],
-    backgroundColor: '9BE564',
-    logo: "https://img.icons8.com/nolan/50/iron-man.png",
+    hBackgroundColor: '#9BE564',
+    hColor: "#2E570F",
+    href: '#',
+    hLogo: "https://img.icons8.com/nolan/50/iron-man.png",
 }

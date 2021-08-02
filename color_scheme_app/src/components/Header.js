@@ -3,30 +3,54 @@ import PropTypes from 'prop-types';
 import "../styles/Header.css";
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Header ({ tab1, tab2, tab3, tab4, backgroundColor, color, logo }) {
+export default function Header ({ tab1, tab2, tab3, tab4, href, href2, href3, href4, hBackgroundColor, hColor, hLogo }) {
     const theme = useTheme();
 
     const style = {
-        backgroundColor: backgroundColor ? backgroundColor : theme.btnBackgroundColor,
-        color: color ? color : theme.color,
+        backgroundColor: hBackgroundColor ? hBackgroundColor : theme.hBackgroundColor,
+        color: hColor ? hColor : theme.hColor,
       };
+
+    tab1= tab1 ? tab1 : theme.tab1
+    tab2= tab2 ? tab2 : theme.tab2
+    tab3= tab3 ? tab3 : theme.tab3
+    tab4= tab4 ? tab4 : theme.tab4
+    href= href ? href : theme.href
+    href2= href2 ? href2 : theme.href2
+    href3= href3 ? href3 : theme.href3
+    href4= href4 ? href4 : theme.href4
 
     return (
         <div aria-label='header' className="topnav" style={style}>
-         {logo && <img src={logo} className="iconlogo" alt="icon" />}
-          <a className="leftnav" style={color && { color }} href={tab1[1]}>{tab1[0]}</a>
-          <a className="leftnav" style={color && { color }} href={tab2[1]}>{tab2[0]}</a>
-          <a className="rightnav" style={color && { color }} href={tab3[1]}>{tab3[0]}</a>
-          <a className="rightnav" style={color && { color }} href={tab4[1]}>{tab4[0]}</a>
+          <img src={hLogo} className="iconlogo" alt="icon" />
+          <a className="leftnav" style={{color: hColor}} href={href}>{tab1}</a>
+          <a className="leftnav" style={{color: hColor}} href={href2}>{tab2}</a>
+          <a className="rightnav" style={{color: hColor}} href={href3}>{tab3}</a>
+          <a className="rightnav" style={{color: hColor}} href={href4}>{tab4}</a>
         </div>
     )
 }
 
 Header.propTypes = {
-    tab1: PropTypes.arrayOf(PropTypes.string).isRequired,
-    tab2: PropTypes.arrayOf(PropTypes.string).isRequired,
-    tab3: PropTypes.arrayOf(PropTypes.string).isRequired,
-    tab4: PropTypes.arrayOf(PropTypes.string).isRequired,
+    tab1: PropTypes.PropTypes.string.isRequired,
+    tab2: PropTypes.PropTypes.string.isRequired,
+    tab3: PropTypes.PropTypes.string.isRequired,
+    tab4: PropTypes.PropTypes.string.isRequired,
+    href: PropTypes.PropTypes.string.isRequired,
+    href2: PropTypes.PropTypes.string.isRequired,
+    href3: PropTypes.PropTypes.string.isRequired,
+    href4: PropTypes.PropTypes.string.isRequired
+
 };
 
-Header.defaultProps = {};
+Header.defaultProps = {
+    tab1: null,
+    tab2: null, 
+    tab3: null, 
+    tab4: null,
+    href: null, 
+    href2: null,
+    href3: null, 
+    href4:null
+
+};

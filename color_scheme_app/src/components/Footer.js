@@ -2,17 +2,17 @@ import React from 'react';
 import "../styles/Footer.css"
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Footer({ label, backgroundColor, color }) {
+export default function Footer({ FooterLabel, FooterBackgroundColor, FooterTxtColor }) {
   const theme = useTheme();
 
     const style = {
-        backgroundColor: backgroundColor ? backgroundColor : theme.btnBackgroundColor,
-        color: color ? color : theme.btnTxtColor,
+        backgroundColor: FooterBackgroundColor ? FooterBackgroundColor : theme.btnBackgroundColor,
+        color: FooterTxtColor ? FooterTxtColor : theme.btnTxtColor,
     }
 
   return (
     <div className="footer" style={style}>
-        <p>{label}</p>
+        <p>{FooterLabel}</p>
     </div>
   );
 }

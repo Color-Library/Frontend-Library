@@ -48,6 +48,16 @@ const colorTheme = {
        href4: configData.THEME_COLORS.FROZEN2.href4,
        hColor: configData.THEME_COLORS.FROZEN2.hColor,
        hLogo: configData.THEME_COLORS.FROZEN2.hLogo,
+       //Form
+       formTitle: configData.THEME_COLORS.FROZEN2.formTitle,
+       formContent: configData.THEME_COLORS.FROZEN2.formContent,
+       formTxtColor: configData.THEME_COLORS.FROZEN2.formTxtColor,
+       formBorder: configData.THEME_COLORS.FROZEN2.formBorder,
+       formBorderType: configData.THEME_COLORS.FROZEN2.formBorderType,
+       onSubmit: configData.THEME_COLORS.FROZEN2.onSubmit,
+       action: configData.THEME_COLORS.FROZEN2.action,
+       method: configData.THEME_COLORS.FROZEN2.method,
+       formId: configData.THEME_COLORS.FROZEN2.formId,
 
 
     },
@@ -92,6 +102,16 @@ const colorTheme = {
        href3: configData.THEME_COLORS.SUNFLOWER1.href3,
        href4: configData.THEME_COLORS.SUNFLOWER1.href4,
        hLogo: configData.THEME_COLORS.SUNFLOWER1.hLogo,
+       //Form
+       formTitle: configData.THEME_COLORS.SUNFLOWER1.formTitle,
+       formContent: configData.THEME_COLORS.SUNFLOWER1.formContent,
+       formTxtColor: configData.THEME_COLORS.SUNFLOWER1.formTxtColor,
+       formBorder: configData.THEME_COLORS.SUNFLOWER1.formBorder,
+       formBorderType: configData.THEME_COLORS.SUNFLOWER1.formBorderType,
+       onSubmit: configData.THEME_COLORS.SUNFLOWER1.onSubmit,
+       action: configData.THEME_COLORS.SUNFLOWER1.action,
+       method: configData.THEME_COLORS.SUNFLOWER1.method,
+       formId: configData.THEME_COLORS.SUNFLOWER1.formId,
 
     },
     periwinkles1: {
@@ -136,6 +156,16 @@ const colorTheme = {
        href3: configData.THEME_COLORS.PERIWINKLES1.href3,
        href4: configData.THEME_COLORS.PERIWINKLES1.href4,
        hLogo: configData.THEME_COLORS.PERIWINKLES1.hLogo,
+       //Form
+       formTitle: configData.THEME_COLORS.PERIWINKLES1.formTitle,
+       formContent: configData.THEME_COLORS.PERIWINKLES1.formContent,
+       formTxtColor: configData.THEME_COLORS.PERIWINKLES1.formTxtColor,
+       formBorder: configData.THEME_COLORS.PERIWINKLES1.formBorder,
+       formBorderType: configData.THEME_COLORS.PERIWINKLES1.formBorderType,
+       onSubmit: configData.THEME_COLORS.PERIWINKLES1.onSubmit,
+       action: configData.THEME_COLORS.PERIWINKLES1.action,
+       method: configData.THEME_COLORS.PERIWINKLES1.method,
+       formId: configData.THEME_COLORS.PERIWINKLES1.formId,
 
     },
     spring1: {
@@ -179,6 +209,16 @@ const colorTheme = {
        href3: configData.THEME_COLORS.SPRING1.href3,
        href4: configData.THEME_COLORS.SPRING1.href4,
        hLogo: configData.THEME_COLORS.SPRING1.hLogo,
+       //Form
+       formTitle: configData.THEME_COLORS.SPRING1.formTitle,
+       formContent: configData.THEME_COLORS.SPRING1.formContent,
+       formTxtColor: configData.THEME_COLORS.SPRING1.formTxtColor,
+       formBorder: configData.THEME_COLORS.SPRING1.formBorder,
+       formBorderType: configData.THEME_COLORS.SPRING1.formBorderType,
+       onSubmit: configData.THEME_COLORS.SPRING1.onSubmit,
+       action: configData.THEME_COLORS.SPRING1.action,
+       method: configData.THEME_COLORS.SPRING1.method,
+       formId: configData.THEME_COLORS.SPRING1.formId,
 
     },
     sanjuan1: {
@@ -222,8 +262,16 @@ const colorTheme = {
        href3: configData.THEME_COLORS.SANJUAN1.href3,
        href4: configData.THEME_COLORS.SANJUAN1.href4,
        hLogo: configData.THEME_COLORS.SANJUAN1.hLogo,
-
- 
+       //Form
+       formTitle: configData.THEME_COLORS.SANJUAN1.formTitle,
+       formContent: configData.THEME_COLORS.SANJUAN1.formContent,
+       formTxtColor: configData.THEME_COLORS.SANJUAN1.formTxtColor,
+       formBorder: configData.THEME_COLORS.SANJUAN1.formBorder,
+       formBorderType: configData.THEME_COLORS.SANJUAN1.formBorderType,
+       onSubmit: configData.THEME_COLORS.SANJUAN1.onSubmit,
+       action: configData.THEME_COLORS.SANJUAN1.action,
+       method: configData.THEME_COLORS.SANJUAN1.method,
+       formId: configData.THEME_COLORS.SANJUAN1.formId,
     },
     seafoam1: {
         //button
@@ -266,7 +314,16 @@ const colorTheme = {
        href3: configData.THEME_COLORS.SEAFOAM1.href3,
        href4: configData.THEME_COLORS.SEAFOAM1.href4,
        hLogo: configData.THEME_COLORS.SEAFOAM1.hLogo,
-
+       //Form
+       formTitle: configData.THEME_COLORS.SEAFOAM1.formTitle,
+       formContent: configData.THEME_COLORS.SEAFOAM1.formContent,
+       formTxtColor: configData.THEME_COLORS.SEAFOAM1.formTxtColor,
+       formBorder: configData.THEME_COLORS.SEAFOAM1.formBorder,
+       formBorderType: configData.THEME_COLORS.SEAFOAM1.formBorderType,
+       onSubmit: configData.THEME_COLORS.SEAFOAM1.onSubmit,
+       action: configData.THEME_COLORS.SEAFOAM1.action,
+       method: configData.THEME_COLORS.SEAFOAM1.method,
+       formId: configData.THEME_COLORS.SEAFOAM1.formId,
     },
     coral1: {
         //button
@@ -309,6 +366,16 @@ const colorTheme = {
        href3: configData.THEME_COLORS.CORAL1.href3,
        href4: configData.THEME_COLORS.CORAL1.href4,
        hLogo: configData.THEME_COLORS.CORAL1.hLogo,
+       //Form
+       formTitle: configData.THEME_COLORS.CORAL1.formTitle,
+       formContent: configData.THEME_COLORS.CORAL1.formContent,
+       formTxtColor: configData.THEME_COLORS.CORAL1.formTxtColor,
+       formBorder: configData.THEME_COLORS.CORAL1.formBorder,
+       formBorderType: configData.THEME_COLORS.CORAL1.formBorderType,
+       onSubmit: configData.THEME_COLORS.CORAL1.onSubmit,
+       action: configData.THEME_COLORS.CORAL1.action,
+       method: configData.THEME_COLORS.CORAL1.method,
+       formId: configData.THEME_COLORS.CORAL1.formId,
 
     }
 }

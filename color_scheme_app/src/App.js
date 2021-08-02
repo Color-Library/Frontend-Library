@@ -8,6 +8,8 @@ import Spinner from './components/Spinner';
 import Icon from './components/Icon';
 import Dropdown from './components/Dropdown';
 import Border from './components/Border';
+import Form from './components/Form';
+
 import './App.css';
 
 function App() {
@@ -26,8 +28,8 @@ function App() {
       </div>
     </ThemeProvider> */}
     <Dropdown label="Im the dropdown"/>
-    <ThemeProvider theme="coral1">
-    <Header />
+    <ThemeProvider theme="frozen2">
+    <Form />
       <Border borderContent="NEW BORDER"/>
       <Input inputName="Email" type="text" label="Email" labelFor="Email" inputWidth="200px" inputHeight="40px"/>
       <Input inputName="Password" type="password" label="Password" labelFor="Password" inputWidth="200px" inputHeight="40px"/>

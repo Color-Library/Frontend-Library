@@ -6,9 +6,10 @@ import { useTheme } from '../context/ThemeProvider';
 export default function Header ({ tab1, tab2, tab3, tab4, href, href2, href3, href4, hBackgroundColor, hColor, hLogo }) {
     const theme = useTheme();
 
+    hColor = hColor ? hColor : theme.hColor
     const style = {
         backgroundColor: hBackgroundColor ? hBackgroundColor : theme.hBackgroundColor,
-        color: hColor ? hColor : theme.hColor,
+        color: hColor 
       };
 
     tab1= tab1 ? tab1 : theme.tab1

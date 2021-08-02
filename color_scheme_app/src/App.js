@@ -26,8 +26,8 @@ function App() {
       </div>
     </ThemeProvider> */}
     <Dropdown label="Im the dropdown"/>
-    <ThemeProvider theme="frozen2">
-    <Header href4/>
+    <ThemeProvider theme="coral1">
+    <Header />
       <Border borderContent="NEW BORDER"/>
       <Input inputName="Email" type="text" label="Email" labelFor="Email" inputWidth="200px" inputHeight="40px"/>
       <Input inputName="Password" type="password" label="Password" labelFor="Password" inputWidth="200px" inputHeight="40px"/>

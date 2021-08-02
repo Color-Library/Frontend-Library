@@ -81,7 +81,7 @@
             "imageBorder": "#B3550E"
 
         },
-        "PERWINKLES1": {
+        "PERIWINKLES1": {
             "btnLabel": "Click Me",
             "btnBackgroundColor": "#F5EFFF",
             "btnWidth":"100px",
@@ -100,8 +100,8 @@
             "tab2": "About",
             "tab3": "",
             "tab4": "Profile",
-            "hBackgroundColor": "black",
-            "hColor": "#7371FC",
+            "hBackgroundColor": "#E5D9F2",
+            "hColor": "#0703DD",
             "href": "#",
             "href2": "#",
             "href3": "#",
@@ -220,8 +220,8 @@
             "tab2": "About",
             "tab3": "",
             "tab4": "Profile",
-            "hBackgroundColor": "#E8C78E",
-            "hColor": "#B3550E",
+            "hBackgroundColor": "#1A936F",
+            "hColor": "white",
             "href": "#",
             "href2": "#",
             "href3": "#",
@@ -260,8 +260,8 @@
             "tab2": "About",
             "tab3": "",
             "tab4": "Profile",
-            "hBackgroundColor": "#E8C78E",
-            "hColor": "#B3550E",
+            "hBackgroundColor": "#F38375",
+            "hColor": "white",
             "href": "#",
             "href2": "#",
             "href3": "#",

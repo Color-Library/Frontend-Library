@@ -8,7 +8,6 @@
             "btnHeight": "40px",
             "btnBorderColor": "cyan",
 
-
             "borderBackgroundColor": "#ffffff",
             "borderOuterBorder":"#084C91",
             "borderMidBorder":"#60DBC5",
@@ -24,8 +23,6 @@
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
             "pageHeight": "90px"
-
-
         },
         "SUNFLOWER1": {
             "btnTxtColor": "#401201",

@@ -1,25 +1,38 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import "../styles/Input.css"
+import '../styles/Input.css';
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Input({inputBoxColor, inputTxtColor, inputTxtSize, txtColor, label, labelFor, type, inputName, inputWidth, inputHeight}) {
+export default function Input({inputBoxColor, inputTxtColor, inputTxtSize, txtColor, label, labelFor, type, inputName, inputWidth, inputHeight, requiredTxt }) {
     const theme = useTheme();
 
     const input = {
-        backgroundColor: inputBoxColor ? inputBoxColor : theme.btnBackgroundColor,
+        backgroundColor: 'white',
         color: inputTxtColor ? inputTxtColor : theme.btnTxtColor,
-        width: inputWidth,
-        height: inputHeight,
+        width: '20%',
+        height: '40px',
         fontSize: inputTxtSize,
-        borderRadius:'20px',
-        textAlign: 'center'
+        border: inputBoxColor ? '2px solid' + inputBoxColor : '2px solid' + theme.btnBorderColor,
+        borderRadius:'12px',
+        textAlign: 'center',
+        outline: 'none',
+    }
+
+    const required = {
+        color: 'red',
+        opacity: '60%',
+        fontSize: '12px',
     }
  
     return (
         <div>
-            <label for={labelFor}> <h4 style={{color: txtColor}}>{label}</h4></label>
-            <input style={input} name={inputName} type={type} id={labelFor}></input>
+            <label for={labelFor} style={{color: txtColor}}> 
+                {label}
+            </label>
+            <div style={required}>{requiredTxt}</div>
+            <div>
+                <input style={input} name={inputName} type={type} id={labelFor} />
+            </div>
         </div>
     );
 }

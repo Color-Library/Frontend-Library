@@ -10,7 +10,7 @@ export default function Button({ btnBackgroundColor, btnBorderColor, btnWidth, b
     backgroundColor: btnBackgroundColor ? btnBackgroundColor : theme.btnBackgroundColor,
     borderColor: btnBorderColor ? btnBorderColor : theme.btnBorderColor,
     width: btnWidth ? btnWidth : theme.btnWidth,
-    height: btnHeight ? btnHeight : theme.btnHeight 
+    height: btnHeight ? btnHeight : theme.btnHeight,
   };
 
   return (

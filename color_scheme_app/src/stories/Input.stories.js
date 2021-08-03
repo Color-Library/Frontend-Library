@@ -23,7 +23,7 @@ Frozen2.args = {  //sets initial state
     inputName: 'inputs',
     inputWidth: '300px',
     inputHeight: '45px',
-
+    requiredTxt: 'Must fill in',
 };
 
 export const Sunflower1 = Template.bind({});
@@ -38,7 +38,7 @@ Sunflower1.args = {
   inputName: 'inputs',
   inputWidth: '300px',
   inputHeight: '45px',
-
+  requiredTxt: 'Must fill in',
 };
 
 export const Periwinkles1 = Template.bind({});
@@ -53,7 +53,7 @@ Periwinkles1.args = {
   inputName: 'inputs',
   inputWidth: '300px',
   inputHeight: '45px',
-
+  requiredTxt: 'Must fill in',
 };
 
 export const Spring1 = Template.bind({});
@@ -68,7 +68,7 @@ Spring1.args = {
   inputName: 'inputs',
   inputWidth: '300px',
   inputHeight: '45px',
-
+  requiredTxt: 'Must fill in',
 };
 
 export const SanJuan1 = Template.bind({});
@@ -83,7 +83,7 @@ SanJuan1.args = {
   inputName: 'inputs',
   inputWidth: '300px',
   inputHeight: '45px',
-
+  requiredTxt: 'Must fill in',
 };
 
 export const SeaFoam1 = Template.bind({});
@@ -97,8 +97,8 @@ SeaFoam1.args = {
   type: 'text',
   inputName: 'inputs',
   inputWidth: '300px',
-  inputHeight: '45px',
-
+  inputHeight: '40px',
+  requiredTxt: 'Must fill in',
 };
 
 export const Coral1 = Template.bind({});
@@ -113,5 +113,5 @@ Coral1.args = {
   inputName: 'inputs',
   inputWidth: '300px',
   inputHeight: '45px',
-
+  requiredTxt: 'Must fill in',
 };

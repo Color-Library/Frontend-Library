@@ -12,7 +12,7 @@ export default function Footer({ label, backgroundColor, color }) {
 
   return (
     <div className="footer" style={style}>
-        <p>{label}</p>
+        <p>{label ? label : theme.label}</p>
     </div>
   );
 }

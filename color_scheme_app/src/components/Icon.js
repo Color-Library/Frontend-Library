@@ -3,16 +3,16 @@ import PropTypes from 'prop-types';
 import "../styles/Icon.css"
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Icon({ image1Link, image1Border }){
+export default function Icon({  image1Link, image1Border }){
     const theme = useTheme();
 
     const style = {
-        border: image1Border ? '10px solid'+ image1Border : '10px solid'+ theme.btnBorderColor,
+        border: '8px solid' + theme.btnBackgroundColor,
     }
 
     return(
         <div>
-           <img className='imgStyle' style={style} src={image1Link} alt="iconpic"/> <div></div>
+           <img className='imgStyle' style={style} src="https://img.icons8.com/nolan/50/iron-man.png" alt="iconpic"/> <div></div>
         </div>
     );
 }

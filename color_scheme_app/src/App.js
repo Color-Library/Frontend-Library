@@ -19,7 +19,7 @@ function App() {
       <Dropdown label="Dropdown"/>
       <br />
       <br />
-      <Input label="First Name" requiredTxt="Please fill in"/>
+      <Input label="First Name" requiredTxt="Needs to be filled in"/>
       <br />
       <Input label="Last Name" />
       <br />

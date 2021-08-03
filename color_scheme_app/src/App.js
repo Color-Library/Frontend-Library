@@ -13,7 +13,7 @@ import './App.css';
 function App() {
   return (
     <>
-    <ThemeProvider theme="frozen2">
+    <ThemeProvider theme="seafoam1">
       <Header tab1={["Home", "#"]} tab2={["About", "#"]} tab3={["About", "#"]} tab4={["About", "#"]} />
       <h1>React Component Library</h1>
       <Dropdown label="Dropdown"/>

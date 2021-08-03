@@ -7,7 +7,7 @@ export default function Dropdown({ label, backgroundColor, color }){
 
     const style = {
         backgroundColor: backgroundColor ? backgroundColor : theme.btnBackgroundColor,
-        color: color,
+        color: color ? color : theme.btnTxtColor,
         border: '2px solid' + theme.btnBorderColor,
     }
 

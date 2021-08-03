@@ -5,7 +5,7 @@ import { useTheme } from '../context/ThemeProvider';
 
 export default function Icon({  image1Link, image1Border }){
     const theme = useTheme();
-
+    imageLink = imageLink ? imageLink : theme.imageLink
     const style = {
         border: '8px solid' + theme.btnBackgroundColor,
     }
@@ -17,11 +17,11 @@ export default function Icon({  image1Link, image1Border }){
     );
 }
  Icon.propTypes = {
-     image1Link: PropTypes.string,
-     image1Border: PropTypes.string
+     imageLink: PropTypes.string,
+     imageBorder: PropTypes.string
  }
 
  Icon.defaultProps = {
-     image1Link: null,
-     image1Border: null
+     imageLink: null,
+     imageBorder: null
  }

@@ -15,6 +15,18 @@
             "borderTxtColor": "",
             "borderContent" : "Insert Content Here",
 
+            "tab1": "Home",
+            "tab2": "About",
+            "tab3": "",
+            "tab4": "Profile",
+            "hBackgroundColor": "#084C91",
+            "hColor": "#DDDDDD",
+            "href": "#",
+            "href2": "#",
+            "href3": "#",
+            "href4": "#",
+            "hLogo": "https://img.icons8.com/ios/50/000000/pokemon.png",
+
             "pageContent": "Frozen 2 Page",
             "pageBorderColor": "cyan",
             "pageBorderType": "solid",
@@ -39,6 +51,18 @@
             "borderTxtColor": "#401201",
             "borderContent" : "Insert Content Here",
 
+            "tab1": "Home",
+            "tab2": "About",
+            "tab3": "",
+            "tab4": "Profile",
+            "hBackgroundColor": "#E8C78E",
+            "hColor": "#B3550E",
+            "href": "#",
+            "href2": "#",
+            "href3": "#",
+            "href4": "#",
+            "hLogo": "https://img.icons8.com/office/50/000000/blackblood.png",
+
             "pageContent": "Sunflower 1 Page",
             "pageBorderColor": "#B3550E",
             "pageBorderType": "solid",
@@ -46,10 +70,23 @@
             "pageBoxShadow": "0px 0px 6px #B3550E",
             "pageBorderRadius":"5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#B3550E",
+
+            "formTitle": "Form Title",
+            "formContent": "Place Inputs here",
+            "formTxtColor": "#401201",
+            "formBorder": "#401201",
+            "formBorderType": "solid",
+            "onSubmit": null, 
+            "action": null, 
+            "method": null, 
+            "formId": 0
 
         },
-        "PERWINKLES1": {
+        "PERIWINKLES1": {
             "btnLabel": "Click Me",
             "btnBackgroundColor": "#F5EFFF",
             "btnWidth":"100px",
@@ -64,6 +101,18 @@
             "borderTxtColor": "#0703DD",
             "borderContent" : "Insert Content Here",
 
+            "tab1": "Home",
+            "tab2": "About",
+            "tab3": "",
+            "tab4": "Profile",
+            "hBackgroundColor": "#E5D9F2",
+            "hColor": "#0703DD",
+            "href": "#",
+            "href2": "#",
+            "href3": "#",
+            "href4": "#",
+            "hLogo": "https://img.icons8.com/office/50/000000/jake.png",
+            
             "pageContent": "Periwinkles 1 Page",
             "pageBorderColor": "#F5EFFF",
             "pageBorderType": "solid",
@@ -71,7 +120,20 @@
             "pageBoxShadow": "0px 0px 6px #7371FC",
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#7371FC",
+
+            "formTitle": "Form Title",
+            "formContent": "Place Inputs here",
+            "formTxtColor": "#7371FC",
+            "formBorder": "#7371FC",
+            "formBorderType": "solid",
+            "onSubmit": null, 
+            "action": null, 
+            "method": null, 
+            "formId": 0
 
         },
         "SPRING1": {
@@ -89,6 +151,18 @@
             "borderTxtColor": "#2E570F",
             "borderContent" : "Insert Content Here",
 
+            "tab1": "Home",
+            "tab2": "About",
+            "tab3": "Contact",
+            "tab4": "Profile",
+            "hBackgroundColor": "#9BE564",
+            "hColor": "#2E570F",
+            "href": "#",
+            "href2": "#",
+            "href3": "#",
+            "href4": "#",
+            "hLogo": "https://img.icons8.com/nolan/50/iron-man.png",
+
             "pageContent": "Spring 1 Page",
             "pageBorderColor": "#DFF977",
             "pageBorderType": "solid",
@@ -96,7 +170,20 @@
             "pageBoxShadow": "0px 0px 6px #2E570F",
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#2E570F",
+
+            "formTitle": "Form Title",
+            "formContent": "Place Inputs here",
+            "formTxtColor": "#9BE564",
+            "formBorder": "#9BE564",
+            "formBorderType": "solid",
+            "onSubmit": null, 
+            "action": null, 
+            "method": null, 
+            "formId": 0
 
         },
         "SANJUAN1": {
@@ -114,6 +201,18 @@
             "borderTxtColor": "#98002E",
             "borderContent" : "Insert Content Here",
 
+            "tab1": "Home",
+            "tab2": "About",
+            "tab3": "",
+            "tab4": "Profile",
+            "hBackgroundColor": "#E8C78E",
+            "hColor": "#B3550E",
+            "href": "#",
+            "href2": "#",
+            "href3": "#",
+            "href4": "#",
+            "hLogo": "https://img.icons8.com/office/50/000000/blackblood.png",
+
             "pageContent": "San Juan 1 Page",
             "pageBorderColor": "#D8AF02",
             "pageBorderType": "solid",
@@ -121,7 +220,20 @@
             "pageBoxShadow": "0px 0px 6px #D24A00",
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#FDCC00",
+
+            "formTitle": "Form Title",
+            "formContent": "Place Inputs here",
+            "formTxtColor": "#D24A00",
+            "formBorder": "#D24A00",
+            "formBorderType": "solid",
+            "onSubmit": null, 
+            "action": null, 
+            "method": null, 
+            "formId": 0
 
         },
         "SEAFOAM1": {
@@ -139,6 +251,18 @@
             "borderTxtColor": "#114B5F",
             "borderContent" : "Insert Content Here",
 
+            "tab1": "Home",
+            "tab2": "About",
+            "tab3": "",
+            "tab4": "Profile",
+            "hBackgroundColor": "#1A936F",
+            "hColor": "white",
+            "href": "#",
+            "href2": "#",
+            "href3": "#",
+            "href4": "#",
+            "hLogo": "https://img.icons8.com/office/50/000000/blackblood.png",
+
             "pageContent": "SeaFoam 1 Page",
             "pageBorderColor": "#88D498",
             "pageBorderType": "solid",
@@ -146,7 +270,20 @@
             "pageBoxShadow": "0px 0px 6px #1A936F",
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#88D498",
+
+            "formTitle": "Form Title",
+            "formContent": "Place Inputs here",
+            "formTxtColor": "#1A936F",
+            "formBorder": "#1A936F",
+            "formBorderType": "solid",
+            "onSubmit": null, 
+            "action": null, 
+            "method": null, 
+            "formId": 0
 
         },
         "CORAL1": {
@@ -164,6 +301,18 @@
             "borderTxtColor": "black",
             "borderContent" : "Insert Content Here",
 
+            "tab1": "Home",
+            "tab2": "About",
+            "tab3": "",
+            "tab4": "Profile",
+            "hBackgroundColor": "#F38375",
+            "hColor": "white",
+            "href": "#",
+            "href2": "#",
+            "href3": "#",
+            "href4": "#",
+            "hLogo": "https://img.icons8.com/office/50/000000/blackblood.png",
+
             "pageContent": "Coral 1 Page",
             "pageBorderColor": "#FBC3BC",
             "pageBorderType": "dotted",
@@ -171,7 +320,20 @@
             "pageBoxShadow": "0px 0px 6px #F38375",
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#EF6351",
+
+            "formTitle": "Form Title",
+            "formContent": "Place Inputs here",
+            "formTxtColor": "#F38375",
+            "formBorder": "#F38375",
+            "formBorderType": "solid",
+            "onSubmit": null, 
+            "action": null, 
+            "method": null, 
+            "formId": 0
 
         }
     }

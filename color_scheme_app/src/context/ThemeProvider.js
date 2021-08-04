@@ -396,9 +396,9 @@ function ThemeProvider({ children, theme }){
 function useTheme(){
     const context = useContext(ThemeContext);
     
-    if(!context){
-        throw new Error(`This theme either doesn't exist or is written incorrectly`);
-    }
+    // if(!context){
+    //     throw new Error(`This theme either doesn't exist or is written incorrectly`);
+    // }
     return context
 }
 

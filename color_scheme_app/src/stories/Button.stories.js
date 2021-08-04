@@ -19,7 +19,7 @@ Frozen2.args = {  //sets initial state
   btnBackgroundColor: configData.THEME_COLORS.FROZEN2.btnBackgroundColor,
   btnWidth:'100px',
   btnHeight: '40px',
-  btnTxtColor: configData.THEME_COLORS.FROZEN2.btnTxtColor,
+  btnTxtColor: 'white',
   btnBorderColor: 'cyan',
 };
 
@@ -29,7 +29,7 @@ Sunflower1.args = {  //sets initial state
   btnBackgroundColor: configData.THEME_COLORS.SUNFLOWER1.btnBackgroundColor,
   btnWidth:'100px',
   btnHeight: '40px',
-  btnTxtColor: configData.THEME_COLORS.SUNFLOWER1.btnTxtColor,
+  btnTxtColor: 'white',
   btnBorderColor: '#B3550E'
 };
 
@@ -39,7 +39,7 @@ Periwinkles1.args = {  //sets initial state
   btnBackgroundColor: configData.THEME_COLORS.PERWINKLES1.btnBackgroundColor,
   btnWidth:'100px',
   btnHeight: '40px',
-  btnTxtColor: configData.THEME_COLORS.PERWINKLES1.btnTxtColor,
+  btnTxtColor: 'white',
   btnBorderColor: '#7371FC'
 };
 
@@ -49,7 +49,7 @@ Spring1.args = {  //sets initial state
   btnBackgroundColor: '#DFF977',
   btnWidth:'100px',
   btnHeight: '40px',
-  btnTxtColor: '#2E570F',
+  btnTxtColor: 'white',
   btnBorderColor: '#2E570F'
 };
 
@@ -59,7 +59,7 @@ SanJuan1.args = {  //sets initial state
   btnBackgroundColor: '#98002E',
   btnWidth:'100px',
   btnHeight: '40px',
-  btnTxtColor: '#FDCC00',
+  btnTxtColor: 'white',
   btnBorderColor: '#D24A00'
 };
 
@@ -69,7 +69,7 @@ SeaFoam1.args = {  //sets initial state
   btnBackgroundColor: '#1A936F',
   btnWidth:'100px',
   btnHeight: '40px',
-  btnTxtColor: '#F3E9D2',
+  btnTxtColor: 'white',
   btnBorderColor: '#88D498'
 };
 
@@ -79,6 +79,6 @@ Coral1.args = {  //sets initial state
   btnBackgroundColor: '#F38375',
   btnWidth:'100px',
   btnHeight: '40px',
-  btnTxtColor: '#FFE3E0',
+  btnTxtColor: 'white',
   btnBorderColor: '#EF6351'
 };

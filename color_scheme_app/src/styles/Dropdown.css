@@ -3,12 +3,18 @@
 .dropbtn {
     /* background-color: #4CAF50; */
     /* color: white; */
-    padding: 16px;
+    padding: 10px;
     font-size: 16px;
     /* border: none; */
     cursor: pointer;
-    border-radius: 12px;
-    font-family:'Montserrat';
+    border-radius: .375rem;
+    font-family: 'Montserrat';
+    height: 40px;
+    width: 320px;
+  }
+
+  img {
+    float: right;
   }
   
   .dropdown {
@@ -20,17 +26,20 @@
     display: none;
     position: absolute;
     /* background-color: #f9f9f9; */
-    min-width: 160px;
+    /* min-width: 160px; */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    border-radius: 20px;
+    border-radius: .375rem;
+    height: 40px;
+    width: 320px;
   }
   
   .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-family: 'Montserrat';
   }
   
   .dropdown-content a:hover {background-color: #f1f1f1}

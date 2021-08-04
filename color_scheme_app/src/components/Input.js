@@ -8,20 +8,22 @@ export default function Input({inputBoxColor, inputTxtColor, inputTxtSize, txtCo
 
     const input = {
         backgroundColor: 'white',
-        color: inputTxtColor ? inputTxtColor : theme.btnTxtColor,
-        width: '20%',
+        color: 'black',
         height: '40px',
+        width: '320px',
         fontSize: inputTxtSize,
         border: inputBoxColor ? '2px solid' + inputBoxColor : '2px solid' + theme.btnBorderColor,
-        borderRadius:'12px',
+        borderRadius:'.375rem',
         textAlign: 'center',
         outline: 'none',
+        fontFamily: 'Montserrat',
     }
 
     const required = {
         color: 'red',
         opacity: '60%',
         fontSize: '12px',
+        fontFamily: 'Montserrat'
     }
  
     return (

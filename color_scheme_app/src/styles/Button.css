@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
 
 .buttonTemplate {
-    border-radius: 10px;
+    border-radius: .375rem;
     padding: 10px;
     font-family: 'Montserrat';
+    color: white;
 }
 
 .buttonTemplate :hover{

@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/Footer.css"
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Footer({ FooterLabel, FooterBackgroundColor, FooterTxtColor }) {
+export default function Footer({ footerLabel, FooterBackgroundColor, FooterTxtColor }) {
   const theme = useTheme();
 
     const style = {
@@ -12,7 +12,7 @@ export default function Footer({ FooterLabel, FooterBackgroundColor, FooterTxtCo
 
   return (
     <div className="footer" style={style}>
-        <p>{label ? label : theme.label}</p>
+        <p>{footerLabel ? footerLabel : theme.footerLabel}</p>
     </div>
   );
 }

@@ -7,13 +7,16 @@ export default function Dropdown({ label, backgroundColor, color }){
 
     const style = {
         backgroundColor: backgroundColor ? backgroundColor : theme.btnBackgroundColor,
-        color: color ? color : theme.btnTxtColor,
+        color: 'white',
         border: '2px solid' + theme.btnBorderColor,
     }
 
     return (
         <div className="dropdown">
-            <button className="dropbtn" style={style}>{label}</button>
+            <button className="dropbtn" style={style}>
+                {label}
+                <img src="https://img.icons8.com/ios/20/000000/circled-chevron-down.png"/>
+            </button>
             <div className="dropdown-content" style={{backgroundColor: theme.btnBackgroundColor}}>
                 <a href="https://react.semantic-ui.com/collections/form/#types-form">Link 1</a>
                 <a href="https://react.semantic-ui.com/collections/form/#types-form">Link 2</a>

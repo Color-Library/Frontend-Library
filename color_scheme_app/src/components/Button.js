@@ -17,7 +17,7 @@ export default function Button({ btnBackgroundColor, btnBorderColor, btnWidth, b
     <button onClick={onClick ? onClick : null}
     className="buttonTemplate"
     style={style}>
-      <text style={{color: btnTxtColor ? btnTxtColor : theme.btnTxtColor}}>{btnLabel ? btnLabel : theme.btnLabel}</text>
+      <text>{btnLabel ? btnLabel : theme.btnLabel}</text>
     </button>
   );
 }

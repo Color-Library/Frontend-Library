@@ -4,7 +4,7 @@ import { ThemeProvider } from './context/ThemeProvider';
 import Button from './components/Button';
 import Footer from './components/Footer';
 import Input from './components/Input';
-// import Spinner from './components/Spinner';
+ import Spinner from './components/Spinner';
 import Icon from './components/Icon';
 import Dropdown from './components/Dropdown';
 // import Border from './components/Border';
@@ -27,11 +27,12 @@ function App() {
       <br />
       <Input label="Last Name" requiredTxt="Not really needed"/>
       <br />
+      <Spinner />
+
       <Button />
       <br />
       <br />
       <Icon image1Link="https://img.icons8.com/nolan/50/iron-man.png" />
-      {/* <Spinner /> */}
       <Footer footerLabel="Welcome."/>
     </ThemeProvider>
     </>

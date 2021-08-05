@@ -15,7 +15,7 @@ export default function Form({formTitle, formBorder, formBorderType, formTxtColo
     formId = formId ? formId : theme.formId
 
     return (
-        <div style={{border: '20px '+formBorderType+' '+formBorder}}>
+        <div style={{border: '10px '+formBorderType+' '+formBorder, padding:'20px'}}>
            <form action={action} method={method} id={formId} onSubmit={onSubmit} className='form_template' style={{color: formTxtColor}}>
                <h2>{formTitle}</h2>
                {formContent}

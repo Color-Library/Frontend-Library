@@ -7,7 +7,7 @@ export default function Spinner({ borderTop, border }) {
 
     const style = {
         borderTop: borderTop ? "16px solid" + borderTop : "16px solid" + theme.borderBackgroundColor,
-        border: border ? "16px solid" + border : "16px solid" + theme.borderOuterBorder,
+        border: border ? "16px solid" + border : "16px solid" + theme.navy1,
     }
 
   return (

@@ -7,19 +7,16 @@ import Input from './components/Input';
 // import Spinner from './components/Spinner';
 import Icon from './components/Icon';
 import Dropdown from './components/Dropdown';
-import Breadcrumbs from './components/Breadcrumbs';
-
 // import Border from './components/Border';
 import './App.css';
 
 function App() {
   return (
     <>
-    <ThemeProvider theme="frozen2">
+    <ThemeProvider theme="seafoam1">
       {/* <Header /> */}
       <h1>React Component Library</h1>
       {/* <Pages /> */}
-      <Breadcrumbs />
       <br />
       {/* <Border /> */}
       <br />

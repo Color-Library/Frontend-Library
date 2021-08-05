@@ -12,7 +12,7 @@ export default function Button({ btnBackgroundColor, btnBorderColor, btnWidth, b
     width: btnWidth ? btnWidth : theme.btnWidth,
     height: btnHeight ? btnHeight : theme.btnHeight,
   };
-  btnTxtColor = btnTxtColor ? btnTxtColor : theme.borderOuterBorder
+  btnTxtColor = btnTxtColor ? btnTxtColor : theme.btnTxtColor
   return (
     <button onClick={onClick ? onClick : null}
     className="buttonTemplate"

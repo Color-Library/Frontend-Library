@@ -2,10 +2,10 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 import "../styles/Breadcrumbs.css"
 
-export default function Breadcrumbs({ backgroundColor, tab1, tab2, tab3, tab4 }) {
+export default function Breadcrumbs({ background, tab1, tab2, tab3, tab4 }) {
 
   const style = {
-    background: backgroundColor,
+    background: background,
   };
 
   return (

@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 import "../styles/Button.css"
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Button({ btnBackgroundColor, btnBorderColor, btnWidth, btnHeight, btnLabel, onClick, btnTxtColor }) {
+export default function Button({ btnBackgroundColor, btnBorderColor, btnWidth, btnHeight, btnLabel, onClick }) {
   const theme = useTheme();
 
   const style = {
-    backgroundColor: btnBackgroundColor ? btnBackgroundColor : theme.btnBackgroundColor,
-    borderColor: btnBorderColor ? btnBorderColor : theme.btnBorderColor,
-    width: btnWidth ? btnWidth : theme.btnWidth,
-    height: btnHeight ? btnHeight : theme.btnHeight,
+    backgroundColor: theme.btnBackgroundColor !== undefined ? theme.btnBackgroundColor : btnBackgroundColor,
+    borderColor: theme.btnBorderColor !== undefined  ? theme.btnBorderColor : btnBorderColor,
+    width: theme.btnWidth !== undefined ? theme.btnWidth : btnWidth,
+    height: theme.btnHeight !== undefined ? theme.btnHeight : btnHeight,
   };
 
   return (

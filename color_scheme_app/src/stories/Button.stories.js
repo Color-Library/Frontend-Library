@@ -10,7 +10,6 @@ export default {
   },
 };
 
-
 const Template = (args) => <Button {...args} />;
 
 export const Frozen2 = Template.bind({});

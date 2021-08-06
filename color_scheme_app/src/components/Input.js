@@ -12,7 +12,7 @@ export default function Input({inputBoxColor, inputTxtColor, inputTxtSize, txtCo
         height: inputHeight ? inputHeight : '40px',
         width: inputWidth ? inputWidth : '320px',
         fontSize: inputTxtSize ? inputTxtSize : theme.inputTxtSize,
-        border: inputBoxColor ? '2px solid ' + inputBoxColor : '2px solid ' + theme.btnBorderColor,
+        border: inputBoxColor ? '2px solid' + inputBoxColor : '2px solid' + theme.btnBorderColor,
         borderRadius:'.375rem',
         textAlign: 'center',
         outline: 'none',

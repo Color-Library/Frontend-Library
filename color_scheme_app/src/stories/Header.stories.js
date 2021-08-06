@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/Header'
+import configData from '../context/config.json'
 
 export default {
     title: 'Header',
@@ -18,10 +19,9 @@ export default {
     tab2: ['About', '#'],
     tab3: ['', ''],
     tab4: ['Profile', '#'],
-    hBackgroundColor: '#084C91',
-    hColor: "#DDDDDD",
-    href: '#',
-    hLogo: "https://img.icons8.com/ios/50/000000/pokemon.png",
+    hBackgroundColor: configData.THEME_COLORS.FROZEN2.hBackgroundColor,
+    hColor: configData.THEME_COLORS.FROZEN2.hColor,
+    hLogo: configData.THEME_COLORS.FROZEN2.hLogo,
   }
 
   export const sunflower1 = Template.bind({});
@@ -30,10 +30,9 @@ export default {
     tab2: ['About', '#'],
     tab3: ['Profile', '#'],
     tab4: ['Contact', '#'],
-    hBackgroundColor: '#E8C78E',
-    hColor: "#B3550E",
-    href: '#',
-    hLogo: "https://img.icons8.com/office/50/000000/blackblood.png",
+    hBackgroundColor: configData.THEME_COLORS.SUNFLOWER1.hBackgroundColor,
+    hColor: configData.THEME_COLORS.SUNFLOWER1.hColor,
+    hLogo: configData.THEME_COLORS.SUNFLOWER1.hLogo,
   }
 
   export const perwinkles1 = Template.bind({});
@@ -42,11 +41,9 @@ export default {
     tab2: ['About', '#'],
     tab3: ['Profile', '#'],
     tab4: ['Contact', '#'],
-    hBackgroundColor: '#E5D9F2',
-    color: 'black',
-    hColor: "#7371FC",
-    href: '#',
-    hLogo: "https://img.icons8.com/office/50/000000/jake.png",
+    hBackgroundColor: configData.THEME_COLORS.PERIWINKLES1.hBackgroundColor,
+    hColor: configData.THEME_COLORS.PERIWINKLES1.hColor,
+    hLogo: configData.THEME_COLORS.PERIWINKLES1.hLogo,
   }
 
 export const spring1 = Template.bind({});
@@ -55,8 +52,40 @@ spring1.args = {
     tab2: ['About', '#'],
     tab3: ['Profile', '#'],
     tab4: ['Contact', '#'],
-    hBackgroundColor: '#9BE564',
-    hColor: "#2E570F",
-    href: '#',
-    hLogo: "https://img.icons8.com/nolan/50/iron-man.png",
+    hBackgroundColor: configData.THEME_COLORS.SPRING1.hBackgroundColor,
+    hColor: configData.THEME_COLORS.SPRING1.hColor,
+    hLogo: configData.THEME_COLORS.SPRING1.hLogo,
 }
+
+export const SanJuan1 = Template.bind({});
+SanJuan1.args = {  //sets initial state
+  tab1: ['Home', '#'],
+    tab2: ['About', '#'],
+    tab3: ['Profile', '#'],
+    tab4: ['Contact', '#'],
+    hBackgroundColor: configData.THEME_COLORS.SANJUAN1.hBackgroundColor,
+    hColor: configData.THEME_COLORS.SANJUAN1.hColor,
+    hLogo: configData.THEME_COLORS.SANJUAN1.hLogo,
+};
+
+export const SeaFoam1 = Template.bind({});
+SeaFoam1.args = {  //sets initial state
+  tab1: ['Home', '#'],
+  tab2: ['About', '#'],
+  tab3: ['Profile', '#'],
+  tab4: ['Contact', '#'],
+  hBackgroundColor: configData.THEME_COLORS.SEAFOAM1.hBackgroundColor,
+  hColor: configData.THEME_COLORS.SEAFOAM1.hColor,
+  hLogo: configData.THEME_COLORS.SEAFOAM1.hLogo,
+};
+
+export const Coral1 = Template.bind({});
+Coral1.args = {  //sets initial state
+  tab1: ['Home', '#'],
+  tab2: ['About', '#'],
+  tab3: ['Profile', '#'],
+  tab4: ['Contact', '#'],
+  hBackgroundColor: configData.THEME_COLORS.CORAL1.hBackgroundColor,
+  hColor: configData.THEME_COLORS.CORAL1.hColor,
+  hLogo: configData.THEME_COLORS.CORAL1.hLogo,
+};

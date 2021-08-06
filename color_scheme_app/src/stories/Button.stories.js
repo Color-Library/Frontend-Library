@@ -35,7 +35,7 @@ Sunflower1.args = {  //sets initial state
 export const Periwinkles1 = Template.bind({});
 Periwinkles1.args = {  //sets initial state
   btnLabel: 'Click Me',
-  btnBackgroundColor: configData.THEME_COLORS.PERWINKLES1.btnBackgroundColor,
+  btnBackgroundColor: configData.THEME_COLORS.PERIWINKLES1.btnBackgroundColor,
   btnWidth:'100px',
   btnHeight: '40px',
   btnTxtColor: 'white',

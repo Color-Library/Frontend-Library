@@ -2,16 +2,16 @@ import React from 'react'
 import '../styles/Dropdown.css'
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Dropdown({ label, backgroundColor, color }){
+export default function Dropdown({ label, backgroundColor, textcolor, borderColor }){
     const theme = useTheme();
     const style = {
         backgroundColor: backgroundColor ? backgroundColor : theme.btnBackgroundColor,
-        color: color ? color : theme.btnTxtColor,
-        border: '2px solid ' + theme.btnBorderColor,
+        color: textcolor ? textcolor : theme.borderTxtColor,
+        border: borderColor ? '2px solid' + borderColor : '2px sold' + theme.btnBorderColor,
     }
     const itemStyle = {
         backgroundColor : backgroundColor ? backgroundColor : 'white',
-        color : color ? color : theme.btnTxtColor
+        color : textcolor ? textcolor : theme.borderTxtColor,
     }
 
     return (

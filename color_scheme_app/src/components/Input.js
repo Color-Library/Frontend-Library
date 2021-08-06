@@ -8,11 +8,11 @@ export default function Input({inputBoxColor, inputTxtColor, inputTxtSize, txtCo
 
     const input = {
         backgroundColor: 'white',
-        color: 'black',
-        height: '40px',
-        width: '320px',
-        fontSize: inputTxtSize,
-        border: inputBoxColor ? '2px solid' + inputBoxColor : '2px solid' + theme.btnBorderColor,
+        color: inputTxtColor ? inputTxtColor : theme.borderOuterBorder,
+        height: inputHeight ? inputHeight : '40px',
+        width: inputWidth ? inputWidth : '320px',
+        fontSize: inputTxtSize ? inputTxtSize : theme.inputTxtSize,
+        border: inputBoxColor ? '2px solid ' + inputBoxColor : '2px solid ' + theme.btnBorderColor,
         borderRadius:'.375rem',
         textAlign: 'center',
         outline: 'none',

@@ -12,12 +12,12 @@ export default function Button({ btnBackgroundColor, btnBorderColor, btnWidth, b
     width: theme.btnWidth !== undefined ? theme.btnWidth : btnWidth,
     height: theme.btnHeight !== undefined ? theme.btnHeight : btnHeight,
   };
-
+  btnTxtColor = btnTxtColor ? btnTxtColor : theme.btnTxtColor
   return (
     <button onClick={onClick ? onClick : null}
     className="buttonTemplate"
     style={style}>
-      <text>{btnLabel ? btnLabel : theme.btnLabel}</text>
+      <text style={{color:btnTxtColor}}>{btnLabel ? btnLabel : theme.btnLabel}</text>
     </button>
   );
 }

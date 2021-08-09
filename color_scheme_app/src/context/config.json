@@ -12,7 +12,7 @@
             "borderOuterBorder":"#084C91",
             "borderMidBorder":"#60DBC5",
             "borderInnerBorder": "#DDDDDD",
-            "borderTxtColor": "",
+            "borderTxtColor": "#04284d",
             "borderContent" : "Insert Content Here",
 
             "tab1": "Home",

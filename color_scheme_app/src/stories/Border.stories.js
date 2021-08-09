@@ -1,6 +1,7 @@
 // src/components/Button.stories.js
 import React from 'react';
 import Border from '../components/Border.js';
+import configData from '../context/config.json';
 
 export default {
   title: 'Border',
@@ -18,7 +19,7 @@ Frozen2.args = {  //sets initial state
     borderMidBorder: '#60DBC5',
     borderInnerBorder: '#DDDDDD',
     borderContent: 'This is the border content',
-    borderTxtColor: '',
+    borderTxtColor: configData.THEME_COLORS.FROZEN2.borderTxtColor,
 
 };
 

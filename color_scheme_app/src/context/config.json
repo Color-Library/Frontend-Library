@@ -12,7 +12,7 @@
             "borderOuterBorder":"#084C91",
             "borderMidBorder":"#60DBC5",
             "borderInnerBorder": "#DDDDDD",
-            "borderTxtColor": "",
+            "borderTxtColor": "black",
             "borderContent" : "Insert Content Here",
 
             "tab1": "Home",
@@ -34,7 +34,17 @@
             "pageBoxShadow": "0px 0px 6px #084C91",
             "pageBorderRadius": "5px",
             "pageWidth": "100px",
-            "pageHeight": "90px"
+            "pageHeight": "90px",
+
+            "formTitle": "Form Title",
+            "formContent": "Place Inputs here",
+            "formTxtColor": "#084C91",
+            "formBorder": "cyan",
+            "formBorderType": "dotted",
+            "onSubmit": null, 
+            "action": null, 
+            "method": null, 
+            "formId": 0
         },
         "SUNFLOWER1": {
             "btnTxtColor": "#401201",

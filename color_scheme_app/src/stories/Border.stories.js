@@ -18,7 +18,7 @@ Frozen2.args = {  //sets initial state
     borderMidBorder: '#60DBC5',
     borderInnerBorder: '#DDDDDD',
     borderContent: 'This is the border content',
-    borderTxtColor: '',
+    borderTxtColor: '#084C91',
 
 };
 

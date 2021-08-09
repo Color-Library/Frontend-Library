@@ -4,14 +4,15 @@ import { useTheme } from '../context/ThemeProvider';
 
 export default function Dropdown({ label, backgroundColor, textcolor, borderColor }){
     const theme = useTheme();
+    label=label ? label : theme.label
     const style = {
         backgroundColor: backgroundColor ? backgroundColor : theme.btnBackgroundColor,
-        color: textcolor ? textcolor : theme.borderTxtColor,
+        color: textcolor ? textcolor : theme.btnTxtColor,
         border: borderColor ? '2px solid' + borderColor : '2px sold' + theme.btnBorderColor,
     }
     const itemStyle = {
-        backgroundColor : backgroundColor ? backgroundColor : 'white',
-        color : textcolor ? textcolor : theme.borderTxtColor,
+        backgroundColor : backgroundColor ? backgroundColor : theme.btnBackgroundColor,
+        color : textcolor ? textcolor : theme.btnTxtColor,
     }
 
     return (

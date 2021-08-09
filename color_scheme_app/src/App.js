@@ -14,7 +14,7 @@ import example from './Examples/Form_Example';
 function App() {
   return (
     <>
-    <ThemeProvider theme="coral1">
+    <ThemeProvider theme="seafoam1">
       {/* <Header /> */}
       <h1>React Component Library</h1>
       {/* <Pages /> */}

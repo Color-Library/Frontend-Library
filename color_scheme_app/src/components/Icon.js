@@ -3,16 +3,16 @@ import PropTypes from 'prop-types';
 import "../styles/Icon.css"
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Icon({ image1Link, image1Border }){
+export default function Icon({ imageLink, image1Border }){
     const theme = useTheme();
-    // imageLink = image1Link ? image1Link : theme.image1Link
+    imageLink = imageLink ? imageLink : theme.imageLink
     const style = {
         border: '8px solid' + theme.btnBackgroundColor,
     }
 
     return(
         <div>
-           <img className='imgStyle' style={style} src={image1Link} alt="iconpic"/> <div></div>
+           <img className='imgStyle' style={style} src={imageLink} alt="iconpic"/> <div></div>
         </div>
     );
 }

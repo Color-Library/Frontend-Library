@@ -6,10 +6,10 @@ import Footer from './components/Footer';
 // import Input from './components/Input';
 //  import Spinner from './components/Spinner';
 // import Icon from './components/Icon';
-// import Dropdown from './components/Dropdown';
 // import Border from './components/Border';
 import './App.css';
 import Form from './components/Form'
+
 import example from './Examples/Form_Example';
 function App() {
   return (

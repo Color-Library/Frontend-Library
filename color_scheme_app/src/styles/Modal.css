@@ -1,8 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
+
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.modal {
+    /* border: 2px solid red; */
+    border-radius: .375rem;
+    padding: 10px;
+    font-family: 'Montserrat';
+    /* color: red; */
+    width: 100px;
+    height: 40px;
+}
+
 .modalDialog {
     position: fixed;
     top: 0;
@@ -17,6 +30,7 @@
     transition: opacity 100ms ease-in;
     pointer-events: none;
 }
+
 .modalDialog:target {
     opacity:1;
     pointer-events: auto;
@@ -51,6 +65,7 @@
     box-shadow: 1px 1px 3px #000;
     padding-top: 5px;
 }
-.close:hover {
+
+/* .close:hover {
     background: #fa3f6f;
-}
+} */

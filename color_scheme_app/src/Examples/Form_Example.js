@@ -12,9 +12,9 @@ const example =
     <div className='inputs'><Input label="Email" type='text'></Input></div>
     <div className='inputs'><Input label="Address" type='text'></Input></div>
     <div className='inputs'><Input label="Phone Number" type='text'></Input><br /></div>
-    <div className='inputs'><Button/></div>
+    <div className='inputs'><Button/><Modal label="More Info" />
+</div>
     <div style={{margin:'4% 49%'}}><Spinner/></div>
-    <Modal label="More Info" />
 </div>
 
 export default example

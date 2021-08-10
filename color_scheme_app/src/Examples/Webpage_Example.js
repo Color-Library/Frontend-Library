@@ -13,7 +13,8 @@ const example =
     <Header/><br/>
     <Border borderContent={heading}/>
     <div style={{margin:"30px 1px"}}><Page pageWidth="98%" pageHeight="150px"/></div>
-    <Modal label="More Info" />
+    <Modal label="More Info" name="more" content="more info modal"/>
+    <Modal label="About Info" name="info" content="2nd modal, (about info modal)" />
     <Footer footerLabel="Created by Davi and Drea"/>
 </div>
 

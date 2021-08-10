@@ -18,6 +18,7 @@ Frozen2.args = {  //sets initial state
     label: 'I am the Modal',
     color: configData.THEME_COLORS.FROZEN2.btnLabel,
     border: configData.THEME_COLORS.FROZEN2.btnBorderColor,
+    name: 'about',
 };
 
 export const Sunflower1 = Template.bind({});
@@ -27,6 +28,7 @@ Sunflower1.args = {
     label: 'I am the Modal',
     color: configData.THEME_COLORS.SUNFLOWER1.btnLabel,
     border: configData.THEME_COLORS.SUNFLOWER1.btnBorderColor,
+    name: 'about',
 };
 
 export const Periwinkles1 = Template.bind({});
@@ -36,6 +38,7 @@ Periwinkles1.args = {
     label: 'I am the Modal',
     color: configData.THEME_COLORS.PERIWINKLES1.btnLabel,
     border: configData.THEME_COLORS.PERIWINKLES1.btnBorderColor,
+    name: 'about',
 };
 
 export const Spring1 = Template.bind({});
@@ -45,6 +48,7 @@ Spring1.args = {
     label: 'I am the Modal',
     color: configData.THEME_COLORS.SPRING1.btnLabel,
     border: configData.THEME_COLORS.SPRING1.btnBorderColor,
+    name: 'about',
 };
 
 export const SanJuan1 = Template.bind({});
@@ -54,6 +58,7 @@ SanJuan1.args = {
     label: 'I am the Modal',
     color: configData.THEME_COLORS.SANJUAN1.btnLabel,
     border: configData.THEME_COLORS.SANJUAN1.btnBorderColor,
+    name: 'about',
 };
 
 export const SeaFoam1 = Template.bind({});
@@ -63,6 +68,7 @@ SeaFoam1.args = {
     label: 'I am the Modal',
     color: configData.THEME_COLORS.SEAFOAM1.btnLabel,
     border: configData.THEME_COLORS.SEAFOAM1.btnBorderColor,
+    name: 'about',
 };
 
 export const Coral1 = Template.bind({});
@@ -72,4 +78,5 @@ Coral1.args = {
     label: 'I am the Modal',
     color: configData.THEME_COLORS.CORAL1.btnLabel,
     border: configData.THEME_COLORS.CORAL1.btnBorderColor,
+    name: 'about',
 };

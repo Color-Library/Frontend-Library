@@ -1,13 +1,13 @@
 import Page from '../components/Page';
 import Footer from '../components/Footer';
 import Border from '../components/Border';
-import Icon from '../components/Icon';
-import Header from '../components/Header';
-import Modal from '../components/Modal';
+import Icon from '../components/Icon'
+import Header from '../components/Header'
+import Breadcrumbs from '../components/Breadcrumbs'
 
 //const pgContent=<Spinner/>
 const heading = 
-<div style={{textAlign:'center'}}><h1>React Component Library</h1><Icon/></div>
+<div style={{textAlign:'center'}}><h1>React Component Library</h1></div>
 const example = 
 <div>
     <Header/><br/>

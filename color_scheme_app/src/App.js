@@ -1,18 +1,18 @@
 import { ThemeProvider } from './context/ThemeProvider';
-import Breadcrumbs from './components/Breadcrumbs';
+import Modal from './components/Modal';
 import './App.css';
 import Webpage from './components/Webpage';
-import example from './Examples/Webpage_Example';
+import example1 from './Examples/Webpage_Example';
 import Form from './components/Form'
-// import example from './Examples/Form_Example';
+import example2 from './Examples/Form_Example';
 
 function App() {
   return (
     <>
-    <ThemeProvider theme="seafoam1">
+    <ThemeProvider theme="coral1">
       <br />
-      {/* <Form formContent={example}/> */}
-      <Webpage content={example}/>
+      <Form formContent={example2}/>
+      {/* <Webpage content={example1}/> */}
     </ThemeProvider>
     </>
   );

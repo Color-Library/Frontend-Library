@@ -17,7 +17,7 @@ export default function Form({formTitle, formBorder, formBorderType, formTxtColo
     return (
         <div style={{border: '10px '+formBorderType+' '+formBorder, padding:'20px'}}>
            <form action={action} method={method} id={formId} onSubmit={onSubmit} className='form_template' style={{color: formTxtColor}}>
-               <h2>{formTitle}</h2>
+               <h2 style={{textAlign:'center'}}>{formTitle}</h2>
                {formContent}
            </form>
         </div>

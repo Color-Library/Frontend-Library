@@ -1,14 +1,14 @@
 import React from 'react';
-import Pages from '../components/Pages.js';
+import Page from '../components/Page.js';
 
 export default {
-    title: 'Pages',
-    component: Pages,
+    title: 'Page',
+    component: Page,
     argTypes: {
     },
   };
 
-const Template = (args) => <Pages {...args} />;
+const Template = (args) => <Page {...args} />;
 
 export const Frozen2 = Template.bind({});
 Frozen2.args ={

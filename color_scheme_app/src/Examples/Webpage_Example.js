@@ -1,8 +1,9 @@
 import Page from '../components/Page';
 import Footer from '../components/Footer';
 import Border from '../components/Border';
-import Icon from '../components/Icon'
-import Header from '../components/Header'
+import Icon from '../components/Icon';
+import Header from '../components/Header';
+import Modal from '../components/Modal';
 
 //const pgContent=<Spinner/>
 const heading = 
@@ -12,6 +13,7 @@ const example =
     <Header/><br/>
     <Border borderContent={heading}/>
     <div style={{margin:"30px 1px"}}><Page pageWidth="98%" pageHeight="150px"/></div>
+    <Modal label="More Info" />
     <Footer footerLabel="Created by Davi and Drea"/>
 </div>
 

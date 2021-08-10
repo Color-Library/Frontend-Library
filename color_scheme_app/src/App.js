@@ -1,5 +1,5 @@
 import { ThemeProvider } from './context/ThemeProvider';
-import Breadcrumbs from './components/Breadcrumbs';
+import Modal from './components/Modal';
 import './App.css';
 import Webpage from './components/Webpage';
 import example1 from './Examples/Webpage_Example';

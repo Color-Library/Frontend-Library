@@ -1,19 +1,10 @@
 import React from 'react';
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import "../styles/Breadcrumbs.css"
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Breadcrumbs({ background, tab1, tab2, tab3, tab4, href, href2, href3, href4, color}) {
+export default function Breadcrumbs({ background, tabs, color}) {
   const theme = useTheme();
-
-  tab1= tab1 ? tab1 : theme.tab1
-  tab2= tab2 ? tab2 : theme.tab2
-  tab3= tab3 ? tab3 : theme.tab3
-  tab4= tab4 ? tab4 : theme.tab4
-//   href= href ? href : theme.href
-//   href2= href2 ? href2 : theme.href2
-//   href3= href3 ? href3 : theme.href3
-//   href4= href4 ? href4 : theme.href4
 
   const style = {
     background: background ? background : theme.btnBackgroundColor,
@@ -25,31 +16,29 @@ export default function Breadcrumbs({ background, tab1, tab2, tab3, tab4, href, 
   return (
     <div class="wrapper">
     <ul>
-        <li>
-            <a href="#">
-            <div className="icon" style={style} />
-                <p style={txtStyle}>{tab1}</p>
-            </a>
-        </li>
-        <li>
-            <a href="#">
+        {tabs.map((tab, idx) => (
+            <li key={idx}>
+                <a href="#">
                 <div className="icon" style={style} />
-                <p style={txtStyle}>{tab2}</p>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <div className="icon" style={style} />
-                <p style={txtStyle}>{tab3}</p>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <div className="icon" style={style} />
-                <p style={txtStyle}>{tab4}</p>
-            </a>
-        </li>
+                    <p style={txtStyle}>
+                        {tab.name}
+                    </p>
+                </a>
+            </li>
+        ))}
     </ul>
     </div>
   );
 }
+
+Breadcrumbs.propTypes = {
+    tabs: PropTypes.PropTypes.arrayOf(PropTypes.number).isRequired,
+};
+
+Breadcrumbs.defaultProps = {
+    tabs: [
+        {name: 'Home', link: 'https://github.com/Color-Library/Frontend-Library'},
+        {name: 'About', link: 'https://www.youtube.com/watch?v=7Gbk4h2AYVE&t=1919s'},
+        {name: 'More Info', link: 'https://reactjs.org/docs/refs-and-the-dom.html'},
+    ],
+};

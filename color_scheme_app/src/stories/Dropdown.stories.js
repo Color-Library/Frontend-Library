@@ -14,8 +14,13 @@ export default {
 const Template = (args) => <Dropdown {...args} />;
 
 export const Frozen2 = Template.bind({});
-Frozen2.args = {  //sets initial state
+Frozen2.args = {
   label: 'Hover me',
+  content: [
+    {name: 'First Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Second Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Third Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+  ],
   backgroundColor: configData.THEME_COLORS.FROZEN2.btnBackgroundColor,
   textcolor: configData.THEME_COLORS.FROZEN2.borderTxtColor,
   borderColor: '2px solid' + configData.THEME_COLORS.FROZEN2.btnBorderColor,
@@ -24,6 +29,11 @@ Frozen2.args = {  //sets initial state
 export const Sunflower1 = Template.bind({});
 Sunflower1.args = {
   label: 'Hover me',
+  content: [
+    {name: 'First Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Second Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Third Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+  ],
   backgroundColor: configData.THEME_COLORS.SUNFLOWER1.btnBackgroundColor,
   textcolor: configData.THEME_COLORS.SUNFLOWER1.borderTxtColor,
   borderColor: '2px solid' + configData.THEME_COLORS.SUNFLOWER1.btnBorderColor,
@@ -32,6 +42,11 @@ Sunflower1.args = {
 export const Periwinkles1 = Template.bind({});
 Periwinkles1.args = {
   label: 'Hover me',
+  content: [
+    {name: 'First Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Second Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Third Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+  ],
   backgroundColor: configData.THEME_COLORS.PERIWINKLES1.btnBackgroundColor,
   textcolor: configData.THEME_COLORS.PERIWINKLES1.borderTxtColor,
   borderColor: '2px solid' + configData.THEME_COLORS.PERIWINKLES1.btnBorderColor,
@@ -40,6 +55,11 @@ Periwinkles1.args = {
 export const Spring1 = Template.bind({});
 Spring1.args = {  //sets initial state
   label: 'Hover me',
+  content: [
+    {name: 'First Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Second Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Third Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+  ],
   backgroundColor: configData.THEME_COLORS.SPRING1.btnBackgroundColor,
   textcolor: configData.THEME_COLORS.SPRING1.borderTxtColor,
   borderColor: '2px solid' + configData.THEME_COLORS.SPRING1.btnBorderColor,
@@ -48,6 +68,11 @@ Spring1.args = {  //sets initial state
 export const SanJuan1 = Template.bind({});
 SanJuan1.args = {  //sets initial state
   label: 'Hover me',
+  content: [
+    {name: 'First Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Second Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Third Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+  ],
   backgroundColor: configData.THEME_COLORS.SANJUAN1.btnBackgroundColor,
   textcolor: configData.THEME_COLORS.SANJUAN1.borderTxtColor,
   borderColor: '2px solid' + configData.THEME_COLORS.SANJUAN1.btnBorderColor,
@@ -56,6 +81,11 @@ SanJuan1.args = {  //sets initial state
 export const SeaFoam1 = Template.bind({});
 SeaFoam1.args = {  //sets initial state
   label: 'Hover me',
+  content: [
+    {name: 'First Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Second Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Third Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+  ],
   backgroundColor: configData.THEME_COLORS.SEAFOAM1.btnBackgroundColor,
   textcolor: configData.THEME_COLORS.SEAFOAM1.borderTxtColor,
   borderColor: '2px solid' + configData.THEME_COLORS.SEAFOAM1.btnBorderColor,
@@ -64,7 +94,13 @@ SeaFoam1.args = {  //sets initial state
 export const Coral1 = Template.bind({});
 Coral1.args = {  //sets initial state
   label: 'Hover me',
+  content: [
+    {name: 'First Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Second Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+    {name: 'Third Link', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+  ],
   backgroundColor: configData.THEME_COLORS.CORAL1.btnBackgroundColor,
   textcolor: configData.THEME_COLORS.CORAL1.borderTxtColor,
   borderColor: '2px solid' + configData.THEME_COLORS.CORAL1.btnBorderColor,
 };
+

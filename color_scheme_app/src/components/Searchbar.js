@@ -13,7 +13,7 @@ export default function Searchbar({ inputColor }) {
   return (
     <div>
         <label for="searchbar"/>
-        <input type="text" style={style}/>
+        <input type="text" style={style} className="search-input"/>
     </div>
   );
 }

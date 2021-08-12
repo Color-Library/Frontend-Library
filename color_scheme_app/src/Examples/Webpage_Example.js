@@ -12,7 +12,11 @@ import Searchbar from '../components/Searchbar';
 // <div style={{textAlign:'center'}}><h1>React Component Library</h1></div>
 const example = 
 <>
-    <Header />
+    <Header tabs={[
+      {name: 'Home', link: 'https://github.com/Color-Library/Frontend-Library'},
+      {name: 'Feed', link: 'https://www.youtube.com/watch?v=7Gbk4h2AYVE&t=1919s'},
+      {name: 'Profile', link: 'https://reactjs.org/docs/refs-and-the-dom.html'},
+    ]}/>
     {/* <Border borderContent={heading}/>
     <div style={{margin:"30px 1px"}}><Page pageWidth="98%" pageHeight="150px"/></div> */}
     {/* <Modal label="More Info" name="more" content="more info modal"/>
@@ -21,6 +25,7 @@ const example =
     <Breadcrumbs />
     <br />
     <Searchbar />
+    <br />
     <Footer /> {/* optional: footerButton={{name: 'Footer', action: ''}} */}
 </>
 

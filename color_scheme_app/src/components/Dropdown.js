@@ -19,7 +19,7 @@ export default function Dropdown({ label, content, backgroundColor, textcolor, b
         <div className="dropdown">
             <button className="dropbtn" style={style}>
                 {label}
-                {/* <img src="https://img.icons8.com/ios/20/000000/circled-chevron-down.png" alt=""/> */}
+                <img src="https://img.icons8.com/ios/20/000000/circled-chevron-down.png" alt=""/>
             </button>
             <div className="dropdown-content" >
                 {content.map((cnt, idx) => (

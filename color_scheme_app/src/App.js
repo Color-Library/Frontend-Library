@@ -1,5 +1,5 @@
 import { ThemeProvider } from './context/ThemeProvider';
-// import Modal from './components/Modal';
+import Dropdown from './components/Dropdown';
 import './index.css';
 import Webpage from './components/Webpage';
 import example1 from './Examples/Webpage_Example';
@@ -11,8 +11,9 @@ function App() {
     <>
     <ThemeProvider theme="spring1">
       <br />
+      <Dropdown />
       {/* <Form formContent={example2}/> */}
-      <Webpage content={example1}/>
+      {/* <Webpage content={example1}/> */}
     </ThemeProvider>
     </>
   );

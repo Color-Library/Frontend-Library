@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Dropdown.css'
 import { useTheme } from '../context/ThemeProvider';
+import PropTypes from 'prop-types';
 
 export default function Dropdown({ label, content, backgroundColor, textcolor, borderColor }){
     const theme = useTheme();
@@ -31,3 +32,14 @@ export default function Dropdown({ label, content, backgroundColor, textcolor, b
         </div>
     )
 }
+Dropdown.propTypes = {
+    tabs: PropTypes.PropTypes.arrayOf(PropTypes.number).isRequired,
+};
+
+Dropdown.defaultProps = {
+    content: [
+        {name: 'Option 1', path: '#'},
+        {name: 'Option 2', path: '#'},
+        {name: 'Option 3', path: '#'},
+    ],
+};

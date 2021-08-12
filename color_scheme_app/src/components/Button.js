@@ -5,6 +5,7 @@ import { useTheme } from '../context/ThemeProvider';
 
 export default function Button({ btnBackgroundColor, btnBorderColor, btnWidth, btnHeight, btnLabel, onClick, btnTxtColor }) {
   const theme = useTheme();
+  btnTxtColor = btnTxtColor ? btnTxtColor : theme.btnTxtColor
 
   const style = {
     backgroundColor: btnBackgroundColor ? btnBackgroundColor : theme.btnBackgroundColor,
@@ -12,7 +13,6 @@ export default function Button({ btnBackgroundColor, btnBorderColor, btnWidth, b
     width: btnWidth ? btnWidth : theme.btnWidth,
     height: btnHeight ? btnHeight : theme.btnHeight,
   };
-  btnTxtColor = btnTxtColor ? btnTxtColor : theme.btnTxtColor
   return (
     <button onClick={onClick ? onClick : null}
     className="buttonTemplate"

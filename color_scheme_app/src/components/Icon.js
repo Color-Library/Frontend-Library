@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import "../styles/Icon.css"
 import { useTheme } from '../context/ThemeProvider';
 
-export default function Icon({ imageLink, image1Border }){
+export default function Icon({ imageLink }){
     const theme = useTheme();
     imageLink = imageLink ? imageLink : theme.imageLink
     const style = {

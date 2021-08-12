@@ -4,16 +4,15 @@ import { useTheme } from '../context/ThemeProvider';
 
 export default function Modal({ content, bgcolor, border, label, color, name }){
     const theme = useTheme();
-    // imageLink = image1Link ? image1Link : theme.image1Link
     const style = {
         background: bgcolor ? bgcolor : theme.btnBackgroundColor,
         border: border ? '2px solid' + border : '2px solid' + theme.btnBorderColor,
-        color: color ? color : theme.btnLabel,
+        color: color ? color : theme.btnTxtColor,
     }
 
     const exitColor = {
         background: bgcolor ? bgcolor : theme.btnBackgroundColor,
-        color: color ? color : theme.btnLabel,
+        color: color ? color : theme.btnTxtColor,
     }
 
     return (

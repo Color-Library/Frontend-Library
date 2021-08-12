@@ -7,7 +7,7 @@ export default function Icon({ imageLink }){
     const theme = useTheme();
     imageLink = imageLink ? imageLink : theme.imageLink
     const style = {
-        border: '8px solid' + theme.btnBackgroundColor,
+        border: '8px solid' + theme.formBorder,
     }
 
     return(

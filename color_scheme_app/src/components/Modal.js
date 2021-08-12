@@ -5,7 +5,7 @@ import { useTheme } from '../context/ThemeProvider';
 export default function Modal({ content, bgcolor, border, label, color, name }){
     const theme = useTheme();
     const style = {
-        background: bgcolor ? bgcolor : theme.btnBackgroundColor,
+        background: bgcolor ? bgcolor : theme.formBorder,
         border: border ? '2px solid' + border : '2px solid' + theme.btnBorderColor,
         color: color ? color : theme.btnTxtColor,
     }

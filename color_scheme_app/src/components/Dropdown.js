@@ -7,12 +7,12 @@ export default function Dropdown({ label, content, backgroundColor, textcolor, b
     const theme = useTheme();
     label=label ? label : theme.label
     const style = {
-        backgroundColor: backgroundColor ? backgroundColor : theme.btnBackgroundColor,
+        backgroundColor: backgroundColor ? backgroundColor : theme.formBorder,
         color: textcolor ? textcolor : theme.btnTxtColor,
         border: borderColor ? '2px solid' + borderColor : '2px sold' + theme.btnBorderColor,
     }
     const itemStyle = {
-        backgroundColor : backgroundColor ? backgroundColor : theme.btnBackgroundColor,
+        backgroundColor : backgroundColor ? backgroundColor : theme.formBorder,
         color : textcolor ? textcolor : theme.btnTxtColor,
     }
 
@@ -42,4 +42,5 @@ Dropdown.defaultProps = {
         {name: 'Option 2', path: '#'},
         {name: 'Option 3', path: '#'},
     ],
+    label: 'Dropdown Menu'
 };

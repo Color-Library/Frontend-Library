@@ -7,10 +7,10 @@ export default function Breadcrumbs({ background, tabs, color}) {
   const theme = useTheme();
 
   const style = {
-    background: background ? background : theme.btnBackgroundColor,
+    background: background ? background : theme.formBorder,
   };
   const txtStyle = {
-      color: color ? color : theme.borderOuterBorder
+      color: color ? color : theme.btnTxtColor
   }
 
   return (

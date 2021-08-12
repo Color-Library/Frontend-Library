@@ -6,7 +6,7 @@
             "btnWidth":"100px",
             "btnLabel": "Click Me",
             "btnHeight": "40px",
-            "btnBorderColor": "cyan",
+            "btnBorderColor": "#60DBC5",
 
             "borderBackgroundColor": "#ffffff",
             "borderOuterBorder":"#084C91",
@@ -198,7 +198,7 @@
         },
         "SANJUAN1": {
             "btnLabel": "Click Me",
-            "btnBackgroundColor": "#98002E",
+            "btnBackgroundColor": "#D24A00",
             "btnWidth": "100px",
             "btnHeight": "40px",
             "btnTxtColor": "#FDCC00",

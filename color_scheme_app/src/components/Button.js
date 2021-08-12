@@ -36,9 +36,9 @@ Button.defaultProps = {
   btnLabel: 'Click Me',
   btnWidth: '100px',
   btnHeight: '40px',
-  btnBorderColor: 'black',
-  btnBackgroundColor: 'black',
-  btnTxtColor: 'white',
+  btnBorderColor: null,
+  btnBackgroundColor: null,
+  btnTxtColor: null,
   onClick: null,
 };
 

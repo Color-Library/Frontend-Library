@@ -33,11 +33,13 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  btnLabel: null,
-  btnWidth: null,
-  btnHeight: null,
-  btnBorderColor: null,
-  btnBackgroundColor: null,
-  btnTxtColor: null,
-  onClick: undefined,
+  btnLabel: 'Click Me',
+  btnWidth: '100px',
+  btnHeight: '40px',
+  btnBorderColor: 'black',
+  btnBackgroundColor: 'black',
+  btnTxtColor: 'white',
+  onClick: null,
 };
+
+

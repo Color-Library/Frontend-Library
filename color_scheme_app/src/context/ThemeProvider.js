@@ -4,10 +4,6 @@ import { useContext } from 'react';
 
 //Buttons, Pages, Icons, Footers, Spinners
 const colorTheme = {
-    tester: {
-        color: 'red',
-        backgroundColor: 'red',
-    },
     frozen2: {
         //button
         btnTxtColor: configData.THEME_COLORS.FROZEN2.btnTxtColor,
@@ -58,8 +54,6 @@ const colorTheme = {
        action: configData.THEME_COLORS.FROZEN2.action,
        method: configData.THEME_COLORS.FROZEN2.method,
        formId: configData.THEME_COLORS.FROZEN2.formId,
-
-
     },
     sunflower1: {
         //button

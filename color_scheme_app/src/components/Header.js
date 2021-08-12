@@ -1,35 +1,43 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import "../styles/Header.css";
+// import Searchbar from '../components/Searchbar';
 import { useTheme } from '../context/ThemeProvider';
 
 export default function Header ({ tabs, hBackgroundColor, hColor, hLogo }) {
     const theme = useTheme();
 
-    hColor = hColor ? hColor : theme.hColor
     const style = {
         backgroundColor: hBackgroundColor ? hBackgroundColor : theme.hBackgroundColor,
-        color: hColor 
+        color: hColor ? hColor : theme.hColor
       };
 
-    hLogo = hLogo ? hLogo : theme.hLogo
-
     return (
-        <div aria-label='header' className="topnav" style={style}>
-          <img src={hLogo} className="iconlogo" alt="icon" />
-          {tabs.map((tab, indx) => (
-            <a className="leftnav" style={{color: hColor}} href={tab.link} key={indx}>
-                {tab.name}
-            </a>
-          ))}
-          {/*
-          <a className="rightnav" style={{color: hColor}} href={tab4[1]}>{tab4[0]}</a> */}
-        </div>
+        <header style={style}>
+            {hLogo ? <img src={hLogo} className="logo" alt="icon" /> : null}
+            <input type="checkbox" id="nav-toggle" className="nav-toggle"/>
+            <nav>
+                <ul>
+                {tabs.map((tab, indx) => (
+                    <li>
+                        <a href={tab.link} style={{color: hColor}} key={indx}>
+                            {tab.name}
+                        </a>
+                    </li>
+                ))}
+                </ul>
+            </nav>
+            {/* <Searchbar /> */}
+            <label for="nav-toggle" className="nav-toggle-label">
+            <span/>
+            </label>
+      </header>
     )
 }
 
 Header.propTypes = {
-    tabs: PropTypes.PropTypes.arrayOf(PropTypes.number).isRequired,
+    tabs: PropTypes.PropTypes.arrayOf(PropTypes.object).isRequired,
+    hLogo: PropTypes.string.isRequired,
 };
 
 Header.defaultProps = {
@@ -39,4 +47,5 @@ Header.defaultProps = {
         {name: 'Profile', link: '#'},
         {name: 'Contact', link: '#'}
     ],
+    hLogo: 'https://img.icons8.com/nolan/50/iron-man.png',
 };

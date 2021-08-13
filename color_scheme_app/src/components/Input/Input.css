@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
+
+div {
+    font-family: 'Abril Fatface';
+}
+
+.inputstyle {
+    background-color: 'black';
+    border-radius: .375rem;
+    text-align: 'center';
+    outline: 'none';
+    font-family: 'Montserrat';
+    /* border: '1px solid blue'; */
+    height: 45px;
+    width: 300px;
+}
+
+.required {
+    color: 'red';
+    opacity: '60%';
+    font-size: '6px';
+    font-family: 'Montserrat';
+}

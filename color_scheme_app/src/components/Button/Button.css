@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
+
+.buttonTemplate {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    border: 0;
+    border-radius: .3em;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+}
+
+.buttonTemplate--small {
+    font-size: 12px;
+    padding: 10px 16px;
+  }
+  .buttonTemplate--medium {
+    font-size: 14px;
+    padding: 11px 20px;
+  }
+  .buttonTemplate--large {
+    font-size: 16px;
+    padding: 12px 24px;
+  }

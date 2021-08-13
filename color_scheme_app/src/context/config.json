@@ -6,7 +6,7 @@
             "btnWidth":"100px",
             "btnLabel": "Click Me",
             "btnHeight": "40px",
-            "btnBorderColor": "#60DBC5",
+            "btnBorderColor": "cyan",
 
             "borderBackgroundColor": "#ffffff",
             "borderOuterBorder":"#084C91",
@@ -28,7 +28,7 @@
             "hLogo": "https://img.icons8.com/ios/50/000000/pokemon.png",
 
             "pageContent": "Frozen 2 Page",
-            "pageBorderColor": "#60DBC5",
+            "pageBorderColor": "cyan",
             "pageBorderType": "solid",
             "pagePadding": "10px",
             "pageBoxShadow": "0px 0px 6px #084C91",
@@ -36,10 +36,13 @@
             "pageWidth": "100px",
             "pageHeight": "90px",
 
+            "imageLink":"https://img.icons8.com/nolan/50/iron-man.png",
+            "imageBorder": "#B3550E",
+
             "formTitle": "Form Title",
             "formContent": "Place Inputs here",
             "formTxtColor": "#084C91",
-            "formBorder": "#60DBC5",
+            "formBorder": "cyan",
             "formBorderType": "dotted",
             "onSubmit": null, 
             "action": null, 
@@ -74,7 +77,7 @@
             "hLogo": "https://img.icons8.com/office/50/000000/blackblood.png",
 
             "pageContent": "Sunflower 1 Page",
-            "pageBorderColor": "#F28705",
+            "pageBorderColor": "#B3550E",
             "pageBorderType": "solid",
             "pagePadding": "10px",
             "pageBoxShadow": "0px 0px 6px #B3550E",
@@ -88,7 +91,7 @@
             "formTitle": "Form Title",
             "formContent": "Place Inputs here",
             "formTxtColor": "#401201",
-            "formBorder": "#F28705",
+            "formBorder": "#401201",
             "formBorderType": "solid",
             "onSubmit": null, 
             "action": null, 
@@ -138,7 +141,7 @@
             "formTitle": "Form Title",
             "formContent": "Place Inputs here",
             "formTxtColor": "#7371FC",
-            "formBorder": "#E5D9F2",
+            "formBorder": "#7371FC",
             "formBorderType": "solid",
             "onSubmit": null, 
             "action": null, 
@@ -198,7 +201,7 @@
         },
         "SANJUAN1": {
             "btnLabel": "Click Me",
-            "btnBackgroundColor": "#D24A00",
+            "btnBackgroundColor": "#98002E",
             "btnWidth": "100px",
             "btnHeight": "40px",
             "btnTxtColor": "#FDCC00",
@@ -251,7 +254,7 @@
             "btnBackgroundColor": "#1A936F",
             "btnWidth":"100px",
             "btnHeight": "40px",
-            "btnTxtColor": "#88D498",
+            "btnTxtColor": "#F3E9D2",
             "btnBorderColor": "#88D498",
 
             "borderBackgroundColor": "white",
@@ -298,10 +301,10 @@
         },
         "CORAL1": {
             "btnLabel": "Click Me",
-            "btnBackgroundColor": "#FBC3BC",
+            "btnBackgroundColor": "#F38375",
             "btnWidth":"100px",
             "btnHeight": "40px",
-            "btnTxtColor": "black",
+            "btnTxtColor": "#FFE3E0",
             "btnBorderColor": "#EF6351",
 
             "borderBackgroundColor": "#FFE3E0",

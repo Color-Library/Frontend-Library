@@ -8,7 +8,7 @@ import example2 from './Examples/Form_Example';
 function App() {
   return (
     <>
-    <ThemeProvider theme="sanjuan1">
+    <ThemeProvider theme="seafoam1">
       <br />
       {/* <Form formContent={example2}/> */}
       <Webpage content={example1}/>

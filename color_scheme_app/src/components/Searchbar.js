@@ -7,7 +7,7 @@ export default function Searchbar({ inputColor }) {
   const theme = useTheme();
 
   const style = {
-    border: inputColor ? `1px solid ${inputColor}`: `1px solid ${theme.btnBorderColor}`,
+    border: inputColor ? '2px solid '+inputColor : '2px solid '+theme.btnBorderColor
   };
 
   return (
@@ -23,7 +23,7 @@ Searchbar.propTypes = {
 };
 
 Searchbar.defaultProps = {
-    inputColor: '1px solid cyan',
+    inputColor: null,
 };
 
 

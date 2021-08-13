@@ -17,7 +17,7 @@ export default function Footer({
 
     const style = {
         backgroundColor: FooterBackgroundColor ? FooterBackgroundColor : theme.hBackgroundColor,
-        color: FooterTxtColor ? FooterTxtColor : theme.btnTxtColor,
+        color: FooterTxtColor ? FooterTxtColor : 'white',
     }
 
   return (

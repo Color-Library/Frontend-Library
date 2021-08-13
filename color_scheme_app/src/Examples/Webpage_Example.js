@@ -21,14 +21,17 @@ const example =
 <Modal label="More Info" name="more" content="more info modal"/><br/>
     <br/>
     <Dropdown/>
+    <br />
+    <br/>
     <Spinner/>
     <br/>
     <Button />
     <br/>
+    <br/>
     <Breadcrumbs />
     <br />
-        <br/>
-    <Footer /> {/* optional: footerButton={{name: 'Footer', action: ''}} */}
+    <br/>
+    <Footer FooterTxtColor='red'/> {/* optional: footerButton={{name: 'Footer', action: ''}} */}
 </>
 
 export default example

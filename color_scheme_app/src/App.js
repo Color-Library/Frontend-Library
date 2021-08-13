@@ -10,8 +10,8 @@ function App() {
     <>
     <ThemeProvider theme="sanjuan1">
       <br />
-      <Form formContent={example2}/>
-      {/* <Webpage content={example1}/> */}
+      {/* <Form formContent={example2}/> */}
+      <Webpage content={example1}/>
     </ThemeProvider>
     </>
   );

@@ -1,5 +1,5 @@
 {
-  "name": "color_scheme_app",
+  "name": "color_scheme_library",
   "version": "0.1.1",
   "description": "Color themed React component library for UI",
   "private": false,

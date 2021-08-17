@@ -1,6 +1,6 @@
 import React from 'react'
 import './Dropdown.css'
-// import { useTheme } from '../../context/ThemeProvider';
+import { useTheme } from '../../context/ThemeProvider';
 
 type content = [
     {name?: string, path?: string},
@@ -10,28 +10,32 @@ type content = [
 
 export interface DropdownProps {
     label?: string,
-    content: content,
-    backgroundColor: string,
+    content?: content,
+    backgroundColor?: string,
     textcolor?: string,
-    borderColor: string,
+    borderColor?: string,
 }
 
 const Dropdown = ({
-    label,
-    content,
+    label = 'Dropdown',
+    content = [
+        {name: 'Home', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+        {name: 'About', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+        {name: 'More Info', path: 'https://react.semantic-ui.com/collections/form/#types-form'},
+      ],
     backgroundColor,
     textcolor,
     borderColor
 }: DropdownProps) => {
-    // const theme = useTheme();
+    const theme = useTheme();
     const style = {
-        backgroundColor: backgroundColor,
-        color: textcolor,
-        border: borderColor,
+        backgroundColor: backgroundColor ? backgroundColor : theme.formBorder,
+        color: textcolor ? textcolor : theme.btnTxtColor,
+        border: borderColor ? '2px solid' + borderColor : '2px solid' + theme.btnBorderColor,
     }
     const itemStyle = {
-        backgroundColor: backgroundColor,
-        color: textcolor,
+        backgroundColor : backgroundColor ? backgroundColor : theme.formBorder,
+        color : textcolor ? textcolor : theme.btnTxtColor,
     }
 
     return (

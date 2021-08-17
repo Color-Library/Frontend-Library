@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../Button/Button';
 import "./Footer.css"
-// import { useTheme } from '../../context/ThemeProvider';
+import { useTheme } from '../../context/ThemeProvider';
 
 type subitems = [
   {name?: string, path?: string},
@@ -25,7 +25,7 @@ type content = [
   ]
 
 export interface FooterProps {
-  content: content,
+  content?: content,
   FooterLabel?: string,
   FooterBackgroundColor?: string,
   FooterTxtColor?: string,
@@ -35,19 +35,44 @@ export interface FooterProps {
 }
 
 const Footer = ({
-  FooterLabel,
+  FooterLabel = "Diva Component Library",
   FooterBackgroundColor,
   FooterTxtColor,
-  Copyright,
-  info = {name: 'contact', text: '500 Mercedes LVL, BLK, 2217'},
-  content,
+  Copyright = "2021. Drea & Davi Capstone Project",
+  info = {name: 'contact', text: '500 MARCY LAB, BLM, 2019'},
+  content = [
+    {
+      name: 'Media',
+      subItems: [
+          {name: 'Online', path: 'https://github.com/Color-Library/Frontend-Library/blob/dev/color_scheme_app/src/styles/Footer.css'},
+          {name: 'Print', path: 'https://github.com/Color-Library/Frontend-Library/blob/dev/color_scheme_app/src/styles/Footer.css'},
+          {name: 'Alternate', path: 'https://github.com/Color-Library/Frontend-Library/blob/dev/color_scheme_app/src/styles/Footer.css'},
+      ]
+  },
+  {
+      name: 'News',
+      subItems: [
+          {name: 'More info', path: 'https://github.com/Color-Library/Frontend-Library/blob/dev/color_scheme_app/src/styles/Footer.css'},
+          {name: 'Location', path: 'https://github.com/Color-Library/Frontend-Library/blob/dev/color_scheme_app/src/styles/Footer.css'},
+          {name: 'Systems', path: 'https://github.com/Color-Library/Frontend-Library/blob/dev/color_scheme_app/src/styles/Footer.css'},
+      ]
+  },
+  {
+      name: 'Bulls Eys',
+      subItems: [
+          {name: 'More info', path: 'https://github.com/Color-Library/Frontend-Library/blob/dev/color_scheme_app/src/styles/Footer.css'},
+          {name: 'Location', path: 'https://github.com/Color-Library/Frontend-Library/blob/dev/color_scheme_app/src/styles/Footer.css'},
+          {name: 'Systems', path: 'https://github.com/Color-Library/Frontend-Library/blob/dev/color_scheme_app/src/styles/Footer.css'},
+      ]
+  },
+  ],
   footerButton =  {name: 'Button', action: ''},
 }: FooterProps) => {
-  // const theme = useTheme();
+  const theme = useTheme();
 
     const style = {
-        backgroundColor: FooterBackgroundColor,
-        color: FooterTxtColor,
+        backgroundColor: FooterBackgroundColor ? FooterBackgroundColor : theme.hBackgroundColor,
+        color: FooterTxtColor ? FooterTxtColor : 'white',
     }
 
   return (
@@ -60,7 +85,7 @@ const Footer = ({
       <p className="text">
         {info.text}<br/>
       </p>
-      {footerButton ?  <Button label={footerButton.name}/> : null}
+      {footerButton ? <> <br /> <Button label={footerButton.name} backgroundColor="black"/> </> : null}
     </div>
     
     <ul className="footer__nav">

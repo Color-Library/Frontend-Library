@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Border.css";
-// import { useTheme } from '../../context/ThemeProvider';
+import { useTheme } from '../../context/ThemeProvider';
 
 export interface BorderProps {
     borderBackgroundColor?: string,
@@ -16,11 +16,14 @@ const Border = ({
     borderOuterBorder,
     borderMidBorder,
     borderInnerBorder,
-    borderContent,
+    borderContent = 'insert content here',
     borderTxtColor,
 }: BorderProps) => {
-    // const theme = useTheme();
-
+    const theme = useTheme();
+    borderOuterBorder=borderOuterBorder ? borderOuterBorder : theme.borderOuterBorder
+    borderMidBorder=borderMidBorder ? borderMidBorder : theme.borderMidBorder
+    borderInnerBorder=borderInnerBorder ? borderInnerBorder : theme.borderInnerBorder
+    borderTxtColor=borderTxtColor ? borderTxtColor : theme.borderTxtColor
     return (
         <div style={{border: '35px solid '+borderOuterBorder, borderLeft:'50px solid '+borderOuterBorder, borderRight:'50px solid '+borderOuterBorder, backgroundColor:borderBackgroundColor}}>
             <div style={{border: '25px solid'+borderMidBorder, borderLeft:'50px solid'+borderMidBorder, borderRight:'50px solid'+borderMidBorder}}>

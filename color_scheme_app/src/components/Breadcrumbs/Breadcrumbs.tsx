@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Breadcrumbs.css";
-// import { useTheme } from '../../context/ThemeProvider';
+import { useTheme } from '../../context/ThemeProvider';
 
 type tabs = [
     {name?: string, link?: string},
@@ -12,7 +12,7 @@ export interface BreadcrumbsProps {
     tabs?: tabs,
     hBackgroundColor?: string,
     background?: string,
-    color: string,
+    color?: string,
 }
 
 const Breadcrumbs = ({
@@ -22,15 +22,15 @@ const Breadcrumbs = ({
         {name: 'More Info', link: 'https://reactjs.org/docs/refs-and-the-dom.html'},
     ],
     background,
-    color,
+    color = 'black',
 }: BreadcrumbsProps) => {
-//   const theme = useTheme();
+  const theme = useTheme();
 
   const style = {
-    background: background,
+    background: background ? background : theme.formBorder,
   };
   const txtStyle = {
-      color: color,
+      color: color ? color : theme.btnTxtColor,
   }
 
   return (

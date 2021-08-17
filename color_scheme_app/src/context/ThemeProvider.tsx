@@ -1,10 +1,9 @@
 import React, { useContext } from 'react';
 import ThemeContext from './ThemeContext';
 import configData from './config.json';
-//Buttons, Pages, Icons, Footers, Spinners
 
 type colorThemeProps = {
-    [key: string]: {[key: string]: string | number}
+    [key: string]: {[key: string]: any}
 }
 
 const colorTheme: colorThemeProps = {
@@ -34,8 +33,8 @@ const colorTheme: colorThemeProps = {
         pageHeight: configData.THEME_COLORS.FROZEN2.pageHeight,
         pageWidth: configData.THEME_COLORS.FROZEN2.pageWidth,
        //Icon
-    //    ImageLink: configData.THEME_COLORS.FROZEN2.imageLink,
-    //    ImageBorder: configData.THEME_COLORS.FROZEN2.imageBorder,
+       ImageLink: configData.THEME_COLORS.FROZEN2.imageLink,
+       ImageBorder: configData.THEME_COLORS.FROZEN2.imageBorder,
        //Header
        hBackgroundColor: configData.THEME_COLORS.FROZEN2.hBackgroundColor,
        hColor: configData.THEME_COLORS.FROZEN2.hColor,
@@ -318,7 +317,6 @@ const colorTheme: colorThemeProps = {
        action: configData.THEME_COLORS.CORAL1.action,
        method: configData.THEME_COLORS.CORAL1.method,
        formId: configData.THEME_COLORS.CORAL1.formId,
-
     }
 }
 

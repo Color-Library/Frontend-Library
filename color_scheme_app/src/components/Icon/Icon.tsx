@@ -1,19 +1,22 @@
 import React from 'react';
 import "./Icon.css"
-// import { useTheme } from '../../context/ThemeProvider';
+import { useTheme } from '../../context/ThemeProvider';
 
 export interface IconProps {
     imageLink?: string,
-    image1Border?: string,
+    imageBorder?: string,
 }
 
 const Icon = ({
-    imageLink,
-    image1Border,
+    imageBorder,
+    imageLink = 'https://img.icons8.com/nolan/50/iron-man.png',
 }: IconProps) => {
-    // const theme = useTheme();
+    const theme = useTheme();
+
+    imageBorder=imageBorder ? imageBorder : theme.imageBorder
+
     const style = {
-        border: '10px solid' + image1Border,
+        border: '10px solid' +imageBorder,
     }
 
     return(

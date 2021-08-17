@@ -1,7 +1,9 @@
 {
   "name": "color_scheme_app",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.4",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
+  "types": "lib/index.d.ts",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -15,12 +17,14 @@
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^27.0.1",
     "@types/node": "^16.6.1",
-    "@types/react": "^17.0.17",
+    "@types/react": "^17.0.18",
     "@types/react-dom": "^17.0.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "typescript": "^4.2.5",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-multi-input": "^1.3.1",
+    "typescript": "^4.3.5",
     "web-vitals": "^1.0.1"
   },
   "peerDependencies": {
@@ -29,12 +33,15 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "build": "rollup -c"
   },
+  "files": [
+    "/lib"
+ ],
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -65,11 +72,18 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.14.8",
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
     "@storybook/addon-actions": "^6.3.5",
     "@storybook/addon-essentials": "^6.3.5",
     "@storybook/addon-links": "^6.3.5",
     "@storybook/node-logger": "^6.3.5",
     "@storybook/preset-create-react-app": "^3.2.0",
-    "@storybook/react": "^6.3.5"
+    "@storybook/react": "^6.3.5",
+    "postcss": "^8.3.6",
+    "rollup": "^2.56.2",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-typescript2": "^0.30.0"
   }
 }

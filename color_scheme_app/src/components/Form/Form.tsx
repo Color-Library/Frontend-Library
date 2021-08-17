@@ -1,5 +1,5 @@
 import React from 'react';
-// import { useTheme } from '../../context/ThemeProvider';
+import { useTheme } from '../../context/ThemeProvider';
 
 export interface FormProps {
     formTitle?: string,
@@ -24,7 +24,16 @@ const Form = ({
     method,
     formId,
 }: FormProps) => {
-    // const theme = useTheme();
+    const theme = useTheme();
+    formTitle = formTitle ? formTitle : theme.formTitle
+    formBorder = formBorder ? formBorder : theme.formBorder
+    formBorderType = formBorderType ? formBorderType : theme.formBorderType
+    formTxtColor = formTxtColor ? formTxtColor : theme.formTxtColor
+    formContent = formContent ? formContent : theme.formContent
+    onSubmit = onSubmit ? onSubmit : theme.onSubmit
+    action = action ? action : theme.action
+    method = method ? method : theme.method
+    formId = formId ? formId : theme.formId
     return (
         <div style={{border: '10px '+formBorderType+' '+formBorder, padding:'20px'}}>
            <form action={action} method={method} id={formId} onSubmit={onSubmit} className='form_template' style={{color: formTxtColor}}>

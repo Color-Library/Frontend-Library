@@ -31,7 +31,6 @@ Sunflower1.args = {
   borderInnerBorder: '#F28705',
   borderContent: 'This is the border content',
   borderTxtColor: '#401201',
-
 };
 
 export const Periwinkles1 = Template.bind({});
@@ -42,7 +41,6 @@ Periwinkles1.args = {
   borderInnerBorder: '#A594F9',
   borderContent: 'This is the border content',
   borderTxtColor: '#0703DD',
-
 };
 
 export const Spring1 = Template.bind({});
@@ -53,8 +51,6 @@ Spring1.args = {
   borderInnerBorder: '#9BE564',
   borderContent: 'This is the border content',
   borderTxtColor: '#2E570F',
-
-
 };
 
 export const SanJuan1 = Template.bind({});
@@ -75,7 +71,6 @@ SeaFoam1.args = {
   borderInnerBorder: '#88D498',
   borderContent: 'This is the border content',
   borderTxtColor: '#114B5F',
-
 };
 
 export const Coral1 = Template.bind({});
@@ -86,5 +81,4 @@ Coral1.args = {
   borderInnerBorder: '#FBC3BC',
   borderContent: 'This is the border content',
   borderTxtColor: 'black',
-
 };

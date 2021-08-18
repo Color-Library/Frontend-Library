@@ -1,4 +1,3 @@
-import React from 'react';
 import "./Border.css";
 import { useTheme } from '../../context/ThemeProvider';
 
@@ -16,11 +15,11 @@ const Border = ({
     borderOuterBorder,
     borderMidBorder,
     borderInnerBorder,
-    borderContent = 'insert content here',
+    borderContent = 'content goes in here',
     borderTxtColor,
 }: BorderProps) => {
     const theme = useTheme();
-    borderOuterBorder=borderOuterBorder ? borderOuterBorder : theme.borderOuterBorder
+    borderOuterBorder = borderOuterBorder ? borderOuterBorder : theme.btnBackgroundColor
     borderMidBorder=borderMidBorder ? borderMidBorder : theme.borderMidBorder
     borderInnerBorder=borderInnerBorder ? borderInnerBorder : theme.borderInnerBorder
     borderTxtColor=borderTxtColor ? borderTxtColor : theme.borderTxtColor

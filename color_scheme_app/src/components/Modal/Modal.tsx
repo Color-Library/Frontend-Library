@@ -1,34 +1,33 @@
-import React from 'react';
 import "./Modal.css"
-// import { useTheme } from '../../context/ThemeProvider';
+import { useTheme } from '../../context/ThemeProvider';
 
 export interface ModalProps {
-    content?: string,
+    content?: any,
     bgcolor?: string,
     label?: string,
     color?: string,
     border?: string,
-    name?: string,
+    name: string,
 }
 
 const Modal = ({
-    content,
+    content = 'content goes here',
     bgcolor,
     border,
     label,
     color,
     name
 }: ModalProps) => {
-    // const theme = useTheme();
+    const theme = useTheme();
     const style = {
-        background: bgcolor,
-        border: '2px solid' + border,
-        color: color,
+        background: bgcolor ? bgcolor : theme.btnBackgroundColor,
+        border: border ? '2px solid' + border : theme.btnBorderColor,
+        color: color ? color : theme.btnTxtColor,
     }
 
     const exitColor = {
-        background: bgcolor,
-        color: color,
+        background: bgcolor ? bgcolor : theme.btnBackgroundColor,
+        color: color ? color : theme.btnTxtColor,
     }
 
     return (

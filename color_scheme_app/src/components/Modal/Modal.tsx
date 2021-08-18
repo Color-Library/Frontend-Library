@@ -14,9 +14,9 @@ const Modal = ({
     content = 'content goes here',
     bgcolor,
     border,
-    label,
+    label = 'Modal',
     color,
-    name
+    name 
 }: ModalProps) => {
     const theme = useTheme();
     const style = {

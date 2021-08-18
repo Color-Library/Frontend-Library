@@ -1,4 +1,3 @@
-import React from 'react';
 import "./Icon.css"
 import { useTheme } from '../../context/ThemeProvider';
 
@@ -13,10 +12,8 @@ const Icon = ({
 }: IconProps) => {
     const theme = useTheme();
 
-    imageBorder=imageBorder ? imageBorder : theme.imageBorder
-
     const style = {
-        border: '10px solid' +imageBorder,
+        border: imageBorder ? '10px solid' + imageBorder : '10px solid' + theme.btnBackgroundColor,
     }
 
     return(

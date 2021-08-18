@@ -1,36 +1,32 @@
-import React from 'react';
 import './Input.css';
-// import { useTheme } from '../../context/ThemeProvider';
+import { useTheme } from '../../context/ThemeProvider';
 
 export interface InputProps {
     inputBoxColor?: string,
     inputTxtColor?: string,
-    inputTxtSize?: string,
     txtColor?: string,
-    label?: string,
-    labelFor?: string,
-    type?: string,
-    inputName?: string,
+    label: string,
+    labelFor: string,
+    type: string,
+    inputName: string,
     requiredTxt?: string,
 }
 
 const Input = ({
     inputBoxColor,
     inputTxtColor,
-    inputTxtSize,
     txtColor,
-    label,
-    labelFor,
-    type,
-    inputName,
-    requiredTxt,
+    label = 'Username',
+    labelFor = "username",
+    type = 'text',
+    inputName = 'username',
+    requiredTxt = 'this is a required field',
 }: InputProps) => {
-    // const theme = useTheme();
+    const theme = useTheme();
 
     const style = {
-        color: inputTxtColor,
-        fontSize: inputTxtSize,
-        border: inputBoxColor,
+        color: inputTxtColor ? inputTxtColor : theme.btnTxtColor,
+        border: inputBoxColor ? inputBoxColor : theme.btnBackgroundColor,
     }
  
     return (

@@ -18,7 +18,7 @@ const Button = ({
   color,
   size = "medium",
   onClick,
-  label,
+  label = "Button",
 }: ButtonProps) => {
   const theme = useTheme();
   const style = {

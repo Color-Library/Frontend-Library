@@ -1,6 +1,5 @@
-import React from 'react';
 import "./Searchbar.css"
-// import { useTheme } from '../../context/ThemeProvider';
+import { useTheme } from '../../context/ThemeProvider';
 
 export interface SearchbarProps {
   inputColor?: string,
@@ -11,10 +10,10 @@ const Searchbar = ({
   inputColor,
   htmlfor
 }: SearchbarProps) => {
-  // const theme = useTheme();
+  const theme = useTheme();
 
   const style = {
-    border: `1px solid ${inputColor}`,
+    border: `1px solid ${inputColor ? inputColor : theme.btnBackgroundColor}`,
   };
 
   return (

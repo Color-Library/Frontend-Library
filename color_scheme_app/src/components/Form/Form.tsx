@@ -1,9 +1,8 @@
-import React from 'react';
 import { useTheme } from '../../context/ThemeProvider';
 
 export interface FormProps {
     formTitle?: string,
-    formContent?: any,
+    formContent: any,
     formTxtColor?: string,
     formBorder?: string,
     formBorderType?: string,

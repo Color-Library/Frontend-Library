@@ -16,19 +16,20 @@ const example =
 <>
 <Header tabs={[{name: 'Home', link: '#'},{name: 'About', link: '#'},{name: 'Profile', link: '#'}]} />    
 <Border borderContent={heading}/>
-<Searchbar /> <br/>
+<Searchbar inputColor='blue'/> <br/>
     <div style={{display:'flex'}}><Icon imageLink="https://img.icons8.com/nolan/50/iron-man.png"/><Page /></div><br/>
 <Modal label="More Info" name="more" content="more info modal"/><br/>
     <br/>
     <Dropdown/>
-    <Spinner/>
+    <br />
     <br/>
     <Button />
     <br/>
-    <Breadcrumbs />
+    <br/>
+    <Breadcrumbs tabs={[{name: 'Home', link: '#'},{name: 'About', link: '#'}]}/>
     <br />
-        <br/>
-    <Footer /> {/* optional: footerButton={{name: 'Footer', action: ''}} */}
+    <br/>
+    <Footer/> {/* optional: footerButton={{name: 'Footer', action: ''}} */}
 </>
 
 export default example
